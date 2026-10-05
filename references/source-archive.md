@@ -99,11 +99,16 @@ header so later runs land in the same place:
    S3) before uploading. If the configured store is unreachable, fall back to
    the repo folder and say so in the report rather than failing silently.
    The fallback is license-aware: rights-restricted material never falls
-   back into the repo folder of a public repository — when the private store
-   is unreachable, a restricted copy goes to the `.gitignore`d local folder
-   (verify the ignore rule actually covers the path before writing) or waits
-   for the store to return, with the outage reported; only freely
-   redistributable material takes the ordinary repo-folder fallback. A
+   back into the repository worktree, ignored or not. The host chose a
+   private store for it, and an ignored file still sits where cleanup,
+   backups, artifact collection or a changed ignore rule can expose it. When
+   the private store is unreachable, a restricted copy waits for the store
+   to return, or is staged for this run only in a private directory outside
+   the repository (for example `mktemp -d`, mode 700), with the outage
+   reported; such a copy disappears with the session, so the run's entry
+   records that no archived copy exists (a later run retrieves the text
+   again) instead of a fallback path to relocate. Only freely redistributable
+   material takes the ordinary repo-folder fallback. A
    fallback is a per-run exception, never a new project choice: the
    configured store stays authoritative in the ledger header, the run's
    entries record the fallback paths actually used, and the report flags the
