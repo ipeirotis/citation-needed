@@ -101,14 +101,14 @@ header so later runs land in the same place:
    The fallback is license-aware: rights-restricted material never falls
    back into the repository worktree, ignored or not. The host chose a
    private store for it, and an ignored file still sits where cleanup,
-   backups, artifact collection or a changed ignore rule can expose it. When
-   the private store is unreachable, a restricted copy waits for the store
-   to return, or is staged for this run only in a private directory outside
-   the repository (for example `mktemp -d`, mode 700), with the outage
-   reported; such a copy disappears with the session, so the run's entry
-   records that no archived copy exists (a later run retrieves the text
-   again) instead of a fallback path to relocate. Only freely redistributable
-   material takes the ordinary repo-folder fallback. A
+   backups, artifact collection or a changed ignore rule can expose it. While
+   the private store is unreachable, a claim that needs a restricted source
+   waits: do not keep a copy anywhere, record no verdict for it, and report
+   the claim as unverifiable for this run with the store outage as the
+   reason, so a later run with a working store verifies and archives it
+   together. A verdict is only recorded with its archived evidence (see
+   `verification-ledger.md`). Only freely redistributable material takes the
+   ordinary repo-folder fallback. A
    fallback is a per-run exception, never a new project choice: the
    configured store stays authoritative in the ledger header, the run's
    entries record the fallback paths actually used, and the report flags the
@@ -167,13 +167,16 @@ header so later runs land in the same place:
   redistribution (CC BY and kin). A paper that is
   merely readable on the publisher's site with no such license is treated
   like a paywalled one for storage purposes: private bucket, `.gitignore`d
-  local folder, or quotes and metadata only.
+  local folder, or quotes and metadata only. The ignored local folder is an
+  option only for a host with no private store configured; a host that has
+  one keeps restricted material out of its worktree entirely (step 2 above
+  covers an outage of that store).
 - A paywalled or rights-restricted PDF committed to a **public** repository is
   republication, and the author's consent does not change that: approval is
   not a license. When no redistribution license exists, the public repo is
   simply off the menu — use a private bucket, a `.gitignore`d local
-  `literature/sources/` (archived on the author's machine but not pushed), or
-  the quotes-only artifact. The one exception is an author who actually holds
+  `literature/sources/` (archived on the author's machine but not pushed;
+  only when no private store is configured), or the quotes-only artifact. The one exception is an author who actually holds
   the needed rights — their own accepted manuscript under a publisher
   self-archiving policy, material whose copyright is theirs — and that
   asserted basis is recorded in the entry's `license:` field, because it is
@@ -186,7 +189,8 @@ header so later runs land in the same place:
   The hashed quotes file is what keeps such verifications reusable. Brevity
   and attribution make quotation defensible in many jurisdictions, not lawful
   in all of them, so the quotes artifact follows the same storage rule as any
-  restricted material by default — private store or ignored local folder —
+  restricted material by default — private store, or ignored local folder
+  only when no private store is configured —
   and lands in a public repo only when the author, told the basis is
   quotation rather than a license, explicitly decides so.
 - "Private bucket" is verified, not assumed. A configured bucket counts as

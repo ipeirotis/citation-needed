@@ -11,11 +11,12 @@ reopen them without a new request.
 ## Done
 
 - **2026-10-05 — Restricted copies never fall back into the worktree.** When
-  a configured private store is unreachable, rights-restricted material now
-  waits for the store or is staged for the run in a private directory outside
-  the repository, never in an ignored folder inside it; the entry then records
-  that no archived copy exists. Raised in a host-repo review (ipeirotis/sql-llm#28),
-  whose instructions keep paywalled PDFs out of the repository.
+  a configured private store is unreachable, a claim that needs a
+  rights-restricted source is reported unverifiable for the run and no copy
+  is kept anywhere, so no verdict is recorded without archived evidence; the
+  ignored local folder remains an option only for hosts with no private
+  store. Raised in a host-repo review (ipeirotis/sql-llm#28), whose
+  instructions keep paywalled PDFs out of the repository.
   (`references/source-archive.md`)
 
 - **2026-08-16 — Parallel retrieval orchestration.** After the inventory and
