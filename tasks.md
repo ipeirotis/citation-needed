@@ -14,11 +14,11 @@ reopen them without a new request.
   a configured private store is unreachable or not verified private, work
   that needs a rights-restricted source keeps no copy and reports each
   capability's can't-complete outcome (unverifiable, search incomplete, or
-  text unreachable), so no result is recorded without archived evidence; the
+  detection incomplete), so no result is recorded without archived evidence; the
   ignored local folder remains an option only for hosts with no private
   store. Raised in a host-repo review (ipeirotis/sql-llm#28), whose
   instructions keep paywalled PDFs out of the repository.
-  (`references/source-archive.md`)
+  (`references/source-archive.md`, `SKILL.md`)
 
 - **2026-08-16 — Parallel retrieval orchestration.** After the inventory and
   ledger-reuse boundary, citation checks now launch one subagent per distinct

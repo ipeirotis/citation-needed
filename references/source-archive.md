@@ -108,8 +108,9 @@ header so later runs land in the same place:
    capability's usual can't-complete outcome with the store as the reason:
    `unverifiable` for citation verification, **search incomplete** (never
    reusable) for an uncited-claim investigation or novelty scan, and for a
-   version sweep the text-unreachable outcome, with dependent claims treated
-   as affected pending the text. A later run with a working store does the
+   version sweep `detection incomplete` naming the store outage, which the
+   next sweep retries (not the text-unreachable outcome, whose reuse window
+   would hold it for months) and which changes no dependent verdict. A later run with a working store does the
    work and archives the evidence together; a result is only recorded with
    its archived evidence (see `verification-ledger.md`). Only freely redistributable material takes the
    ordinary repo-folder fallback. A
