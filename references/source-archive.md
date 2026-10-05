@@ -102,12 +102,16 @@ header so later runs land in the same place:
    back into the repository worktree, ignored or not. The host chose a
    private store for it, and an ignored file still sits where cleanup,
    backups, artifact collection or a changed ignore rule can expose it. While
-   the private store is unreachable, a claim that needs a restricted source
-   waits: do not keep a copy anywhere, record no verdict for it, and report
-   the claim as unverifiable for this run with the store outage as the
-   reason, so a later run with a working store verifies and archives it
-   together. A verdict is only recorded with its archived evidence (see
-   `verification-ledger.md`). Only freely redistributable material takes the
+   the private store is unreachable, or not yet verified private (see
+   "Private bucket" below), work that needs a restricted source waits: keep
+   no copy anywhere and record no result drawn from that text. Report each
+   capability's usual can't-complete outcome with the store as the reason:
+   `unverifiable` for citation verification, **search incomplete** (never
+   reusable) for an uncited-claim investigation or novelty scan, and for a
+   version sweep the text-unreachable outcome, with dependent claims treated
+   as affected pending the text. A later run with a working store does the
+   work and archives the evidence together; a result is only recorded with
+   its archived evidence (see `verification-ledger.md`). Only freely redistributable material takes the
    ordinary repo-folder fallback. A
    fallback is a per-run exception, never a new project choice: the
    configured store stays authoritative in the ledger header, the run's
@@ -200,7 +204,9 @@ header so later runs land in the same place:
   credentials prove nothing about visibility. When the check cannot be run or
   is inconclusive, ask the author to confirm the bucket is private before
   uploading anything rights-restricted: a publicly readable bucket
-  republishes a PDF as surely as a public repo does.
+  republishes a PDF as surely as a public repo does. Until it is confirmed
+  (or when it proves public), restricted material is handled exactly as
+  during a store outage (step 2 of "Choosing the store").
 - PDFs are binary and repos bloat: before committing any single file over
   ~10 MB, or once the archive folder crosses ~100 MB, raise Git LFS or a bucket
   with the author instead of pushing silently.
