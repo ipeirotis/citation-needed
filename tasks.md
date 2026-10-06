@@ -30,8 +30,10 @@ reopen them without a new request.
   from the example header, and never from a fallback taken because the
   declared store was unreachable; the header outranks later declarations,
   so a wrong first value would move the archive permanently. Raised in a
-  host-repo review (ipeirotis/sql-llm#28).
-  (`references/verification-ledger.md`)
+  host-repo review (ipeirotis/sql-llm#28). A declared bucket that fails the
+  privacy check is skipped for restricted material, and the next
+  verified-private declaration takes it before any work waits.
+  (`references/verification-ledger.md`, `references/source-archive.md`)
 
 - **2026-10-05 — Restricted copies never fall back into the worktree.** When
   a configured private store is unreachable or not verified private, work

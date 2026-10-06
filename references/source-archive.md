@@ -103,10 +103,14 @@ header so later runs land in the same place:
    The fallback is license-aware: rights-restricted material never falls
    back into the repository worktree, ignored or not. The host chose a
    private store for it, and an ignored file still sits where cleanup,
-   backups, artifact collection or a changed ignore rule can expose it. While
-   the private store is unreachable, or not yet verified private (see
-   "Private bucket" below), work that needs a restricted source waits: keep
-   no copy anywhere and record no result drawn from that text. This governs
+   backups, artifact collection or a changed ignore rule can expose it.
+   Restricted material goes to the highest-ranked declared store that is
+   both reachable and verified private (see "Private bucket" below): a
+   bucket whose privacy check is inconclusive or shows it public is skipped
+   for restricted material just as an unreachable one is, and selection moves
+   to the next declaration in step 1's order. Only when no declared bucket
+   qualifies does work that needs a restricted source wait: keep no copy
+   anywhere and record no result drawn from that text. This governs
    fresh work that has to read and archive a text; an existing verdict whose
    archive sits in the unreachable store follows the ledger's reuse rule
    instead (reported as dated history with its archive unverified, and no
@@ -221,8 +225,10 @@ header so later runs land in the same place:
   is inconclusive, ask the author to confirm the bucket is private before
   uploading anything rights-restricted: a publicly readable bucket
   republishes a PDF as surely as a public repo does. Until it is confirmed
-  (or when it proves public), restricted material is handled exactly as
-  during a store outage (step 2 of "Choosing the store").
+  (or when it proves public), the bucket is treated as unavailable for
+  restricted material, exactly as during a store outage: a lower-ranked
+  declaration that is reachable and verified private takes it, and with none
+  the work waits (step 2 of "Choosing the store").
 - PDFs are binary and repos bloat: before committing any single file over
   ~10 MB, or once the archive folder crosses ~100 MB, raise Git LFS or a bucket
   with the author instead of pushing silently.
