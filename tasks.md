@@ -10,6 +10,53 @@ reopen them without a new request.
 
 ## Done
 
+- **2026-10-06 — Restricted storage rules agree across the skill.** A host
+  with no private store keeps restricted copies in an ignored
+  `literature/sources/`; `SKILL.md` no longer defers that case. When the
+  path is not ignored, the skill proposes the rule in `Author decisions`
+  instead of editing `.gitignore`, and restricted work waits until it is
+  added. The quotes artifact may go to a public repo (on the author's
+  explicit decision) only on a host with no private store configured.
+  Raised in review of ipeirotis/citation-needed#6.
+  (`SKILL.md`, `references/source-archive.md`)
+
+- **2026-10-06 — Ignore check and diff-pending kept for store outages.** The
+  ignored local folder (hosts with no private store) again requires
+  confirming with `git check-ignore` that the path is ignored before a
+  restricted copy is written there. A version sweep during a store outage
+  reports `detection incomplete` when the newer version's restricted text
+  cannot be archived, and defers the comparison with the diff pending only
+  in the case `version-reconciliation.md` defines (newer text archived, old
+  baseline's store unreachable). An existing verdict whose archive is in the
+  unreachable store is reported as dated history, not superseded by a new
+  `unverifiable` entry.
+  Raised in review of ipeirotis/citation-needed#6.
+  (`references/source-archive.md`, `references/verification-ledger.md`)
+
+- **2026-10-06 — A fresh ledger records the declared store.** The ledger
+  header's `store:` line is set to the highest-ranked project declaration
+  (for example the bucket a host's `AGENTS.md` names) whether or not it is
+  reachable that run, not copied
+  from the example header, and never from a fallback taken because the
+  declared store was unreachable; the header outranks later declarations,
+  so a wrong first value would move the archive permanently. Raised in a
+  host-repo review (ipeirotis/sql-llm#28). A declared bucket that fails the
+  privacy check is skipped for restricted material, and the next
+  verified-private declaration takes it before any work waits; `SKILL.md`
+  states the same order.
+  (`references/verification-ledger.md`, `references/source-archive.md`,
+  `SKILL.md`)
+
+- **2026-10-05 — Restricted copies never fall back into the worktree.** When
+  a configured private store is unreachable or not verified private, work
+  that needs a rights-restricted source keeps no copy and reports each
+  capability's can't-complete outcome (unverifiable, search incomplete, or
+  detection incomplete), so no result is recorded without archived evidence; the
+  ignored local folder remains an option only for hosts with no private
+  store. Raised in a host-repo review (ipeirotis/sql-llm#28), whose
+  instructions keep paywalled PDFs out of the repository.
+  (`references/source-archive.md`, `SKILL.md`)
+
 - **2026-08-16 — Parallel retrieval orchestration.** After the inventory and
   ledger-reuse boundary, citation checks now launch one subagent per distinct
   source (sharing one retrieval across all claims citing it); bibliography

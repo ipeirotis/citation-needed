@@ -89,8 +89,10 @@ header so later runs land in the same place:
    `AGENTS.md` literature section, which outranks a `LITERATURE_STORE`
    environment variable. The ledger header is where the existing archive
    already lives, and evidence continuity beats per-run convenience. Use the
-   highest-ranked reachable declaration and report any conflict among them in
-   `Author decisions` rather than resolving it silently. A declaration names
+   highest-ranked reachable declaration for this run and report any conflict
+   among them in `Author decisions` rather than resolving it silently. A
+   fresh ledger header still records the highest-ranked declaration, not a
+   lower one used because it was down (`verification-ledger.md`). A declaration names
    a `gs://bucket/prefix`, an `s3://bucket/prefix`, or a repository-relative
    path such as `literature/sources/` — the recorded form of the repo-folder
    default, which is valid header syntax, not an error.
@@ -99,11 +101,34 @@ header so later runs land in the same place:
    S3) before uploading. If the configured store is unreachable, fall back to
    the repo folder and say so in the report rather than failing silently.
    The fallback is license-aware: rights-restricted material never falls
-   back into the repo folder of a public repository — when the private store
-   is unreachable, a restricted copy goes to the `.gitignore`d local folder
-   (verify the ignore rule actually covers the path before writing) or waits
-   for the store to return, with the outage reported; only freely
-   redistributable material takes the ordinary repo-folder fallback. A
+   back into the repository worktree, ignored or not. The host chose a
+   private store for it, and an ignored file still sits where cleanup,
+   backups, artifact collection or a changed ignore rule can expose it.
+   Restricted material goes to the highest-ranked declared store that is
+   both reachable and verified private (see "Private bucket" below): a
+   bucket whose privacy check is inconclusive or shows it public is skipped
+   for restricted material just as an unreachable one is, and selection moves
+   to the next declaration in step 1's order. Only when no declared bucket
+   qualifies does work that needs a restricted source wait: keep no copy
+   anywhere and record no result drawn from that text. This governs
+   fresh work that has to read and archive a text; an existing verdict whose
+   archive sits in the unreachable store follows the ledger's reuse rule
+   instead (reported as dated history with its archive unverified, and no
+   new entry). For fresh work, report each
+   capability's usual can't-complete outcome with the store as the reason:
+   `unverifiable` for citation verification, **search incomplete** (never
+   reusable) for an uncited-claim investigation or novelty scan, and for a
+   version sweep `detection incomplete` naming the store outage, which the
+   next sweep retries (not the text-unreachable outcome, whose reuse window
+   would hold it for months) and which changes no dependent verdict. That
+   last outcome is for a newer version whose restricted text cannot be
+   archived. When the newer text is archived (for instance it is freely
+   redistributable and takes the repo-folder fallback) and only the old
+   baseline sits in the unreachable store, the comparison is deferred with
+   the diff pending, as `version-reconciliation.md` step 3 says. A later run with a working store does the
+   work and archives the evidence together; a result is only recorded with
+   its archived evidence (see `verification-ledger.md`). Only freely redistributable material takes the
+   ordinary repo-folder fallback. A
    fallback is a per-run exception, never a new project choice: the
    configured store stays authoritative in the ledger header, the run's
    entries record the fallback paths actually used, and the report flags the
@@ -162,13 +187,24 @@ header so later runs land in the same place:
   redistribution (CC BY and kin). A paper that is
   merely readable on the publisher's site with no such license is treated
   like a paywalled one for storage purposes: private bucket, `.gitignore`d
-  local folder, or quotes and metadata only.
+  local folder, or quotes and metadata only. The ignored local folder is an
+  option only for a host with no private store configured; a host that has
+  one keeps restricted material out of its worktree entirely (step 2 above
+  covers an outage of that store). Before writing a restricted copy to that
+  folder, confirm the ignore rule actually covers the path
+  (`git check-ignore -q <path>`). If it does not, write nothing restricted
+  there, since an unignored PDF is one `git add` away from a public commit,
+  and do not edit `.gitignore` either (the skill writes only `literature/`
+  artifacts and the instructions pointer): propose the rule in `Author
+  decisions`, and until the author adds it, work that needs the restricted
+  text keeps no copy or quotes file and reports its can't-complete outcome
+  as in step 2.
 - A paywalled or rights-restricted PDF committed to a **public** repository is
   republication, and the author's consent does not change that: approval is
   not a license. When no redistribution license exists, the public repo is
   simply off the menu — use a private bucket, a `.gitignore`d local
-  `literature/sources/` (archived on the author's machine but not pushed), or
-  the quotes-only artifact. The one exception is an author who actually holds
+  `literature/sources/` (archived on the author's machine but not pushed;
+  only when no private store is configured), or the quotes-only artifact. The one exception is an author who actually holds
   the needed rights — their own accepted manuscript under a publisher
   self-archiving policy, material whose copyright is theirs — and that
   asserted basis is recorded in the entry's `license:` field, because it is
@@ -181,9 +217,13 @@ header so later runs land in the same place:
   The hashed quotes file is what keeps such verifications reusable. Brevity
   and attribution make quotation defensible in many jurisdictions, not lawful
   in all of them, so the quotes artifact follows the same storage rule as any
-  restricted material by default — private store or ignored local folder —
-  and lands in a public repo only when the author, told the basis is
-  quotation rather than a license, explicitly decides so.
+  restricted material by default — private store, or ignored local folder
+  only when no private store is configured —
+  and lands in a public repo only for a host with no private store
+  configured, when the author, told the basis is quotation rather than a
+  license, explicitly decides so. A host with a configured private store
+  keeps the quotes artifact out of its worktree like any restricted copy,
+  outages included (step 2).
 - "Private bucket" is verified, not assumed. A configured bucket counts as
   private for restricted material only after its access controls check out —
   public-access prevention or the absence of `allUsers`-style grants on GCS,
@@ -191,7 +231,11 @@ header so later runs land in the same place:
   credentials prove nothing about visibility. When the check cannot be run or
   is inconclusive, ask the author to confirm the bucket is private before
   uploading anything rights-restricted: a publicly readable bucket
-  republishes a PDF as surely as a public repo does.
+  republishes a PDF as surely as a public repo does. Until it is confirmed
+  (or when it proves public), the bucket is treated as unavailable for
+  restricted material, exactly as during a store outage: a lower-ranked
+  declaration that is reachable and verified private takes it, and with none
+  the work waits (step 2 of "Choosing the store").
 - PDFs are binary and repos bloat: before committing any single file over
   ~10 MB, or once the archive folder crosses ~100 MB, raise Git LFS or a bucket
   with the author instead of pushing silently.
