@@ -10,6 +10,15 @@ reopen them without a new request.
 
 ## Done
 
+- **2026-10-06 — A fresh ledger records the declared store.** The ledger
+  header's `store:` line is set from the store chosen under "Choosing the
+  store" (for example the bucket a host's `AGENTS.md` names), not copied
+  from the example header, and never from a fallback taken because the
+  declared store was unreachable; the header outranks later declarations,
+  so a wrong first value would move the archive permanently. Raised in a
+  host-repo review (ipeirotis/sql-llm#28).
+  (`references/verification-ledger.md`)
+
 - **2026-10-05 — Restricted copies never fall back into the worktree.** When
   a configured private store is unreachable or not verified private, work
   that needs a rights-restricted source keeps no copy and reports each
