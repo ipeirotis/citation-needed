@@ -10,6 +10,16 @@ reopen them without a new request.
 
 ## Done
 
+- **2026-10-06 — Restricted storage rules agree across the skill.** A host
+  with no private store keeps restricted copies in an ignored
+  `literature/sources/`; `SKILL.md` no longer defers that case. When the
+  path is not ignored, the skill proposes the rule in `Author decisions`
+  instead of editing `.gitignore`, and restricted work waits until it is
+  added. The quotes artifact may go to a public repo (on the author's
+  explicit decision) only on a host with no private store configured.
+  Raised in review of ipeirotis/citation-needed#6.
+  (`SKILL.md`, `references/source-archive.md`)
+
 - **2026-10-06 — Ignore check and diff-pending kept for store outages.** The
   ignored local folder (hosts with no private store) again requires
   confirming with `git check-ignore` that the path is ignored before a

@@ -192,9 +192,13 @@ header so later runs land in the same place:
   one keeps restricted material out of its worktree entirely (step 2 above
   covers an outage of that store). Before writing a restricted copy to that
   folder, confirm the ignore rule actually covers the path
-  (`git check-ignore -q <path>`); if it does not, add the rule first or keep
-  quotes and metadata only, since an unignored PDF is one `git add` away
-  from a public commit.
+  (`git check-ignore -q <path>`). If it does not, write nothing restricted
+  there, since an unignored PDF is one `git add` away from a public commit,
+  and do not edit `.gitignore` either (the skill writes only `literature/`
+  artifacts and the instructions pointer): propose the rule in `Author
+  decisions`, and until the author adds it, work that needs the restricted
+  text keeps no copy or quotes file and reports its can't-complete outcome
+  as in step 2.
 - A paywalled or rights-restricted PDF committed to a **public** repository is
   republication, and the author's consent does not change that: approval is
   not a license. When no redistribution license exists, the public repo is
@@ -215,8 +219,11 @@ header so later runs land in the same place:
   in all of them, so the quotes artifact follows the same storage rule as any
   restricted material by default — private store, or ignored local folder
   only when no private store is configured —
-  and lands in a public repo only when the author, told the basis is
-  quotation rather than a license, explicitly decides so.
+  and lands in a public repo only for a host with no private store
+  configured, when the author, told the basis is quotation rather than a
+  license, explicitly decides so. A host with a configured private store
+  keeps the quotes artifact out of its worktree like any restricted copy,
+  outages included (step 2).
 - "Private bucket" is verified, not assumed. A configured bucket counts as
   private for restricted material only after its access controls check out —
   public-access prevention or the absence of `allUsers`-style grants on GCS,
