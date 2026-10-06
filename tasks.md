@@ -10,6 +10,16 @@ reopen them without a new request.
 
 ## Done
 
+- **2026-10-06 — Ignore check and diff-pending kept for store outages.** The
+  ignored local folder (hosts with no private store) again requires
+  confirming with `git check-ignore` that the path is ignored before a
+  restricted copy is written there. A version sweep during a store outage
+  reports `detection incomplete` only when it needs the restricted text to
+  establish the newer version; a publication found from registrar metadata
+  is recorded with the diff pending, as `version-reconciliation.md` says.
+  Raised in review of ipeirotis/citation-needed#6.
+  (`references/source-archive.md`)
+
 - **2026-10-06 — A fresh ledger records the declared store.** The ledger
   header's `store:` line is set from the store chosen under "Choosing the
   store" (for example the bucket a host's `AGENTS.md` names), not copied
