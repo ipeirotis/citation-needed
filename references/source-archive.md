@@ -104,19 +104,22 @@ header so later runs land in the same place:
    backups, artifact collection or a changed ignore rule can expose it. While
    the private store is unreachable, or not yet verified private (see
    "Private bucket" below), work that needs a restricted source waits: keep
-   no copy anywhere and record no result drawn from that text. Report each
+   no copy anywhere and record no result drawn from that text. This governs
+   fresh work that has to read and archive a text; an existing verdict whose
+   archive sits in the unreachable store follows the ledger's reuse rule
+   instead (reported as dated history with its archive unverified, and no
+   new entry). For fresh work, report each
    capability's usual can't-complete outcome with the store as the reason:
    `unverifiable` for citation verification, **search incomplete** (never
    reusable) for an uncited-claim investigation or novelty scan, and for a
    version sweep `detection incomplete` naming the store outage, which the
    next sweep retries (not the text-unreachable outcome, whose reuse window
    would hold it for months) and which changes no dependent verdict. That
-   last outcome is for a sweep that needs the restricted text itself to
-   establish the newer version. A publication established from registrar
-   metadata alone is recorded with the diff pending, as
-   `version-reconciliation.md` step 3 says: the entry names the found
-   publication and draws nothing from the text, and the next sweep completes
-   the comparison. A later run with a working store does the
+   last outcome is for a newer version whose restricted text cannot be
+   archived. When the newer text is archived (for instance it is freely
+   redistributable and takes the repo-folder fallback) and only the old
+   baseline sits in the unreachable store, the comparison is deferred with
+   the diff pending, as `version-reconciliation.md` step 3 says. A later run with a working store does the
    work and archives the evidence together; a result is only recorded with
    its archived evidence (see `verification-ledger.md`). Only freely redistributable material takes the
    ordinary repo-folder fallback. A

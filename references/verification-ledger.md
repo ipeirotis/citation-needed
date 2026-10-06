@@ -37,9 +37,11 @@ A fresh ledger gets this header with `store:` set to the store chosen in
 reachable project declaration, such as the bucket a host's `AGENTS.md`
 names (a lower-ranked declaration such as `LITERATURE_STORE` when that one
 is the highest that works), and `literature/sources/` only when the project
-declares none. Never write the per-run repo-folder fallback taken because
-no declared store was reachable: later runs give the header precedence, so
-it would move the archive for good. The opt-in
+declares none. When no declared store is reachable on that first run,
+write the highest-ranked declaration itself: it stays the project's store,
+and the outage is reported. Never write the per-run repo-folder fallback
+taken because no declared store was reachable: later runs give the header
+precedence, so it would move the archive for good. The opt-in
 `companion:` line (defined at the end of this file) is added only when the
 author enables the JSONL companion, never as part of the default header.
 

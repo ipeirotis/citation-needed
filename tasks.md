@@ -14,11 +14,15 @@ reopen them without a new request.
   ignored local folder (hosts with no private store) again requires
   confirming with `git check-ignore` that the path is ignored before a
   restricted copy is written there. A version sweep during a store outage
-  reports `detection incomplete` only when it needs the restricted text to
-  establish the newer version; a publication found from registrar metadata
-  is recorded with the diff pending, as `version-reconciliation.md` says.
+  reports `detection incomplete` when the newer version's restricted text
+  cannot be archived, and defers the comparison with the diff pending only
+  in the case `version-reconciliation.md` defines (newer text archived, old
+  baseline's store unreachable). An existing verdict whose archive is in the
+  unreachable store is reported as dated history, not superseded by a new
+  `unverifiable` entry. With no declared store reachable on a fresh ledger,
+  the header records the highest-ranked declaration.
   Raised in review of ipeirotis/citation-needed#6.
-  (`references/source-archive.md`)
+  (`references/source-archive.md`, `references/verification-ledger.md`)
 
 - **2026-10-06 — A fresh ledger records the declared store.** The ledger
   header's `store:` line is set from the store chosen under "Choosing the
