@@ -110,7 +110,13 @@ header so later runs land in the same place:
    reusable) for an uncited-claim investigation or novelty scan, and for a
    version sweep `detection incomplete` naming the store outage, which the
    next sweep retries (not the text-unreachable outcome, whose reuse window
-   would hold it for months) and which changes no dependent verdict. A later run with a working store does the
+   would hold it for months) and which changes no dependent verdict. That
+   last outcome is for a sweep that needs the restricted text itself to
+   establish the newer version. A publication established from registrar
+   metadata alone is recorded with the diff pending, as
+   `version-reconciliation.md` step 3 says: the entry names the found
+   publication and draws nothing from the text, and the next sweep completes
+   the comparison. A later run with a working store does the
    work and archives the evidence together; a result is only recorded with
    its archived evidence (see `verification-ledger.md`). Only freely redistributable material takes the
    ordinary repo-folder fallback. A
@@ -175,7 +181,11 @@ header so later runs land in the same place:
   local folder, or quotes and metadata only. The ignored local folder is an
   option only for a host with no private store configured; a host that has
   one keeps restricted material out of its worktree entirely (step 2 above
-  covers an outage of that store).
+  covers an outage of that store). Before writing a restricted copy to that
+  folder, confirm the ignore rule actually covers the path
+  (`git check-ignore -q <path>`); if it does not, add the rule first or keep
+  quotes and metadata only, since an unignored PDF is one `git add` away
+  from a public commit.
 - A paywalled or rights-restricted PDF committed to a **public** repository is
   republication, and the author's consent does not change that: approval is
   not a license. When no redistribution license exists, the public repo is
