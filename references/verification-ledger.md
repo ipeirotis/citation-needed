@@ -34,10 +34,12 @@ refresh-interval: 12 months       <!-- optional; DOI-backed re-fetch cadence in 
 
 A fresh ledger gets this header with `store:` set to the store chosen in
 `references/source-archive.md` ("Choosing the store"): the highest-ranked
-project declaration, such as the bucket a host's `AGENTS.md` names, and
-`literature/sources/` only when the project declares none. Never write a
-fallback used because the declared store was unreachable: later runs give
-the header precedence, so it would move the archive for good. The opt-in
+reachable project declaration, such as the bucket a host's `AGENTS.md`
+names (a lower-ranked declaration such as `LITERATURE_STORE` when that one
+is the highest that works), and `literature/sources/` only when the project
+declares none. Never write the per-run repo-folder fallback taken because
+no declared store was reachable: later runs give the header precedence, so
+it would move the archive for good. The opt-in
 `companion:` line (defined at the end of this file) is added only when the
 author enables the JSONL companion, never as part of the default header.
 
