@@ -32,16 +32,16 @@ maintained-by: citation-needed skill
 refresh-interval: 12 months       <!-- optional; DOI-backed re-fetch cadence in months, 12 when absent -->
 ```
 
-A fresh ledger gets this header with `store:` set to the store chosen in
-`references/source-archive.md` ("Choosing the store"): the highest-ranked
-reachable project declaration, such as the bucket a host's `AGENTS.md`
-names (a lower-ranked declaration such as `LITERATURE_STORE` when that one
-is the highest that works), and `literature/sources/` only when the project
-declares none. When no declared store is reachable on that first run,
-write the highest-ranked declaration itself: it stays the project's store,
-and the outage is reported. Never write the per-run repo-folder fallback
-taken because no declared store was reachable: later runs give the header
-precedence, so it would move the archive for good. The opt-in
+A fresh ledger gets this header with `store:` set to the highest-ranked
+project declaration (`references/source-archive.md`, "Choosing the store"),
+such as the bucket a host's `AGENTS.md` names, whether or not it is
+reachable on that first run, and `literature/sources/` only when the
+project declares none. Later runs give the header precedence, so a
+temporary outage must not move the archive for good: a lower-ranked
+declaration or the repo folder used because the declared store was down
+is a per-run fallback. The run's entries record the paths actually used
+and the report flags them, as for any fallback, and a later run with the
+store back relocates them. The opt-in
 `companion:` line (defined at the end of this file) is added only when the
 author enables the JSONL companion, never as part of the default header.
 

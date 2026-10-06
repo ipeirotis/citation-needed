@@ -19,15 +19,14 @@ reopen them without a new request.
   in the case `version-reconciliation.md` defines (newer text archived, old
   baseline's store unreachable). An existing verdict whose archive is in the
   unreachable store is reported as dated history, not superseded by a new
-  `unverifiable` entry. With no declared store reachable on a fresh ledger,
-  the header records the highest-ranked declaration.
+  `unverifiable` entry.
   Raised in review of ipeirotis/citation-needed#6.
   (`references/source-archive.md`, `references/verification-ledger.md`)
 
 - **2026-10-06 — A fresh ledger records the declared store.** The ledger
-  header's `store:` line is set from the store chosen under "Choosing the
-  store" (the highest-ranked reachable declaration, for example the bucket
-  a host's `AGENTS.md` names), not copied
+  header's `store:` line is set to the highest-ranked project declaration
+  (for example the bucket a host's `AGENTS.md` names) whether or not it is
+  reachable that run, not copied
   from the example header, and never from a fallback taken because the
   declared store was unreachable; the header outranks later declarations,
   so a wrong first value would move the archive permanently. Raised in a
