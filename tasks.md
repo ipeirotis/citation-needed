@@ -32,8 +32,10 @@ reopen them without a new request.
   so a wrong first value would move the archive permanently. Raised in a
   host-repo review (ipeirotis/sql-llm#28). A declared bucket that fails the
   privacy check is skipped for restricted material, and the next
-  verified-private declaration takes it before any work waits.
-  (`references/verification-ledger.md`, `references/source-archive.md`)
+  verified-private declaration takes it before any work waits; `SKILL.md`
+  states the same order.
+  (`references/verification-ledger.md`, `references/source-archive.md`,
+  `SKILL.md`)
 
 - **2026-10-05 — Restricted copies never fall back into the worktree.** When
   a configured private store is unreachable or not verified private, work
