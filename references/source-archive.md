@@ -89,8 +89,10 @@ header so later runs land in the same place:
    `AGENTS.md` literature section, which outranks a `LITERATURE_STORE`
    environment variable. The ledger header is where the existing archive
    already lives, and evidence continuity beats per-run convenience. Use the
-   highest-ranked reachable declaration and report any conflict among them in
-   `Author decisions` rather than resolving it silently. A declaration names
+   highest-ranked reachable declaration for this run and report any conflict
+   among them in `Author decisions` rather than resolving it silently. A
+   fresh ledger header still records the highest-ranked declaration, not a
+   lower one used because it was down (`verification-ledger.md`). A declaration names
    a `gs://bucket/prefix`, an `s3://bucket/prefix`, or a repository-relative
    path such as `literature/sources/` — the recorded form of the repo-folder
    default, which is valid header syntax, not an error.
