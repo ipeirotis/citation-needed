@@ -62,6 +62,11 @@ evidence: "labels reached expert agreement on 3 of 5 tasks" (sec. 5.1) — cost 
 notes: cost figure may come from a different paper; asked author.
 ```
 
+- The heading's manuscript location is the file's repository-relative path
+  plus line (`sections/introduction.tex:41` when the file lives there),
+  never a bare filename: a repository often holds archived drafts with the
+  same file names, and a bare name sends a reader to the wrong copy. The
+  examples in this file use a root-level `introduction.tex`.
 - `claim-hash` is the first 12 hex characters of the SHA-256 of the claim
   sentence with runs of whitespace collapsed to single spaces and case
   preserved — a case change can be a different claim (a gene name, a

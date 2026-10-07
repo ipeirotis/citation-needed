@@ -10,6 +10,12 @@ reopen them without a new request.
 
 ## Done
 
+- **2026-10-07 — Ledger headings carry repository-relative paths.** A
+  heading's manuscript location is the file's repository-relative path and
+  line, never a bare filename, since archived drafts in a host repo can
+  share file names. Raised in Codex review of the first ledger written into
+  IliasTriant/inattentiveness_paper#14. (`references/verification-ledger.md`)
+
 - **2026-10-07 — One audit row per claim and cited source.** A claim citing
   several works gets a row per work, so an unsupported citation no longer
   hides behind a supporting one in an aggregate verdict. Raised in a second
