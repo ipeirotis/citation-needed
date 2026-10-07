@@ -21,6 +21,8 @@ If the request does not identify the manuscript claims, bibliography entries, or
 
 Require a retrieval surface that can search for and fetch the actual source text — for the bibliography audit, live registrar metadata; the version sweep needs the detection channels its targets require (registrar metadata for DOI-backed targets, plain fetch for URL-backed ones) plus text retrieval to diff, sweeping what it can reach and reporting the rest as unswept. If a source cannot be accessed, classify the claim as unverifiable — in a bibliography audit, the entry as unconfirmed; in a version sweep, record the text-unreachable outcome in the ledger without touching any claim's verdict; never substitute memory, a search snippet, or another paper's characterization. Ledger entries are the one exception: a past verification recorded in the host repo's ledger is dated evidence, not memory, and may be reported even when retrieval is unavailable — always with its date, never as fresh work.
 
+Require also somewhere to write: the archive store and the host repo's ledger. A session that can retrieve but cannot write to either stops before the first fetch and names what is read-only, since a fresh verdict without its archived text and ledger entry cannot be audited later. Reporting past ledger entries as dated history needs no write.
+
 ## Reuse before you retrieve
 
 Before fetching anything, read the host repo's verification ledger (`literature/verifications.md`) if it exists; `references/verification-ledger.md` defines the format and the reuse rules. A claim already verified against the same source, or a bibliography entry already audited, is not re-checked once the ledger's validation and freshness checks all pass — where a check calls for a re-fetch (a mutable URL, an elapsed refresh interval, a registrar update query), that fetch happens first. Reused results are reported with their dates. This is what keeps repeated runs cheap and keeps the audit trail continuous across sessions.
@@ -36,7 +38,7 @@ After the inventory and ledger-reuse pass pin the remaining work, follow `refere
 Return exactly:
 
 1. **Scope and retrieval:** claims checked (marking which were reused from the ledger), search boundaries, sources fetched and archived, and access failures.
-2. **Citation audit:** one row per claim, classified as supported, partially supported, unsupported, or unverifiable, with evidence; reused rows carry their original verification date.
+2. **Citation audit:** one row per claim and cited source, so a claim citing several works gets a row per work and an unsupported citation never hides behind a supporting one; each row classified as supported, partially supported, unsupported, or unverifiable, with evidence; reused rows carry their original verification date.
 3. **Novelty and source leads:** candidate work, overlap, and why the author should inspect it; never claim exhaustive novelty.
 4. **Author decisions:** flagged citation or wording candidates, requests for paywalled PDFs the author must supply, and unresolved questions. Nothing is edited automatically.
 

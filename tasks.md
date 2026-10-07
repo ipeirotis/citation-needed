@@ -10,6 +10,22 @@ reopen them without a new request.
 
 ## Done
 
+- **2026-10-07 — One audit row per claim and cited source.** A claim citing
+  several works gets a row per work, so an unsupported citation no longer
+  hides behind a supporting one in an aggregate verdict. Raised in a second
+  Codex review on IliasTriant/inattentiveness_paper#14.
+  (`SKILL.md`, `references/literature-checks.md`)
+
+- **2026-10-07 — The gate requires a writable archive and ledger.** A
+  session that can retrieve but cannot write either one stops before the
+  first fetch and says which is read-only, instead of spending retrieval on
+  verdicts it cannot archive or ledger. Same review. (`SKILL.md`)
+
+- **2026-10-07 — Novelty leads pass source checks before reuse.** A novelty
+  entry is reused as current only when every retained lead passes the
+  archive-hash, version, mutable-URL, refresh, and registrar-update checks a
+  `cite:` source passes. Same review. (`references/verification-ledger.md`)
+
 - **2026-10-07 — A LaTeX root is audited through its include graph.** When
   the request names a LaTeX root or wrapper, the claim inventory covers the
   transitive `\input`/`\include` graph, never sibling files it does not

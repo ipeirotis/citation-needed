@@ -451,7 +451,13 @@ manuscript's novelty claim still reads as the recorded one and the entry's
 `searched:` scope covers what the current request asks. A reworded
 contribution, a new database, or a broadened boundary gets a fresh scan
 whatever the entry's age — an old answer to a different question is not a
-current answer to this one.
+current answer to this one. Each retained lead must also pass the source
+checks a `cite:` entry's source passes under the reuse rules above: its
+archived copy present at its recorded path with a matching SHA-256, its
+`version-read` still the best text reachable, the mutable-URL re-fetch and
+refresh interval, and the registrar update screen for a DOI. A lead that
+fails one is re-checked before the entry is reported as current; until
+then the entry is history.
 
 ## Append, never rewrite
 

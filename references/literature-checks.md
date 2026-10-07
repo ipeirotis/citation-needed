@@ -194,6 +194,6 @@ the adoption decision to the author.
 ## Reporting conventions
 
 - **Scope and retrieval:** name the claims checked and which were reused from the ledger, search boundaries, sources fetched and where each was archived, and access failures.
-- **Citation audit:** give one row per claim, grouped as supported, partially supported, unsupported, or unverifiable. Name the manuscript location and attach the retrieved evidence; reused rows carry their original verification date.
+- **Citation audit:** give one row per claim and cited source (a claim citing several works gets a row per work, so an unsupported citation never hides behind a supporting one), grouped as supported, partially supported, unsupported, or unverifiable. Name the manuscript location and attach the retrieved evidence; reused rows carry their original verification date.
 - **Novelty and source leads:** name each candidate work, the apparent overlap, and what the author should read. A lead is never a novelty verdict.
 - **Author decisions:** ask one question per unsupported or unverifiable citation, candidate citation, proposed wording change, and novelty lead. The author decides what enters the manuscript.
