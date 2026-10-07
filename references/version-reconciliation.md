@@ -69,7 +69,11 @@ screens pass, the archived fuller text and recorded diff serve as-is and
 the new claims are classified against them. For a URL-backed target, a
 recent `none found` never suppresses the canonical-URL re-fetch itself —
 only the broader detection channels stay cached — so such a target enters
-the sweep for that one check even inside the window. A
+the sweep for that one check even inside the window. A preprint target
+gets the same exception for its preprint server's metadata: that one
+request runs on every sweep, and a revision newer than the baseline and
+than any `revised:` already recorded reopens the target at once, while a
+recent `none found` keeps only the publication channels cached. A
 text-unreachable result dies early: the requested copy arriving in the
 source store reopens the target at once, without waiting out the window.
 

@@ -317,7 +317,9 @@ status: recorded; a later sweep may re-ask after ~6 months
   names it and the channel that showed it (`revised: arXiv:2107.04567v3 —
   arXiv abs page`); `changed:` and `claims:` then record the comparison
   against that revision exactly as for a publication, while `published:
-  none found` still ages under the usual window. When
+  none found` still ages under the usual window for the publication
+  channels only; the preprint server's metadata is re-checked on every
+  sweep, so a later revision is never held to that window. When
   publication is established but only a paywalled copy exists, the found DOI
   is recorded with `text not legally reachable`: the paywall flow runs, and
   every dependent claim is affected pending the text.

@@ -16,10 +16,13 @@ reopen them without a new request.
   Codex review on IliasTriant/inattentiveness_paper#14.
   (`SKILL.md`, `references/literature-checks.md`)
 
-- **2026-10-07 — The gate requires a writable archive and ledger.** A
-  session that can retrieve but cannot write either one stops before the
-  first fetch and says which is read-only, instead of spending retrieval on
-  verdicts it cannot archive or ledger. Same review. (`SKILL.md`)
+- **2026-10-07 — The gate requires a writable ledger, and an archive where
+  text is read.** Every capability needs a writable ledger; every one that
+  reads source text (all but the bibliography audit) also needs a writable
+  archive store. A session missing what its capability needs stops before
+  the first fetch and says which is read-only. Same review; the
+  bibliography-audit exemption came from Codex review of
+  ipeirotis/citation-needed#7. (`SKILL.md`)
 
 - **2026-10-07 — Novelty leads pass source checks before reuse.** A novelty
   entry is reused as current only when every retained lead passes the
@@ -40,7 +43,10 @@ reopen them without a new request.
   the baseline, the revision is fetched, archived, and compared under steps
   3 and 4 like a publication, and recorded in the `vor` entry's new
   `revised:` field; `published: none found` still ages under the usual
-  window. Raised in the same Codex review.
+  window for the publication channels, while the preprint server's
+  metadata is re-checked on every sweep so a later revision is never held
+  to it. Raised in the same Codex review; the per-sweep re-check came from
+  Codex review of ipeirotis/citation-needed#7.
   (`references/version-reconciliation.md`,
   `references/verification-ledger.md`)
 
