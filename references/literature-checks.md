@@ -38,7 +38,9 @@ of a hunt for a convenient result.
 First fix the file set. When the request names a LaTeX root or wrapper file,
 the scope is the manuscript that root builds: resolve its transitive include
 graph (`\input`, `\include`, `\subfile`, and the like) and inventory every
-included file, since most prose may live outside the root. Never sweep in
+included file, since most prose may live outside the root. Honor what
+narrows the build: a file `\includeonly` leaves out, or an include inside a
+conditional branch the root does not take, is not in scope. Never sweep in
 sibling files the root does not include: a `.tex` file next to the root may
 be an old draft or another paper. When an include does not resolve, or no
 root is named and several candidates exist, ask which files are in scope

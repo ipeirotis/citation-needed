@@ -22,13 +22,14 @@ reopen them without a new request.
   Codex review on IliasTriant/inattentiveness_paper#14.
   (`SKILL.md`, `references/literature-checks.md`)
 
-- **2026-10-07 — The gate requires a writable ledger, and an archive where
-  text is read.** Every capability needs a writable ledger; every one that
-  reads source text (all but the bibliography audit) also needs a writable
-  archive store. A session missing what its capability needs stops before
-  the first fetch and says which is read-only. Same review; the
-  bibliography-audit exemption came from Codex review of
-  ipeirotis/citation-needed#7. (`SKILL.md`)
+- **2026-10-07 — The gate requires a writable ledger, and an archive before
+  text is archived.** Every capability needs a writable ledger. Capabilities
+  1–3 also need the archive before the first fetch; the bibliography audit
+  never does; a version sweep runs metadata detection with the ledger alone
+  and needs the archive only once a found text must be archived, recording
+  `detection incomplete` when it cannot. Same review; the bibliography and
+  sweep exemptions came from Codex review of ipeirotis/citation-needed#7.
+  (`SKILL.md`)
 
 - **2026-10-07 — Novelty leads pass source checks before reuse.** A novelty
   entry is reused as current only when every retained lead passes the
@@ -39,7 +40,8 @@ reopen them without a new request.
   the request names a LaTeX root or wrapper, the claim inventory covers the
   transitive `\input`/`\include` graph, never sibling files it does not
   include, and records the resolved file set in `Scope and retrieval`; an
-  unresolved include is a question, not a guess. Raised in Codex review of
+  unresolved include is a question, not a guess; `\includeonly` and
+  untaken conditional branches narrow the set. Raised in Codex review of
   the skill vendored into IliasTriant/inattentiveness_paper#14, whose
   submission root keeps nearly all prose in included section files.
   (`references/literature-checks.md`)
