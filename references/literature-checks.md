@@ -35,6 +35,17 @@ of a hunt for a convenient result.
 
 ### 1. Inventory the claims to check
 
+First fix the file set. When the request names a LaTeX root or wrapper file,
+the scope is the manuscript that root builds: resolve its transitive include
+graph (`\input`, `\include`, `\subfile`, and the like) and inventory every
+included file, since most prose may live outside the root. Honor what
+narrows the build: a file `\includeonly` leaves out, or an include inside a
+conditional branch the root does not take, is not in scope. Never sweep in
+sibling files the root does not include: a `.tex` file next to the root may
+be an old draft or another paper. When an include does not resolve, or no
+root is named and several candidates exist, ask which files are in scope
+rather than guessing. Record the resolved file set in `Scope and retrieval`.
+
 Before any search or fetch, list every claim in the requested scope with its
 location, split into two groups:
 
@@ -185,6 +196,6 @@ the adoption decision to the author.
 ## Reporting conventions
 
 - **Scope and retrieval:** name the claims checked and which were reused from the ledger, search boundaries, sources fetched and where each was archived, and access failures.
-- **Citation audit:** give one row per claim, grouped as supported, partially supported, unsupported, or unverifiable. Name the manuscript location and attach the retrieved evidence; reused rows carry their original verification date.
+- **Citation audit:** give one row per claim and cited source (a claim citing several works gets a row per work, so an unsupported citation never hides behind a supporting one), grouped as supported, partially supported, unsupported, or unverifiable. Name the manuscript location and attach the retrieved evidence; reused rows carry their original verification date.
 - **Novelty and source leads:** name each candidate work, the apparent overlap, and what the author should read. A lead is never a novelty verdict.
 - **Author decisions:** ask one question per unsupported or unverifiable citation, candidate citation, proposed wording change, and novelty lead. The author decides what enters the manuscript.

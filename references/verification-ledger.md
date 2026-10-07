@@ -62,6 +62,11 @@ evidence: "labels reached expert agreement on 3 of 5 tasks" (sec. 5.1) — cost 
 notes: cost figure may come from a different paper; asked author.
 ```
 
+- The heading's manuscript location is the file's repository-relative path
+  plus line (`sections/introduction.tex:41` when the file lives there),
+  never a bare filename: a repository often holds archived drafts with the
+  same file names, and a bare name sends a reader to the wrong copy. The
+  examples in this file use a root-level `introduction.tex`.
 - `claim-hash` is the first 12 hex characters of the SHA-256 of the claim
   sentence with runs of whitespace collapsed to single spaces and case
   preserved — a case change can be a different claim (a gene name, a
@@ -312,7 +317,16 @@ status: recorded; a later sweep may re-ask after ~6 months
   every applicable channel actually ran: a transient channel failure
   (timeout, rate limit, outage) is recorded as `detection incomplete`,
   naming the failed channels — an outcome the next sweep retries, never a
-  negative result that stands. When
+  negative result that stands. When no version of record is found but the
+  preprint server shows a newer revision than the baseline, `revised:`
+  names it and the channel that showed it (`revised: arXiv:2107.04567v3 —
+  arXiv abs page`); `changed:` and `claims:` then record the comparison
+  against that revision exactly as for a publication, while `published:
+  none found` still ages under the usual window for the publication
+  channels only; the preprint server's metadata is re-checked on every
+  sweep, so a later revision or a newly listed journal reference is never
+  held to that window, and a target it reopens reruns every channel before
+  a new `none found` is recorded. When
   publication is established but only a paywalled copy exists, the found DOI
   is recorded with `text not legally reachable`: the paywall flow runs, and
   every dependent claim is affected pending the text.
@@ -446,7 +460,13 @@ manuscript's novelty claim still reads as the recorded one and the entry's
 `searched:` scope covers what the current request asks. A reworded
 contribution, a new database, or a broadened boundary gets a fresh scan
 whatever the entry's age — an old answer to a different question is not a
-current answer to this one.
+current answer to this one. Each retained lead must also pass the source
+checks a `cite:` entry's source passes under the reuse rules above: its
+archived copy present at its recorded path with a matching SHA-256, its
+`version-read` still the best text reachable, the mutable-URL re-fetch and
+refresh interval, and the registrar update screen for a DOI. A lead that
+fails one is re-checked before the entry is reported as current; until
+then the entry is history.
 
 ## Append, never rewrite
 

@@ -10,6 +10,57 @@ reopen them without a new request.
 
 ## Done
 
+- **2026-10-07 — Ledger headings carry repository-relative paths.** A
+  heading's manuscript location is the file's repository-relative path and
+  line, never a bare filename, since archived drafts in a host repo can
+  share file names. Raised in Codex review of the first ledger written into
+  IliasTriant/inattentiveness_paper#14. (`references/verification-ledger.md`)
+
+- **2026-10-07 — One audit row per claim and cited source.** A claim citing
+  several works gets a row per work, so an unsupported citation no longer
+  hides behind a supporting one in an aggregate verdict. Raised in a second
+  Codex review on IliasTriant/inattentiveness_paper#14.
+  (`SKILL.md`, `references/literature-checks.md`)
+
+- **2026-10-07 — The gate requires a writable ledger, and an archive before
+  text is archived.** Every capability needs a writable ledger, and its
+  JSONL companion when one is declared. Capabilities
+  1–3 also need the archive before the first fetch; the bibliography audit
+  never does; a version sweep runs metadata detection with the ledger alone
+  and needs the archive only once a found text must be archived, recording
+  `detection incomplete` when it cannot. Same review; the bibliography and
+  sweep exemptions came from Codex review of ipeirotis/citation-needed#7.
+  (`SKILL.md`)
+
+- **2026-10-07 — Novelty leads pass source checks before reuse.** A novelty
+  entry is reused as current only when every retained lead passes the
+  archive-hash, version, mutable-URL, refresh, and registrar-update checks a
+  `cite:` source passes. Same review. (`references/verification-ledger.md`)
+
+- **2026-10-07 — A LaTeX root is audited through its include graph.** When
+  the request names a LaTeX root or wrapper, the claim inventory covers the
+  transitive `\input`/`\include` graph, never sibling files it does not
+  include, and records the resolved file set in `Scope and retrieval`; an
+  unresolved include is a question, not a guess; `\includeonly` and
+  untaken conditional branches narrow the set. Raised in Codex review of
+  the skill vendored into IliasTriant/inattentiveness_paper#14, whose
+  submission root keeps nearly all prose in included section files.
+  (`references/literature-checks.md`)
+
+- **2026-10-07 — A newer preprint revision is reconciled, not just noted.**
+  When a version sweep finds no version of record but a newer revision than
+  the baseline, the revision is fetched, archived, and compared under steps
+  3 and 4 like a publication, and recorded in the `vor` entry's new
+  `revised:` field; `published: none found` still ages under the usual
+  window for the publication channels, while the preprint server's
+  metadata is re-checked on every sweep so a later revision is never held
+  to it; a newly listed journal reference or DOI also reopens the target,
+  and a reopened target reruns every channel before a new `none found` is
+  recorded. Raised in the same Codex review; the per-sweep re-check and its
+  refinements came from Codex review of ipeirotis/citation-needed#7.
+  (`references/version-reconciliation.md`,
+  `references/verification-ledger.md`)
+
 - **2026-10-06 — Restricted storage rules agree across the skill.** A host
   with no private store keeps restricted copies in an ignored
   `literature/sources/`; `SKILL.md` no longer defers that case. When the

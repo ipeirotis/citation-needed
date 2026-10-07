@@ -69,7 +69,15 @@ screens pass, the archived fuller text and recorded diff serve as-is and
 the new claims are classified against them. For a URL-backed target, a
 recent `none found` never suppresses the canonical-URL re-fetch itself —
 only the broader detection channels stay cached — so such a target enters
-the sweep for that one check even inside the window. A
+the sweep for that one check even inside the window. A preprint target
+gets the same exception for its preprint server's metadata: that one
+request runs on every sweep. A revision newer than the baseline and than
+any `revised:` already recorded, or a journal reference or DOI the record
+did not show before, reopens the target at once. A reopened target runs
+every detection channel again, so the `none found` it may record rests on
+a fresh check of all of them and never restarts the window on cached
+results. Without either signal, a recent `none found` keeps the
+publication channels cached. A
 text-unreachable result dies early: the requested copy arriving in the
 source store reopens the target at once, without waiting out the window.
 
@@ -90,8 +98,12 @@ Check the cheapest authoritative signal first, per target:
   often deposited on only one side.
 - **The preprint server's metadata.** arXiv's abs page and API expose the
   journal reference and DOI that authors add after publication. A newer
-  preprint revision (a v4 where v2 was read) is not publication, but note it
-  for `Author decisions`.
+  preprint revision (a v4 where v2 was read) is not publication, but it is
+  newer text the verdicts were not earned on. When no version of record is
+  found, the newest revision is this target's fuller version: record it in
+  the `vor` entry's `revised:` field and run steps 3 and 4 against it
+  exactly as for a publication. When a version of record is also found, the
+  publication governs the comparison and the revision is only recorded.
 - **Registrar bibliographic search** (title, authors, year window) as the
   fallback, held to the bibliography audit's confidence standard: only a
   record that confidently identifies the same work counts, and a near-miss
@@ -208,7 +220,8 @@ returning the report. Then report exactly three sections:
 - **Author decisions:** each re-check proposal, each paywalled
   version-of-record request, each ambiguous publication match as a question,
   any retraction or erratum the update screen surfaced, and any newer
-  preprint revision noted. Nothing is edited and no verdict changes.
+  preprint revision compared in place of a publication. Nothing is edited
+  and no verdict changes.
 
 ## Boundaries
 
