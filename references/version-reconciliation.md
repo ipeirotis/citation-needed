@@ -71,9 +71,13 @@ recent `none found` never suppresses the canonical-URL re-fetch itself —
 only the broader detection channels stay cached — so such a target enters
 the sweep for that one check even inside the window. A preprint target
 gets the same exception for its preprint server's metadata: that one
-request runs on every sweep, and a revision newer than the baseline and
-than any `revised:` already recorded reopens the target at once, while a
-recent `none found` keeps only the publication channels cached. A
+request runs on every sweep. A revision newer than the baseline and than
+any `revised:` already recorded, or a journal reference or DOI the record
+did not show before, reopens the target at once. A reopened target runs
+every detection channel again, so the `none found` it may record rests on
+a fresh check of all of them and never restarts the window on cached
+results. Without either signal, a recent `none found` keeps the
+publication channels cached. A
 text-unreachable result dies early: the requested copy arriving in the
 source store reopens the target at once, without waiting out the window.
 

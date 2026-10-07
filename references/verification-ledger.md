@@ -324,7 +324,9 @@ status: recorded; a later sweep may re-ask after ~6 months
   against that revision exactly as for a publication, while `published:
   none found` still ages under the usual window for the publication
   channels only; the preprint server's metadata is re-checked on every
-  sweep, so a later revision is never held to that window. When
+  sweep, so a later revision or a newly listed journal reference is never
+  held to that window, and a target it reopens reruns every channel before
+  a new `none found` is recorded. When
   publication is established but only a paywalled copy exists, the found DOI
   is recorded with `text not legally reachable`: the paywall flow runs, and
   every dependent claim is affected pending the text.

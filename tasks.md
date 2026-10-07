@@ -23,7 +23,8 @@ reopen them without a new request.
   (`SKILL.md`, `references/literature-checks.md`)
 
 - **2026-10-07 — The gate requires a writable ledger, and an archive before
-  text is archived.** Every capability needs a writable ledger. Capabilities
+  text is archived.** Every capability needs a writable ledger, and its
+  JSONL companion when one is declared. Capabilities
   1–3 also need the archive before the first fetch; the bibliography audit
   never does; a version sweep runs metadata detection with the ledger alone
   and needs the archive only once a found text must be archived, recording
@@ -53,8 +54,10 @@ reopen them without a new request.
   `revised:` field; `published: none found` still ages under the usual
   window for the publication channels, while the preprint server's
   metadata is re-checked on every sweep so a later revision is never held
-  to it. Raised in the same Codex review; the per-sweep re-check came from
-  Codex review of ipeirotis/citation-needed#7.
+  to it; a newly listed journal reference or DOI also reopens the target,
+  and a reopened target reruns every channel before a new `none found` is
+  recorded. Raised in the same Codex review; the per-sweep re-check and its
+  refinements came from Codex review of ipeirotis/citation-needed#7.
   (`references/version-reconciliation.md`,
   `references/verification-ledger.md`)
 
