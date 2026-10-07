@@ -10,6 +10,24 @@ reopen them without a new request.
 
 ## Done
 
+- **2026-10-07 — A LaTeX root is audited through its include graph.** When
+  the request names a LaTeX root or wrapper, the claim inventory covers the
+  transitive `\input`/`\include` graph, never sibling files it does not
+  include, and records the resolved file set in `Scope and retrieval`; an
+  unresolved include is a question, not a guess. Raised in Codex review of
+  the skill vendored into IliasTriant/inattentiveness_paper#14, whose
+  submission root keeps nearly all prose in included section files.
+  (`references/literature-checks.md`)
+
+- **2026-10-07 — A newer preprint revision is reconciled, not just noted.**
+  When a version sweep finds no version of record but a newer revision than
+  the baseline, the revision is fetched, archived, and compared under steps
+  3 and 4 like a publication, and recorded in the `vor` entry's new
+  `revised:` field; `published: none found` still ages under the usual
+  window. Raised in the same Codex review.
+  (`references/version-reconciliation.md`,
+  `references/verification-ledger.md`)
+
 - **2026-10-06 — Restricted storage rules agree across the skill.** A host
   with no private store keeps restricted copies in an ignored
   `literature/sources/`; `SKILL.md` no longer defers that case. When the

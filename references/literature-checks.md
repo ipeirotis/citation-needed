@@ -35,6 +35,15 @@ of a hunt for a convenient result.
 
 ### 1. Inventory the claims to check
 
+First fix the file set. When the request names a LaTeX root or wrapper file,
+the scope is the manuscript that root builds: resolve its transitive include
+graph (`\input`, `\include`, `\subfile`, and the like) and inventory every
+included file, since most prose may live outside the root. Never sweep in
+sibling files the root does not include: a `.tex` file next to the root may
+be an old draft or another paper. When an include does not resolve, or no
+root is named and several candidates exist, ask which files are in scope
+rather than guessing. Record the resolved file set in `Scope and retrieval`.
+
 Before any search or fetch, list every claim in the requested scope with its
 location, split into two groups:
 

@@ -312,7 +312,12 @@ status: recorded; a later sweep may re-ask after ~6 months
   every applicable channel actually ran: a transient channel failure
   (timeout, rate limit, outage) is recorded as `detection incomplete`,
   naming the failed channels — an outcome the next sweep retries, never a
-  negative result that stands. When
+  negative result that stands. When no version of record is found but the
+  preprint server shows a newer revision than the baseline, `revised:`
+  names it and the channel that showed it (`revised: arXiv:2107.04567v3 —
+  arXiv abs page`); `changed:` and `claims:` then record the comparison
+  against that revision exactly as for a publication, while `published:
+  none found` still ages under the usual window. When
   publication is established but only a paywalled copy exists, the found DOI
   is recorded with `text not legally reachable`: the paywall flow runs, and
   every dependent claim is affected pending the text.
