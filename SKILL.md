@@ -35,6 +35,13 @@ After the inventory and ledger-reuse pass pin the remaining work, follow `refere
 
 ## Return
 
+Before recording fresh source quotations for capabilities 1–3, follow
+`references/quotation-checks.md`: run the bundled `scripts/check_quotes.py`
+against the actual retrieved text when a shell and Python 3 are available,
+inspect its locations and context, and record the check in ledger notes.
+Otherwise check manually and disclose that limitation. A textual match does
+not establish claim support; a miss does not establish an unsupported claim.
+
 Return exactly:
 
 1. **Scope and retrieval:** claims checked (marking which were reused from the ledger), search boundaries, sources fetched and archived, and access failures.

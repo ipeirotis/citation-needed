@@ -60,6 +60,16 @@ skill adds.
 
 ## Maintenance
 
+### Offline quotation-checker tests
+
+Run `python3 -B -m unittest discover -s evals -p 'test_check_quotes.py' -v`.
+These deterministic tests exercise the bundled script and CLI on synthetic
+text, including altered quotations, permitted normalization, review-only
+edits, source locations, input errors, and source-file preservation. They
+need no model, network, or third-party Python package. They test textual
+presence, not citation-support accuracy or end-to-end agent performance;
+the three agent evals above remain separate.
+
 - Fixtures cite real works so retrieval is real; expected verdicts are
   therefore hostage to the live records. Re-run the provenance checks
   above before blaming the skill for a changed verdict.

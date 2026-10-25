@@ -28,6 +28,8 @@ citation-needed — old references to those names denote this repo.
 - `references/verification-ledger.md` — the dated results ledger written into
   host repos, its reuse rules, and the opt-in JSONL companion for tooling.
 - `agents/openai.yaml` — interface metadata for non-Claude agent platforms.
+- `scripts/check_quotes.py` — read-only UTF-8 quotation-presence checker;
+  `references/quotation-checks.md` defines its use and limitations.
 - `evals/` — the eval suite: fixture manuscripts and bibliographies with
   verified ground truth (`evals/README.md` records the provenance),
   `evals.json` prompts and assertions for the skill-creator eval loop.

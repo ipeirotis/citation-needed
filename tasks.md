@@ -10,6 +10,17 @@ reopen them without a new request.
 
 ## Done
 
+- **2026-10-24 — Prototype mechanical quotation checker.** Requested for
+  the SPUR first milestone: add a read-only Python checker for quotations
+  against retrieved UTF-8 source text, with exact/narrow-normalized matches,
+  source hashes and locations, explicit review outcomes for missing/edited
+  quotes, and deterministic tests. Route fresh evidence quotations through
+  it when Python is available, with a disclosed manual fallback; presence
+  remains separate from source identity and claim support. No PDF/HTML
+  extraction or fuzzy matching is implied.
+  (`scripts/check_quotes.py`, `references/quotation-checks.md`, `SKILL.md`,
+  `references/literature-checks.md`, `evals/test_check_quotes.py`)
+
 - **2026-10-07 — Ledger headings carry repository-relative paths.** A
   heading's manuscript location is the file's repository-relative path and
   line, never a bare filename, since archived drafts in a host repo can

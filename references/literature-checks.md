@@ -148,6 +148,14 @@ lead too, and it is not proof the claim is novel.
 
 ### 5. Update the ledger, then report
 
+Before recording fresh quoted evidence from steps 3–4, follow
+`quotation-checks.md` and run the bundled checker against the retrieved text
+when available. Inspect original-source context and page/section locators;
+resolve missing/edited quotations or disclose manual checks. Keep quotation
+presence separate from the claim-support verdict. Include check results in
+the worker return and ledger `notes:`; the coordinator validates them before
+accepting evidence.
+
 Append every fresh verification, every uncited-claim investigation (whether a
 candidate was found or the search came up empty), and every novelty scan to
 the ledger as dated entries per `references/verification-ledger.md`, and

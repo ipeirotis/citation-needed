@@ -92,4 +92,21 @@ than writing it unasked), and it announces those writes in its report.
 
 ## Development
 
+### Prototype quotation checker
+
+The skill uses `scripts/check_quotes.py` to check fresh evidence quotations
+against local UTF-8 text extracted from the retrieved source. It reports
+literal or narrowly normalized matches with source locations, and flags
+missing or edited quotations for review. It needs Python 3 and no additional
+packages. It does not retrieve papers, read PDFs directly, or judge whether
+the passage supports the manuscript's claim. See
+[`references/quotation-checks.md`](references/quotation-checks.md) for input
+formats, invocation, archive/extraction handling, and exit codes.
+
+Run the offline checker tests with:
+
+```bash
+python3 -B -m unittest discover -s evals -p 'test_check_quotes.py' -v
+```
+
 See `AGENTS.md` for repo conventions and `tasks.md` for the feature tracker.
