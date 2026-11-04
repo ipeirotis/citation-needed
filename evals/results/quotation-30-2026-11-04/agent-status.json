@@ -1,0 +1,13 @@
+{
+  "agent_runs_planned": 60,
+  "agent_runs_completed": 0,
+  "comparison_status": "NOT RUN",
+  "reason": "Execution environment has no gcloud executable, authenticated Google Cloud session, Anthropic API key, or Claude Code CLI.",
+  "credential_preflight": "runner --gcloud-secret --smoke-only exited 2 before any provider API request because gcloud is absent.",
+  "account_permission_status": "Not assessed; this is not evidence of a permission/quota problem with the user account.",
+  "model_performance": null,
+  "agent_token_usage": null,
+  "agent_elapsed_time": null,
+  "harness": "Prepared Anthropic Messages API tool harness, not Claude Code.",
+  "next_step": "Run on authenticated Mac using evals/quotation_benchmark/README.md; review omission explanations before final grades."
+}

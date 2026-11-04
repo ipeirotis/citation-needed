@@ -1,0 +1,178 @@
+# Anakinra or tocilizumab in patients admitted to hospital with severe covid-19 at high risk of deterioration (IMMCoVA): A randomized, controlled, open-label trial
+
+DOI: https://doi.org/10.1371/journal.pone.0295838
+PMCID: PMC10756513
+Authors: Sundén-Cullberg J, Chen P, Häbel H, Skorup P, Janols H, Rasmuson J, Niward K, Östholm Balkhed Å, Chatzidionysiou K, Asgeirsson H, Blennow O, Parke Å, Svensson AK, Muvva JR, Ljunggren HG, Karolinska KI/K COVID-19 Treatment Working Group, Horne AC, Ådén U, Henter JI, Sönnerborg A, Vesterbacka J, Nowak P, Lampa J.
+License: https://creativecommons.org/licenses/by/4.0/
+
+## p0001 — Background
+
+Anakinra and tocilizumab are used for severe Covid-19, but only one previous randomized controlled trial (RCT) has studied both. We performed a multi-center RCT comparing anakinra or tocilizumab versus usual care (UC) for adults at high risk of deterioration.
+
+## p0002 — Methods
+
+The study was conducted June 2020 to March 2021. Eligibility required ≥ 5 liters/minute of Oxygen to maintain peripheral oxygen saturation at ≥ 93%, CRP > 70 mg/L, ferritin > 500 μg/L and at least two points where one point was awarded for lymphocytes < 1x 109/L; D-dimer ≥ 0.5 mg/L and; lactate dehydrogenase ≥ 8 microkatal/L. Patients were randomly assigned 1:1:1 to receive either a single dose of tocilizumab (8 mg/kg) or anakinra 100 mg IV QID for seven days or UC alone. The primary outcome was time to recovery.
+
+## p0003 — Results
+
+Recruitment was ended prematurely when tocilizumab became part of usual care. Out of a planned 195 patients, 77 had been randomized, 27 to UC, 28 to anakinra and 22 to tocilizumab. Median time to recovery was 15, 15 and 11 days. Rate ratio for recovery for UC vs anakinra was 0.91, 0.47 to 1.78, 95% [CI], p = 0.8 and for UC vs tocilizumab 1.13, 0.55 to 2.30; p = 0.7. There were non-significant trends favoring tocilizumab (and to limited degree anakinra) vs UC for some secondary outcomes. Safety profiles did not differ significantly.
+
+## p0004 — Conclusion
+
+Premature closure of trial precludes firm conclusions. Anakinra or tocilizumab did not significantly shorten time to clinical recovery compared to usual care. (IMMCoVA, NCT04412291, EudraCT: 2020–00174824).
+
+## p0005 — Background
+
+Covid-19 was a leading direct and indirect cause of death worldwide during the first years of the pandemic [1]. Several treatments have become incorporated as usual care in hospitalized patients and include substances with antiviral, immunomodulatory and anti-inflammatory effects. In the latter group, current WHO recommendations for selected subgroups of patients hospitalized due to covid-19 include corticosteroids, IL-6 receptor blockers and Janus kinase (JAK) inhibitors [2]. Anakinra, an IL-1 receptor antagonist is another anti-inflammatory drug targeting the intense inflammatory response seen in many hospitalized covid-19 patients and has shown some efficacy for treatment of selected patients with severe covid-19 [3].
+
+## p0006 — Background
+
+The Immunomodulation-CoV Assessment (ImmCoVA) multicenter study was initiated during the first wave of covid-19 in Sweden. At the time there were no published randomized controlled trials of any covid-19 therapies, but some non-randomized retrospective studies suggested a possible benefit using tocilizumab and anakinra [4–7].
+
+## p0007 — Objectives
+
+To evaluate the clinical efficacy and safety of tocilizumab and anakinra among hospitalized adults with laboratory-confirmed covid-19 at high risk of deterioration. At the suggestion of the Karolinska COVID-19 Treatment Working Group, we designed a randomized controlled trial comparing anakinra or tocilizumab versus usual care.
+
+## p0008 — Trial design
+
+ImmCoVA was a randomized, multicenter, open-label, controlled clinical trial. Enrollment began June 8, 2020, and the final patient was recruited March 16, 2021.
+
+## p0009 — Changes to trial design
+
+The protocol was amended after inclusion of the first two patients (S1 File).
+
+## p0010 — Participants
+
+Patients were eligible for enrollment if they fulfilled the following criteria: were aged ≥18 years; had laboratory-confirmed SARS-CoV-2 infection; had symptom duration of at least 7 days; required at least 5 liters/minute of supplemental oxygen for at least 8 hours, or shorter time if more than 10 liters/minute of Oxygen was needed to maintain SpO2 at ≥93%; had CRP > 70 mg/L and; Ferritin > 500 μg/L (measured up to 48 hours before inclusion); had no non-SARS-Cov2 infection, and; had at least two points on a scale of 0–3 where 1 point was awarded for each value of; lymphocytes < 1x 10(9)/L; D-dimer ≥ 0.5 mg/L and; lactate dehydrogenase ≥ 8 microkatal/L (threshold values did not have to be concurrently fulfilled and measurements made during the past 72 hours were accepted); were able to provide informed and signed consent; were willing and able to comply with study-related procedures/assessments.
+
+## p0011 — Participants
+
+Key exclusion criteria included: ongoing or completed mechanical ventilation; severe renal dysfunction eGFR < 30 mL/min; chronic liver disease; absolute neutrophil count (ANC) less than 2 x 109/L, aspartate aminotransferase or alanine aminotransferase greater than 5 x upper limit of normal, platelets <100 x 109/L; immunosuppression due either to preexisting autoimmune disease or ongoing treatment, acute systemic infection other than covid-19, TB, HIV or acute/chronic viral hepatitis; previous history of gastrointestinal ulceration or diverticulitis; or any physical examination findings and/or history of any illness that, in the opinion of the study investigator, might confound the results of the study or pose an additional risk to the patient by their participation in the study. The full list of exclusion criteria is presented in S1 Table.
+
+## p0012 — Study settings
+
+The study was conducted at four tertiary care university hospitals in Huddinge, Uppsala, Umeå and Linköping.
+
+## p0013 — Randomization and interventions
+
+Eligible patients were randomly assigned in a 1:1:1 ratio to receive either tocilizumab or anakinra plus usual care or usual care alone using a web-based system (www.randomize.net). Patients were block randomized with stratification by study site, sex and age. Tocilizumab was given as a single intravenous (IV) infusion of 8 mg/kg up to a maximum 800 mg. Anakinra was administered during seven days at a dose of 400 mg per day divided in doses of 100 mg IV every 6 hours. Dose was reduced in patients with renal dysfunction; in those with a creatinine clearance of 30 to 59 ml/min; the dose was 200 mg IV per day (divided in 2 doses). In patients receiving either tocilizumab or anakinra, antibiotic prophylaxis was given for seven days, either ceftriaxone 2 g once daily IV or cefotaxime 1 g x 3, alternatively, in PC allergic patients, clindamycin 600 mg x 3 IV and ciprofloxacin 500 mg x 2 orally. Other antibiotics or antibiotic combinations were also accepted, if clinically indicated. The original trial protocol prescribed antibiotic treatment in the UC arm as well, but after the first two patients had been randomized, the protocol was amended, so that patients randomized to usual care were not given antibiotic prophylaxis. One UC patient had been given AB prophylaxis per protocol before that.
+
+## p0014 — Randomization and interventions
+
+All patients received usual care which was given according to national guidelines [8] and local routines.
+
+## p0015 — Procedures
+
+Included patients were assessed daily during hospitalization, from day 1 (day of inclusion) through day 29 and, after discharge on follow-up visits days 10, 15 and 29. Clinical status was assessed daily using an eight-category ordinal scale and the National Early Warning Score, and, at specified time points, using SOFA-score. Serious adverse events were recorded until a final follow up at 60 days.
+
+## p0016 — Outcomes
+
+To facilitate comparisons with other studies, we used the same primary endpoint and ordinal scale as in the pivotal remdesivir trial (ACCT-1) [9] which was a slightly modified version of that proposed by the WHO. The primary outcome was the time to recovery, defined as the first day, during day 1–29 after enrollment, on which a patient met the criteria for category 1, 2, or 3 on the eight-category ordinal scale. The categories were as follows:
+
+## p0017 — Outcomes
+
+1, not hospitalized; 2, not hospitalized, with limitation of activities and/or requiring home oxygen; 3, hospitalized, not requiring supplemental oxygen and no longer requiring ongoing medical care; 4, hospitalized, not requiring supplemental oxygen but requiring ongoing medical care (related to covid-19 or to other medical conditions); 5, hospitalized, requiring supplemental oxygen; 6, hospitalized, requiring noninvasive ventilation or use of high-flow nasal cannula; 7, hospitalized, on invasive mechanical ventilation or ECMO; and 8, death.
+
+## p0018 — Outcomes
+
+Time to recovery was calculated as days elapsed from randomization until day of recovery.
+
+## p0019 — Outcomes
+
+Secondary outcomes included mortality by day 29, length of hospital stay, elevated level of care (ICU or high dependency unit), days on supplemental oxygen and utilization of mechanical, non-invasive ventilation or high frequency nasal cannula at any time-point and mean number of ventilator-free days alive. Degree of improvement was evaluated on three assessment scales: mean improvement in the 8-point ordinal scale from baseline and nadir value days 1–7 until days 8 and 15, and mean improvement in SOFA and NEWS2 scores from baseline until days 5, 10 and 15. We compared fractions of patients who had: achieved ordinal scale 1–4 by day 15 and who were discharged to institution other than normal domicile. The safety population was defined according to initiation of either study drug or usual care only. Safety outcomes included incidence of: serious adverse events; severe or life-threatening infections; infusion reactions.
+
+## p0020 — Outcomes
+
+The cumulative dose of steroids was calculated for each patient. Dosages of methylprednisolone, hydrocortisone, prednisone and dexamethasone were calculated separately and converted to betamethasone equivalents. Use of remdesivir was registered.
+
+## p0021 — Statistical analysis
+
+The statistical analysis plan was finalized prior to recruitment of the first patient. Sample size was calculated based on two approaches: the classical conventional approach and the adaptive design approach.
+
+## p0022 — Statistical analysis
+
+Related to clinical experience and pre-trial data the usual care group was expected to reach the primary outcome after a mean of 15 +/- 6 days. Based on published literature and off-label experience of tocilizumab in Karolinska University Hospital Huddinge, we expected the time for reaching the primary outcome to decrease to 11 days in the anakinra and tocilizumab treatment arms.
+
+## p0023 — Statistical analysis
+
+Taking the significance level at 5% and Type II error as 20% and an expected mean difference of 4 days, assuming a standard deviation of 6, 36 subjects were required per group to obtain 80% power. Given an anticipated dropout rate of 10%, a total of 40 subjects per group allocated 1:1:1 to UC, anakinra and tocilizumab (120 patients in all) was needed to obtain 80% power.
+
+## p0024 — Statistical analysis
+
+Since the available data on covid-19 and potential effects of interventions to date was sparse, we expected that small variations in the magnitude of difference between intervention groups and control group in reaching the primary outcome could result in decreased power of the analysis. Therefore, an adaptive design was employed, allowing re-estimation of sample size at an interim point, when about 50% of the patients had been included. The interim analysis was performed by a statistician blinded to treatment assignment after recruitment of 74 patients. It found larger variance in the primary outcome than anticipated, 60 and 63 in the study arms with the largest between-group difference of mean days to recovery. This indicated that at least 61 patients had to be included per arm to maintain power. Given possible dropouts, decision was taken to increase sample size to 195 (65 patients per arm).
+
+## p0025 — Statistical analysis
+
+The data were summarized as means (standard deviations (SD)) for symmetrically distributed numerical variables and medians (interquartile ranges (IQR)) for numerical variables with skewed distributions or categorical ordinal variables. Positive counts and percentages were presented for binary variables. Missing data were handled as missing at random.
+
+## p0026 — Statistical analysis
+
+Analyses were performed by intention-to-treat, i e patients were analyzed as randomized. For the primary analysis of time to recovery, rate ratios stratified by time were calculated using the Mantel-Cox method. A corresponding log-rank test was conducted comparing anakinra or tocilizumab with usual care. Kaplan-Meier estimates of cumulative recoveries were estimated. Time was censored for patients who died at their day of death. For patients who had not recovered by then, time was censored at day 29. In a sensitivity analysis, hazard ratios were estimated using Cox proportional hazard regression models either crude, adjusted for age and sex or adjusted for age, sex and BMI.
+
+## p0027 — Statistical analysis
+
+For the secondary analysis, differences in mortality were assessed using the Chi-squared test. Median time-to-event and confidence intervals were estimated. Differences in median time-to-event were calculated and confidence intervals estimated using bootstrap. Rate ratios were estimated and compared as in the primary analysis. Confidence intervals for proportions or pairwise differences of proportions were obtained and percentage point differences evaluated under a binomial distribution assumption. Confidence intervals for number of days or pairwise difference in mean number of days were estimated and differences evaluated according to the assumptions of a t-test. In sensitivity analyses of the main outcome, crude age and sex adjusted regression analyses were conducted using a Cox proportional hazard model. The purpose of the sensitivity analyses was to explore potential effects of age and sex on hazard ratios, between treatment groups due to the discontinuation of the recruitment.
+
+## p0028 — Statistical analysis
+
+A significance level of 0.05 was chosen and two-sided p-values were reported. The robust sandwich estimator was used to estimate standard errors for all regression models. All analyses were conducted in STATA version 16.1 (StataCorp, College Station, TX).
+
+## p0029 — Data and safety monitoring board
+
+An independent data and safety monitoring board reviewed results after 56 patients had been recruited and approved continued inclusion.
+
+## p0030 — Data and safety monitoring board
+
+Ethical section. The trial protocol was approved by the Swedish Medical Products Agency, and the ethical review board in Stockholm (no 2020–01973, 2020–02530, 2020–0482, 2020–05709), and was overseen by an independent data and safety monitoring board. All patients received oral and written information and signed consent forms. Details concerning trial design, oversight and analyses and protocol amendments are available in S1 and S4 Files.
+
+## p0031 — Results
+
+During the study, tocilizumab was adopted as part of usual care at which point recruitment was discontinued. By that time, 77 out of an intended 195 patients had been randomized, 27 to usual care and 28 and 22 to anakinra and tocilizumab, respectively (Fig 1). All patients received assigned therapy, except two allotted to anakinra who both received study drug for four instead of seven days, for details refer to S2 File. Both were included in the anakinra group in analyses. All patients were followed up for 60 days or until death and all were included in intention-to-treat analyses.
+
+## p0032 — Results
+
+Mean age of study participants was 61 and 78% were male (Table 1). Recruitment started later at three of four planned sites. One hospital (Karolinska) included 74 patients, three were included from the other sites (two from Uppsala, one from Umeå, none from Linköping). Of all patients, 29% had no significant medical history, 36% had hypertension and 21% had diabetes, 46% were past or current smokers, median BMI was 28. Median SOFA score was 4 and median NEWS2 was 6. Median number of days between onset of symptoms and randomization was 9 (IQR 8–11).
+
+## p0033 — Severity of disease
+
+As specified by inclusion criteria, all patients fulfilled the WHO definition of severe disease, i.e. required oxygen; 30 (39%) fulfilled category five criteria on the ordinal scale, 46 (59%) category six and one patient (1%) category 7. In the UC cohort, 71% of patients belonged to the more severe categories 6 or 7 at baseline vs 50% in the anakinra and 64% in the tocilizumab group (p = 0.1 for UC vs anakinra, p = 0.6 for UC vs tocilizumab). Baseline NEWS2 was higher in the control group than in either treatment group (p = 0.01 for UC vs anakinra, p = 0.03 for UC vs tocilizumab).
+
+## p0034 — Primary outcome
+
+Time to recovery was a median 15 (10–19) 95% confidence interval [CI], 15 (9–24) and 11 (10–19) days in the UC, anakinra and tocilizumab groups, respectively. The differences between UC vs anakinra and UC vs tocilizumab were not statistically significant. Rate ratio for recovery for UC vs anakinra was 0.91 95% confidence interval [CI], 0.47 to 1.78, p = 0.8 and for UC vs tocilizumab 1.13; 95% [CI], 0.55 to 2.30; p = 0.7, Table 2 and Fig 2. In a sensitivity analysis we adjusted for age and sex. Unadjusted hazard ratios were 0.94 95% [CI], (0.54 to 1.67) for UC vs anakinra and 1.08 95% [CI], (0.60 to 1.97) for UC vs tozilizumab. Corresponding figures in an analysis adjusted for age and sex were 1.08 95% [CI], (0.60 to 1.95) for UC vs anakinra and 1.24 95% [CI], (0.68 to 2.26) for UC vs tozilizumab. Ordinal score changes over time are illustrated in Fig 3.
+
+## p0035 — Secondary outcomes
+
+Secondary endpoints included mortality up to day 29, length of hospital stay, level of care, changes in oxygen requirement/delivery and changes in severity measured by ordinal scale, NEWS2 and SOFA scores. In summary, there were no significant differences between UC and anakinra or between UC and tocilizumab for any measure (Table 2). It should be noted, however, that for some important outcomes there were trends signaling better effect in the treatment groups, mainly the tocilizumab group. These were: time to hospital discharge among survivors (16, 13 and 11 days in the UC, anakinra and tocilizumab groups respectively); days on supplemental oxygen (14, 11 and 10); fraction of patients on mechanical ventilation (22, 11 and 14%) and admitted to ICU (48, 50 and 36%) and; degree of improvement by day 15 on the ordinal scale (-2.3, -2.3 and -3.1). Improvement on the NEWS2 scale by day 15, on the other hand, was most pronounced in the UC group (-3.3, -2.4, and -2.6).
+
+## p0036 — Steroid and remdesivir use
+
+Two patients (one in the UC arm and one in the anakinra arm) were recruited before corticosteroids became part of usual care, the rest received steroids. The cumulative dose of steroids during the study (no patient received steroids after day 29) was a total betamethasone equivalents of 1929 mg in the UC arm, 2412 in the anakinra arm and 1742 in the tocilizumab arm. Median totals of betamethasone equivalents for patients who received steroids were 71 (48–88), 65 (46–80) and 74 (52–102) mg respectively. Remdesivir was administered to 4 (15%), 3 (11%) and 5 (23%) patients in the UC, anakinra and tocilizumab arms.
+
+## p0037 — Adverse events
+
+Serious adverse events occurred on or before day 29 in 13 patients (48%) in the UC, 14 (50%) in the anakinra and in 6 (27%) in the tocilizumab arm, Table 3 and S2 Table, non-significant differences. There were 6 deaths up to day 29, two in each arm. Two additional patients died on or after d29, please see S3 File for details. Infections occurred in 3, 2 and 1 patient(s) in the UC, anakinra and tocilizumab arms. For further data on adverse events, please refer to S3 Table.
+
+## p0038 — Discussion
+
+This was an open-label, randomized, controlled, multi-center trial comparing anakinra or tocilizumab versus usual care in patients with severe covid-19 at high risk of deterioration. Recruitment of patients was discontinued prematurely when decision, due to emerging data from the REMAP-CAP and RECOVERY trials [10, 11], was taken to include tocilizumab as part of usual care. The primary and secondary efficacy analyses in our study did not show any significant differences related to treatment allocation, nor any difference in occurrence of adverse events. However, since only 77 out of a planned 195 patients had been recruited by study closure, statistical power was insufficient to preclude either positive or negative effects from the study drugs.
+
+## p0039 — Discussion
+
+Although differences between usual care and the two treatments were not statistically significant for any measure, time to recovery, the primary endpoint, was numerically shorter in the tocilizumab group compared to the usual care arm. Trends favoring tocilizumab were also seen with fewer severe adverse advents and for several secondary endpoints, including fewer days with supplemental oxygen, shorter time to hospital discharge, lower proportion of patients admitted to ICU and receiving mechanical ventilation, and a higher proportion achieving ordinal scale 1–4 by day 15. Improvements in ordinal score also showed tendencies toward better numbers for tocilizumab at day 15, but not at earlier time points. There were limited corresponding positive trends for anakinra.
+
+## p0040 — Discussion
+
+Mortality by 29 and 60 days was similar and unexpectedly low in all three treatment arms, despite inclusion criteria designed to select for higher severity, and despite half of patients being admitted at some point to either ICU or high dependency unit. Baseline severity, as measured by NEWS2, was higher in the usual care group (but only marginally higher as assessed by SOFA and ordinal scores) which complicates assessment. Consequently, improvement in NEWS2 by days 5, 10 and 15 was numerically (but non-significantly) higher in the usual care group.
+
+## p0041 — Discussion
+
+Although some early RCTs using IL-6 blockade failed to show clinical effect [12, 13], the REMAP-CAP and RECOVERY platform trials [10, 11] demonstrated improved survival which was also confirmed in a subsequent metanalysis of 27 RCTs [14] (including this study). Tocilizumab has been incorporated as a therapeutic option in usual care alongside the JAK inhibitor baricitinib–another immune-modifying drug which has been shown to reduce covid-19 mortality [15, 16] and which is recommended by WHO for use in severe covid-19 either alone, or in combination with tocilizumab [2]. Few peer-reviewed RCTs have been published on anakinra. One study found no effect [17] and another was terminated early because of safety concerns [18]. Only one RCT has demonstrated improved outcome. It used levels of soluble urokinase plasminogen activator receptor–suPAR to risk-stratify patients–only those with elevated concentrations were included. Patients who were randomized to receive anakinra had lower odds of progression of COVID-19 on an 11-point WHO Clinical Progression Scale (median values differed one point) [3]. Anakinra has been approved for use by the European Medicines Agency (EMA), but uptake will likely be limited since use is conditioned on elevated plasma levels of suPAR, an analysis which is not widely available, and which introduces a diagnostic delay. Also, the question remains whether anakinra has any benefit over tocilizumab or baricitinib. In the present study, although underpowered, there were no convincing tendencies to suggest an effect of anakinra superior to usual care. To our knowledge, only one other prospective study–COV-AID–has published data on concurrent IL-1 and IL-6 blockade [19]. It used a factorial design in which the same patients were randomized twice, first 1:2 to anakinra: no anakinra, then 1:1:1 to siltuximab (another IL-6 blocking agent): tocilizumab: no IL-6 blockade. Outcomes were compared between treatment and control within each randomization group and no differences were found in the primary outcome of time to clinical improvement. Possible explanations for lack of effect were discussed–COV-AID used standard dose of anakinra i.e. 100 mg subcutaneously once daily, and the authors speculated that this may have been insufficient. In our study, standard dosing was 100 mg IV four times daily with weak to no signs of effect, suggesting that either even higher doses might be required or that anakinra makes small or no difference. The COV-AID authors also hypothesized that a lack of demonstrable effect compared with previous studies could be due to differences in severity of disease in the study populations. Mortality in the usual care group was 10%, on par with 7% in the present study, and much lower than 33 and 35% in the REMAP-CAP and RECOVERY trials. Other studies have shown that the most pronounced effects of interleukin blockage are found in patients with high oxygen requirement and risk of death [2]. Demonstrating modest benefits for patients with lower illness severity and low event rates requires large studies. Major challenges for future trials of drugs targeting inflammation in covid-19 will thus be to identify patients that are sufficiently ill so that potential drug benefits will be large enough to be demonstrable in study populations of manageable size. The fraction of severely ill patients among those hospitalized is currently shrinking fast. Disease outcome is improving for many reasons–rising immunity after vaccinations and previous infection(s), viral evolution benefiting strains with lower virulence, better covid-19 drugs and generally improved management thanks to increased familiarity with the disease.
+
+## p0042 — Limitations
+
+The relatively few patients included precludes firm conclusions from this study. Other limitations include the open-label design. This was chosen in part because tocilizumab use is hard to mask given its normalizing effects on fever and CRP, in part because placebo procedures would have taken too long to set in motion. All patients were recruited at tertiary university hospitals, the absolute majority from Karolinska University hospital in south Stockholm, which limits external validity. The proportion of patients that received remdesivir as part of usual care was highest in the tocilizumab group and lowest in the anakinra group, but since duration of illness per inclusion criteria was at least seven days, and since remdesivir likely has minimal effect when administered late in immunocompetent patients with covid-19, this is unlikely to have affected outcome. Patients were continuously assessed for eligibility, but due to high workload, reasons for non-eligibility were not registered.
+
+## p0043 — Conclusions
+
+In this study in patients with covid-19 and respiratory failure, anakinra or tocilizumab did not significantly shorten time to clinical improvement compared to usual care. Safety profiles did not differ. However, premature closure of trial and fewer included patients than planned precludes firm conclusions.

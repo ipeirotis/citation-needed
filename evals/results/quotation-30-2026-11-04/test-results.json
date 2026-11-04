@@ -1,0 +1,261 @@
+{
+  "tests_run": 63,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "tests": [
+    {
+      "test": "test_check_quotes.CliTests.test_argparse_rejects_missing_and_conflicting_arguments",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.CliTests.test_cli_is_read_only",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.CliTests.test_digest_checks_original_utf8_bytes_including_crlf",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.CliTests.test_digest_mismatch_and_malformed_digest_are_errors",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.CliTests.test_empty_quotes_are_input_errors",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.CliTests.test_invalid_utf8_empty_nul_pdf_and_html_sources_are_errors",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.CliTests.test_malformed_batches_are_atomic_input_errors",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.CliTests.test_missing_and_non_file_inputs_are_errors",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.CliTests.test_quote_file_and_mixed_batch",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.CliTests.test_success_report_identifies_original_bytes_and_limitations",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.NormalizationTests.test_accented_ligature_is_composed_after_expansion",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.NormalizationTests.test_composition_and_typography_preserve_original_offsets",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.NormalizationTests.test_empty_normalization",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.NormalizationTests.test_normalization_does_not_rewrite_meaningful_characters",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.NormalizationTests.test_whitespace_and_original_spans",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_accented_ligature_matches_composed_quotation",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_cached_normalization_has_identical_results",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_changed_negation_case_numbers_and_order_do_not_match",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_ellipses_and_bracketed_edits_require_review",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_exact_match_and_original_character_locations",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_hyphenated_line_break_is_not_silently_repaired",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_invalid_quote_api_raises_controlled_error",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_literal_edited_notation_can_match_after_whitespace_normalization",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_literal_ellipsis_and_brackets_are_allowed",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_location_limit_does_not_truncate_occurrence_count",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_missing_quote_is_presence_failure_not_support_verdict",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_mixed_exact_and_normalized_occurrences_are_all_counted",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_multiple_normalized_occurrences_keep_raw_locations",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_multiple_occurrences_require_location_review",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_normalized_match_reports_raw_passage_and_lines",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_sentence_period_cannot_truncate_a_decimal",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_signed_decimal_and_grouped_number_fragments_do_not_match",
+      "passed": true
+    },
+    {
+      "test": "test_check_quotes.QuoteTests.test_word_and_identifier_fragments_do_not_match",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.DatasetTests.test_all_source_hashes_and_item_locations",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.HarnessTests.test_ablation_removes_only_checker_routes_and_script",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.HarnessTests.test_checker_use_is_bound_to_actual_source_bytes",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.HarnessTests.test_disabled_tool_is_unavailable",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.HarnessTests.test_no_completion_can_masquerade_as_pass",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.HarnessTests.test_no_credentials_do_not_create_real_run_results",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.HarnessTests.test_path_traversal_and_input_writes_are_denied",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.QuotationGraderTests.test_all_invalid_has_false_alarms",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.QuotationGraderTests.test_duplicate_or_extra_item_fails",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.QuotationGraderTests.test_irrelevant_real_source_quote_does_not_satisfy_evidence",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.QuotationGraderTests.test_keyed_response_with_evidence_passes_mechanical_grade",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.QuotationGraderTests.test_missing_evidence_fails_even_with_correct_verdict",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.QuotationGraderTests.test_review_does_not_count_as_correct_error_detection",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.SharedTests.test_archive_symlink_is_rejected",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.SharedTests.test_backdated_fresh_entry_fails_run_window",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.SharedTests.test_bibliography_archive_exemption_is_explicit",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.SharedTests.test_claim_hash_mismatch_fails",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.SharedTests.test_compliant_local_run_passes_all_three",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.SharedTests.test_existing_historical_entry_is_retained_but_not_fresh",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.SharedTests.test_ledger_must_match_reported_task_verdict",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.SharedTests.test_missing_archive_fails_even_when_ledger_present",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.SharedTests.test_missing_claim_entry_fails",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.SharedTests.test_opt_in_jsonl_matches_and_then_corruption_fails",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.SharedTests.test_original_manuscript_modification_fails",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.SharedTests.test_read_trace_cannot_be_replaced_by_self_report",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.SharedTests.test_removing_existing_header_fails",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.SharedTests.test_self_hashed_quotes_only_archive_is_rejected",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.SharedTests.test_unexpected_output_fails",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.SharedTests.test_wrong_hash_and_missing_license_fail",
+      "passed": true
+    },
+    {
+      "test": "test_quotation_benchmark.SharedTests.test_wrong_or_invalid_timestamp_fails",
+      "passed": true
+    }
+  ]
+}

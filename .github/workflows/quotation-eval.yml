@@ -1,0 +1,20 @@
+name: Offline quotation benchmark
+on:
+  push:
+    paths: ['scripts/**', 'evals/**', '.github/workflows/quotation-eval.yml']
+  pull_request:
+    paths: ['scripts/**', 'evals/**', '.github/workflows/quotation-eval.yml']
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Test checker, shared gates, grader and harness (no LLM)
+        run: python3 -B -m unittest discover -s evals -p 'test_*.py' -v
+      - name: Validate pinned dataset and checker status contract (no LLM)
+        run: python3 -B -m evals.quotation_benchmark.validate --output-dir "$RUNNER_TEMP/quotation-checks"

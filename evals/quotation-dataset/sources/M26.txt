@@ -1,0 +1,262 @@
+# COVID-19 in Pakistan: A national analysis of five pandemic waves
+
+DOI: https://doi.org/10.1371/journal.pone.0281326
+PMCID: PMC10756537
+Authors: Ahmad T, Abdullah M, Mueed A, Sultan F, Khan A, Khan AA.
+License: https://creativecommons.org/licenses/by/4.0/
+
+## p0001 — Objectives
+
+The COVID-19 pandemic showed distinct waves where cases ebbed and flowed. While each country had slight, nuanced differences, lessons from each wave with country-specific details provides important lessons for prevention, understanding medical outcomes and the role of vaccines. This paper compares key characteristics from the five different COVID-19 waves in Pakistan.
+
+## p0002 — Methods
+
+Data was sourced from daily national situation reports (Sitreps) prepared by the National Emergency Operations Centre (NEOC) in Islamabad. We use specific criteria to define COVID-19 waves. The start of each COVID-19 wave is marked by the day of the lowest number of daily cases preceding a sustained increase, while the end is the day with the lowest number of cases following a 7-days decline, which should be lower than the 7 days following it. Key variables such as COVID-19 tests, cases, and deaths with their rates of change to the peak and then to the trough are used to draw descriptive comparisons. Additionally, a linear regression model estimates daily new COVID-19 deaths in Pakistan.
+
+## p0003 — Results
+
+Pakistan saw five distinct waves, each of which displayed the typical topology of a complete infectious disease epidemic. The time from wave-start to peak became progressively shorter, and from wave-peak to trough, progressively longer. Each wave appears to also be getting shorter, except for wave 4, which lasted longer than wave 3. A one percent increase in vaccinations decreased deaths by 0.38% (95% CI: -0.67, -0.08) in wave 5 and the association is statistically significant.
+
+## p0004 — Conclusion
+
+Each wave displayed distinct characteristics that must be interpreted in the context of the level of response and the variant driving the epidemic. Key indicators suggest that COVID-19 preventive measures kept pace with the disease. Waves 1 and 2 were mainly about prevention and learning how to clinically manage patients. Vaccination started late during wave 3 and its impact on hospitalizations and deaths became visible in wave 5. The impact of highly virulent strains Alpha/B.1.1.7 and Delta/B.1.617.2 variants during wave 3 and milder but more infectious Omicron/B.1.1.529 during wave 5 are apparent.
+
+## p0005 — Introduction
+
+In Pakistan, the first case of COVID-19, a novel and little-understood disease, was detected on February 26, 2020. Being a developing country with limited resources, crumbling health infrastructure and low health expenditure [1], Pakistan has no past experience with pandemics and a high burden of communicable diseases [2]. As of February 23, 2022, the country had fully vaccinated 43% of its total population [3] and the Omicron variant of COVID-19 was the dominant strain [4]. These factors make Pakistan a high-risk country, with a large pool of infection-susceptible people.
+
+## p0006 — Introduction
+
+The emergence of COVID-19 has arguably been the biggest social and economic disruption in Pakistan in recent history. The pandemic has largely manifested itself in five distinct waves each of which have a rise, plateau, and trough in cases, followed by a period of dormancy, after which the incidence of COVID-19 infections begins to rise again. Thus, each individual wave follows a four-stage pattern followed by endemicity that has been seen for many infectious disease epidemics [5]. Beyond anecdotal observation, there is evidence that this is happening with COVID-19 as well [6]. What sets COVID-19 apart is that after completion of an individual wave, a new one would come along shortly, rather than taking much long, for example, annual recurrences for influenza. This pattern has been seen across the globe [7–11] with the timing of COVID-19 waves in different countries broadly coinciding [6].
+
+## p0007 — Introduction
+
+In this context, current literature on COVID-19 largely focuses on high-income countries during the initial waves [7,12,13], or aggregated at regional levels [8,14]. Given the different capacities of countries to manage the pandemic [15], there is a need to explore the characteristics of the subsequent pandemic waves in a developing country context, preferably with granularity of a country-level analysis.
+
+## p0008 — Introduction
+
+This paper aims to offer a comprehensive understanding of the impact of COVID-19 in Pakistan. To achieve this, we examine the five waves of the pandemic in Pakistan, analyzing various key aspects and critical statistics. These include the total number of COVID-19 tests conducted, confirmed cases, hospitalizations, COVID-19-related deaths, and the progress of vaccinations during each wave. Additionally, we employ statistical modeling to identify the significant factors contributing to COVID-19-related deaths. Our goal is to fill the existing gap in the literature by providing valuable insights specific to a developing country like Pakistan, where limited evidence currently exists.
+
+## p0009 — Criteria for COVID-19 waves
+
+We begin by retrospectively defining various time periods between 2020 and 2022 as distinct waves, based on existing literature [16]. There are a total of 628 observations (daily set of indicators) across these five waves. Based on our criteria, the starting point of each COVID-19 wave is defined as the day with the lowest number of daily new COVID-19 cases preceding a consistent rise in these cases, before the peak of the respective COVID-19 waves. The end of each wave is defined as the day with lowest number of daily new COVID-19 cases following a 7-day decline; this number also needed to be lower than the cases on any of the 7 days that followed it (Table 2).
+
+## p0010 — Data and variables
+
+In order to estimate the pattern for COVID-19 throughout the five waves in Pakistan, we use time series data of various daily indicators from April 3, 2020 to February 23, 2022, which are categorized into the following broad themes:
+
+## p0011 — Data and variables
+
+i) Wave timespan
+
+## p0012 — Data and variables
+
+ii) COVID-19 tests
+
+## p0013 — Data and variables
+
+iii) COVID-19 cases
+
+## p0014 — Data and variables
+
+iv) Test-to-case ratio
+
+## p0015 — Data and variables
+
+v) COVID-19 positivity
+
+## p0016 — Data and variables
+
+vi) Hospitalization and treatment
+
+## p0017 — Data and variables
+
+vii) COVID-19 deaths
+
+## p0018 — Data and variables
+
+viii) COVID-19 vaccination
+
+## p0019 — Data and variables
+
+ix) Policy environment
+
+## p0020 — Data and variables
+
+Several variables in the list above were transformed into ratios for the purpose of describing all five COVID-19 waves in Pakistan (S1 Table).
+
+## p0021 — Data and variables
+
+The data for all but two of the above themes, COVID-19 vaccination and policy environment, is compiled from daily national situation reports (Sitreps). These Sitreps are prepared by the National Emergency Operations Centre (NEOC) in Islamabad, Pakistan. Data in these Sitreps have served as the basis for all major COVID-19 policy decisions in Pakistan.
+
+## p0022 — Data and variables
+
+The data for COVID-19 vaccination is sourced directly from the National Command & Operation Centre (NCOC), Islamabad, Pakistan, which is the government forum that brings together the ministries of Health and Planning along with the military to determine pandemic policy and to coordinate the response. Data for the policy environment is taken from a publicly available dataset from the University of Oxford’s Blavatnik School of Governance [17]. This dataset is compiled by using qualitative information about the non-pharmaceutical interventions (NPIs) in a country and quantifying them into an index called Oxford Containment and Health Index for COVID-19. A detailed methodology of the index calculation can be found in a working paper by the Blavatnik school [18].
+
+## p0023 — Model specification
+
+Apart from presenting statistics on daily indicators for every wave, we estimate the predictors of daily new deaths due to COVID-19. For our model of daily new COVID-19 deaths, we use a linear ordinary least square (OLS) regression. The data as well as the model is divided into five distinct periods, representing the five waves of COVID-19 in Pakistan, as of February 2022. The manuscript comprises statistical analysis and inferences for each of the five waves separately.
+
+## p0024 — Model specification
+
+Our dependent variable is the daily new COVID-19 deaths in logarithmic form (LnYt); ϵt represents the error term capturing the effect of omitted variables. The specification of our linear OLS regression model is as follows:
+
+## p0025 — Model specification
+
+Our independent variables measured at daily intervals are:
+
+## p0026 — Model specification
+
+i) Log of daily new COVID-19 cases with 21-day delay (LnX1t+21);
+
+## p0027 — Model specification
+
+ii) Log of daily new COVID-19 tests with 28-day delay (LnX2t+28);
+
+## p0028 — Model specification
+
+iii) The Oxford containment and health index for COVID-19 with 14-day delay (X3t+14);
+
+## p0029 — Model specification
+
+iv) Time variable capturing the time trend (X4t);
+
+## p0030 — Model specification
+
+v) The number of people on ventilators as a proportion of the total admitted (X5t);
+
+## p0031 — Model specification
+
+vi) The number of people on oxygen as a portion of the total admitted (X6t);
+
+## p0032 — Model specification
+
+vii) Log of second doses of COVID-19 vaccines administered with 14-day delay (LnX7t+14)
+
+## p0033 — Model specification
+
+Daily new COVID-19 cases are regressed with a 21-day lag, since among those who die from COVID-19 infection, death occurs between a median of 14 days [19] and 25 days (average of three weeks) after presenting symptoms [20,21]. This is pertinent in the case of Pakistan, as most of the COVID-19 testing in the country has been symptomatic, i.e., done when someone develops symptoms of COVID-19 and hence either voluntarily gets tested or is prescribed by a medical professional to do so.
+
+## p0034 — Model specification
+
+Given the delay for daily new cases, daily new COVID-19 tests are regressed with a delay of 28 days. This delay allows for the time it takes for someone to test positive for COVID-19 and for their symptoms to worsen (for example, by escalating to hospitalization, which takes nearly a week [22] before resulting in death). For vaccination, a 14-day lag is taken, as immunity from vaccines is generally understood to develop two weeks or longer after receiving a shot [23–25].
+
+## p0035 — Model specification
+
+The Oxford Containment and Health Index is calculated out of 100 where 100 means strict restrictions and 0 means no restrictions imposed on the general population. This variable is regressed with a 14-day lag, as we assume that any new government restrictions will take approximately that long to have any effect. Additionally, the time variable is meant to capture any unmeasured or seasonal effects on COVID-19 deaths in Pakistan, such as an overall rate of increase or decrease of daily deaths in each wave. We assume the error term is not correlated with any of the independent variables.
+
+## p0036 — Model specification
+
+Newey-West standard errors are used to account for autocorrelation and potential heteroskedasticity in the error terms. Statistical tests are performed to ensure that the required assumptions for the regression model are met: for heteroskedasticity, the Breusch-Pagan test is applied, whereas for serial correlation, the Durbin-Watson test is used. Variance inflation factor (VIF) is calculated for multicollinearity. The presence of unit roots is tested using augmented Dicky-Fuller tests for each independent variable in our regression model. All the variables are found to be stationary, fulfilling an important pre-requisite for our analysis (Table 1). The statistical analysis is carried out using STATA 17 software.
+
+## p0037 — Summary statistics
+
+Pakistan experienced five distinct waves from 3rd April 2020 till 23rd February 2022 (Fig 1). Wave 1 lasted the longest (150 days), while the wave 5 was the shortest (83 days). Wave 4 was remarkable for its relatively rapid upslope and a long tail, while wave 5 showed a reverse pattern. The duration of each wave of COVID-19 in Pakistan was shorter than the preceding one apart from wave 4. After wave 1, each wave took less time to reach its peak and took longer to reach its trough, apart from wave 5.
+
+## p0038 — Summary statistics
+
+The capacity to conduct tests expanded over time from an average of 17,142 tests daily during wave 1 to 49,650 during wave 5. The increase in the daily tests peaked during wave 4. The highest average daily number of cases (3147) were observed during wave 3. The rate of increase of COVID-19 cases was the highest during wave 4, but the rate of decline in cases after the peak of a wave was the fastest during wave 5. Test-to-case ratio kept increasing from 15 during wave 1 to 57 during the wave 5. While total positivity varied across waves, the rate in daily change of positivity remained relatively unchanged apart from waves 2 and 3, where it was lower as compared to other waves (Table 2).
+
+## p0039 — Summary statistics
+
+Hospitalizations were the highest for waves 1 and 3 and the lowest for wave 5, whereas duration of hospitalization fell linearly from an initial 13 days during wave 2 to 5 days during wave 5. Hospitalizations became more specific over time in that, nearly two thirds of admitted patients during wave 1 were stable, compared to 9% during wave 5. The average stable-admitted ratio decreased continuously from wave 1 to wave 4 but increased slightly in wave 5. The rate at which people recovered from COVID-19 and/or were discharged from hospital was the fastest in wave 4 but the slowest in wave 2.
+
+## p0040 — Summary statistics
+
+The average oxygen beds-admitted ratio continuously increased in each wave, reaching its maximum value in wave 4. During wave 1, 27% of all admissions required oxygen and 7% needed a ventilator, compared to 81% and 10% respectively during wave 5. The average oxygen bed utilization followed a declining trend except for wave 3 (24%) and was the lowest in wave 5 (7%). The trend of average ventilators utilization ratio showed that all available ventilators were not fully utilized in any of the five waves. The highest ventilators utilization was in wave 3 (20%) and the lowest in wave 5 (5%). These two ratios suggest that most critical patients were put on oxygen for recovery and a small proportion of these people were transferred to ventilators.
+
+## p0041 — Summary statistics
+
+Deaths from COVID-19 were the highest during wave 3 at 9,423, which also saw the highest daily number of deaths (78.5) and the highest rate of increase in daily deaths. Average daily deaths to hospitalization rate peaked during wave 2, while deaths to ventilator use was the highest during wave 1. Average deaths to case ratio was the highest for wave 3 but was in the 2.2–2.8% range, except for wave 5 when it was 1.1%.
+
+## p0042 — Summary statistics
+
+Pakistan’s vaccination drive started towards the end of wave 2, but full vaccination (i.e., people receiving both their doses) did not happen until the beginning of wave 3. Consequently, total and daily new second dose of vaccine administered was highest in wave 5. Government restrictions, measured by the Oxford Containment and Health Index, appeared to be comparable in each wave.
+
+## p0043 — OLS regression results
+
+The linear OLS regression results for daily new COVID-19 deaths indicate that daily new COVID-19 cases were a statistically significant determinant for daily new deaths in all five waves at 95% CI; a one-percentage increase in COVID-19 cases caused a 0.46–0.69% increase in deaths across the five waves (Table 3).
+
+## p0044 — OLS regression results
+
+The daily new COVID-19 tests and Oxford containment and health index, which records the presence of government NPIs and restrictions, were both found to be statistically significant determinants of COVID-19 deaths in wave 1. Increasing daily new tests by 1% reduced daily deaths by 0.65% (95% CI: 0.26, 1.04). An increase in Oxford Containment and Health Index by 1 point resulted in 0.03% reduction in daily new deaths (95% CI: -0.05, -0.005).
+
+## p0045 — OLS regression results
+
+The time trend variable was statistically significant in waves 1, 3 and 4. The coefficients indicate that, on average, daily COVID-19 deaths decreased at a rate of 0.04% per day (95% CI: -0.04, -0.03) during wave 1. However, daily new deaths reduced at a rate of 0.01% per day during wave 3 (95% CI: -0.02, 0.002) and wave 4 (95% CI: -0.01, 0.00).
+
+## p0046 — OLS regression results
+
+The ventilator-admitted ratio was statistically significant in waves 1, 4 and 5. The coefficient was negative throughout these three waves and significant at 95% CI. The coefficients indicates that if ratio of patients on ventilator out of the admitted increased then daily new deaths would decrease by 14–17%.
+
+## p0047 — OLS regression results
+
+Oxygen-admitted ratio was only significant in waves 1 and 2 at 95% CI, where the coefficient was positive, implying that an increase in the ratio of oxygenated patients out of the total admitted increased was associated with an increase in daily new deaths due to COVID-19 by approximately 4%.
+
+## p0048 — OLS regression results
+
+Lastly, the number of fully vaccinated people is statistically significant in each of the last three waves. During wave 3, COVID-19 deaths increased by 0.07% (95% CI: 0.006,0.14) as percentage of fully vaccinated people increased by one percent. This rate increased to 0.10% (95% CI: 0.006,0.14) during wave 4. However, during wave 5, daily new deaths due to COVID-19 decreased by 0.38% (95% CI: -0.67, -0.08) as fully vaccinated people increased.
+
+## p0049 — Discussion
+
+Pakistan experienced 5 distinct waves from 3rd April 2020 to 23rd February 2022. Our analysis reflects both the evolution of Pakistan’s response, as well as the differential impact of different variants of the virus shaped the contours and features of each wave. Pakistan experienced its initial wave earlier than other South Asian countries including India, Bangladesh, Sri Lanka and Nepal, while peaks for the subsequent waves coincided with those in other countries [26].
+
+## p0050 — Discussion
+
+The upslope, as seen by the rate of change for testing and cases, was always steeper than during the downward slope of a wave. This pattern follows what is known about infectious epidemics in that cases rise quickly, plateau and then fall, slowly to an endemic state where a low ebb of infections persists in the community indefinitely [5]. In fact, each wave behaved as a typical epidemic caused by a distinct variant of the virus. Wave 1 was dominated by B.1 variant, wave 2 by B.1.36 variant, the wave 3 by Alpha/B1.1.7 and Delta/B.1.617.2 variants, wave 4 had majority cases of the Delta/B.1.617.2 variant [27–29] while wave 5 was driven by Omicron/BA.5.2.1.7 [4].
+
+## p0051 — Discussion
+
+A key challenge faced by Pakistan at the beginning of the pandemic was that there was little prior experience with any pandemic outbreak of such level. Although disease surveillance systems exist, they had not been scaled to manage case surveillance, hospital admissions, daily deaths, and eventually large-scale adult vaccination and event tracking. Pakistan has a federal system of governance where provinces provide health services while the federal ministry provides guidance and coordination. In addition, considerable curative care is in the private sector. To address the potential difficulties in mounting a unified national response to the disease in the face of this diversity, a National Action Plan for COVID-19 was formulated in March 2020 that placed the responsibility for the national response in a National Coordination Committee (NCC) that was headed by the Prime Minister and attended by all federal ministers. The NCC set national policy which was implemented by the National Command and Operation Centre (NCOC) that was co-headed by the military and civilian leadership [30]. The NCOC coordinated the management of the extensive lockdowns, other key NPIs such as school closures, limited opening hours for essential businesses (examples of which included grocery stores and pharmacies), closure of borders, cancellation of public events and social gatherings [31,32]. This was supported based on an elaborate data gathering and analysis system that guided daily decisions.
+
+## p0052 — Discussion
+
+Wave 1 continued the longest and intervals became shorter between each successive wave. Each wave showed unique features, that were determined by the particular variant that drove that wave, along with the larger context that included the type of the variant driving the wave, the extent and type of preventive interventions and eventually the availability of the vaccine.
+
+## p0053 — Discussion
+
+Pakistan’s response to COVID-19 evolved over time. For example, wave 1 had the highest positivity rates and the longest duration, in part due to low initial rates of testing, including very little contact tracing in the early days [33]. As testing increased and mobility restrictions tightened, duration of waves 2 and 3 became shorter. However, by the end of wave 2, intervention fatigue had set in. Implementation was laxer, and these factors contributed to more cases and deaths of any wave during wave 3. Indeed, the Oxford Containment and Health Index was significant only during wave 1 in terms of preventing deaths.
+
+## p0054 — Discussion
+
+In addition to preventive measures, the higher daily COVID-19 cases in waves 3, 4, and 5 may be attributed to highly transmissible Alpha [34,35], Delta [36,37] and Omicron [38] variants, and to easing of severe restrictions such as lockdowns and school closures [39]. It is also possible that many cases were missed during wave 1 due to limited testing. However, the stability of daily testing in waves 3 to 5 suggests a stable equilibrium between the testing system and how cases were being incident–the system was capturing most of the cases from previously recognized populations and locations. It is likely that undiagnosed cases and deaths were few, since as part of the national surveillance, teams kept abreast of burials in large and midsized towns and also periodically canvased opinion of general practitioners about upsurges in respiratory illnesses. On average, Pakistan had fewer cases per million population than neighboring countries of India, Bangladesh, and Iran, as well as several of the developed countries [26].
+
+## p0055 — Discussion
+
+As with prevention, clinical management of cases evolved over time. Initially most cases were hospitalized as seen by the high case to hospitalization ratio–only 27% of admissions required oxygen 7% required ventilators during wave 1. In fact, there was a correlation between deaths and oxygenation (which was mostly at hospitals) during waves 1 and 2, a pattern that was seen globally. However, with each succeeding wave, use of oxygen increased while ventilators fluctuated within a narrow range, as was also seen in India [40,41]. Thus, even as COVID-19 hospitalizations peaked during wave 3, hospitalization to case ratio increased, and average duration of hospitalization and the use of hospitals for simple oxygenation fell, suggesting hospitals, ICU and ventilators, were increasingly reserved only for the sickest [42]. Deaths correlated best with a 21-day delay model rather than a 28-day one, suggesting that most deaths happened early after infection. Higher hospitalizations during wave 3 may also have been attributed to the Alpha followed by Delta variants [43–45]. By contrast, lower hospitalizations, length of stay, and mortality during wave 5 may be attributed to the Omicron variant that was seen worldwide [46,47], and specifically in South Africa [48] and Brazil [49] during the Omicron waves. Vaccination started earlier on in wave 3 and more than half of the eligible population was fully vaccinated by wave 5 [3] and may have contributed to lower hospitalizations in wave 5. Unlike COVID-19 induced major challenges to the healthcare capacity in various countries [50,51], Pakistan was able to build healthcare resources capacity to keep pace with the pandemic. Ventilator and oxygen utilization never exceeded 20% and 24% respectively in wave 3.
+
+## p0056 — Discussion
+
+Vaccination drive started in Pakistan by the end of February 2021. Despite a slow start, vaccination picked up pace from 26,356 daily vaccinations in wave 3 to 308,129 in wave 4 as it was rolled-out to younger population and vaccine supply increased in the country. Average daily deaths did not reduce significantly due to vaccinations during waves 3 and 4 [52,53], but showed marked reduction in hospitalizations and deaths towards the end of wave 4 and during the entire wave 5 [54].
+
+## p0057 — Discussion
+
+From our regression model, we found that daily new COVID-19 cases were statistically significant determinants of daily new deaths due to COVID-19. The association was also observed from the wave 3 as both cumulative cases and deaths were the highest, including the average daily deaths which were considerably higher than any other wave, as seen in other countries [55]. Secondly, daily new deaths due to COVID-19 increased with patients on oxygenated beds while decreased with patients on ventilators in the initial waves, potentially due to high patients load in hospitals, critical patients were put on oxygen rather than ventilator. Wave 5 experienced the smallest number of daily COVID-19 deaths possibly because it was dominated by the Omicron variant [56].
+
+## p0058 — Limitations
+
+There are several limitations associated with the data used in this paper. While the official data used for the analysis are disaggregated by sub-national level, demographic disaggregation, such as age or gender, are not available. This limits the analysis in terms of the implication of gender and age on COVID-19 deaths. The national data is compiled by aggregating the numbers for each subnational unit in Pakistan. However, such an analysis would be too extensive to depict and therefore our analysis does not account for subnational differences. It is possible that distinctive cultures, behaviors, and differences in the stringency in enforcement of interventions vary between regions and may in theory, influence the number of COVID-19 cases and deaths.
+
+## p0059 — Limitations
+
+Similarly, data for hospitalizations is also unaccompanied by any information on comorbidities, as this information was not available beyond treating hospitals, losing a level of richness of analysis that includes such comorbidities. Also, data for daily new hospital admissions started becoming available towards the very end of wave 1. Consequently, the average length of hospital stay could not be calculated for this wave.
+
+## p0060 — Limitations
+
+The official vaccination data available to us at the time of this analysis is not desegregated by the different types of available vaccines, for example Sinopharm, CanSino, Sputnik V and others. Differential impact of each vaccine on COVID-19 deaths in Pakistan would be informative. All the above limitations notwithstanding, we are confident that this study provides crucial insights into the prevailing trends of COVID-19 in Pakistan in manner that is constructive.
+
+## p0061 — Conclusion
+
+We describe how COVID-19 waves differed in terms of cases, hospitalizations, and deaths in Pakistan, and analyze potential reasons for these differences. Pakistan experienced its initial COVID-19 wave earlier than other South Asian countries, with wave 1 lasting the longest. As testing increased and restrictions were enforced, subsequent waves became shorter, but wave 3 stood out due to lax implementation, resulting in the highest number of cases and deaths. The higher daily cases in waves 3, 4, and 5 were also attributed to the highly infectious Delta and Omicron variants. Wave 3 recorded the most COVID-19 deaths, with 9,423 fatalities, the highest daily death rate, and the steepest increase in daily deaths. Lastly, vaccination began in wave 2, with full vaccination achieved in wave 3, and the highest second-dose vaccinations occurred in wave 5.
+
+## p0062 — Conclusion
+
+At the pandemic’s onset, Pakistan’s lack of prior experience was a challenge. However, a National Action Plan for COVID-19 was established in March 2020. COVID-19 management in Pakistan kept pace with the spread of the disease during five distinct waves and successfully implemented the COVID-19 vaccination drive nationwide. The experiences and limitations offer valuable insights for future pandemic management for a developing country like Pakistan.
+
+## p0063 — Data Availability
+
+The data was provided to the Akhter Hameed Khan Foundation (AHK-F) team for this study as part of its work with Pakistan’s Federal Ministry of National Health Services, Regulations & Coordination (MoNHSR&C) and the National Command & Operation Centre (NCOC) in Islamabad, which are leading Pakistan’s response to the COVID-19 pandemic. The AHK-F team has provided analytical support to the above entities, and such created knowledge that has directly informed pandemic policy-making in Pakistan. COVID-19 data is compiled and shared in daily National Situation Reports, or Sitreps, by the National Emergency Operation Centre (NEOC). Each day’s Sitrep is compiled as a PDF file. The data used for this study was manually compiled from these PDF files and then used in STATA. The parentage of this data is with the NCOC and the MoNHSR&C. The AHK-F team received this data with the express understanding that it would be kept confidential. However, the data can be obtained independently from the NEOC, through a data request procedure, which is subject to approval from the MoNHSR&C. The data request itself is to be addressed to: Dr. Shahzad Baig, National Coordinator, National Emergency & Operation Center, D Block, EPI Building, Chak Shahzad, Park Road, Islamabad. Email: eocpakistan@gmail.com Phone: +92-51-8730879. The data on Oxford Health and Containment Index is taken from and publicly available at the following GitHub repository: https://github.com/OxCGRT/covid-policy-tracker/tree/master/data.
+
+## p0064 — Funding Statement
+
+This work was supported, in whole or in part, by the Bill & Melinda Gates Foundation [grant number: INV-025171]. Under the grant conditions of the Foundation, a Creative Commons Attribution 4.0 Generic License has already been assigned to the Author Accepted Manuscript version that might arise from this submission. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.

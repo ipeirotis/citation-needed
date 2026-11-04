@@ -1,0 +1,246 @@
+# ROS mediated anticandidal efficacy of 3-Bromopyruvate prevents vulvovaginal candidiasis in mice model
+
+DOI: https://doi.org/10.1371/journal.pone.0295922
+PMCID: PMC10754460
+Authors: Jothi R, Hong ST, Enkhtsatsral M, Pandian SK, Gowrishankar S.
+License: https://creativecommons.org/licenses/by/4.0/
+
+## p0001 — Abstract
+
+Candidal infections, particularly vulvovaginal candidiasis (VVC), necessitate effective therapeutic interventions in clinical settings owing to their intricate clinical nature and elusive understanding of their etiological mechanisms. Given the challenges in developing effective antifungal therapies, the strategy of repurposing existing pharmaceuticals has emerged as a promising approach to combat drug-resistant fungi. In this regard, the current study investigates molecular insights on the anti-candidal efficacy of a well-proven anticancer small molecule -3-bromopyruvate (3BP) against three clinically significant VVC causing Candida species viz., C. albicans, C. tropicalis and C. glabrata. Furthermore, the study validates 3BP’s therapeutic application by developing it as a vaginal cream for the treatment of VVC. 3BP exhibited phenomenal antifungal efficacy (killing >99%) with minimum inhibitory concentrations (MIC) and minimum fungicidal concentrations (MFC) of 256 μg/mL against all tested Candida spp. Time killing kinetics experiment revealed 20 min as the minimum time required for 3BP at 2XMIC to achieve complete-killing (99.9%) in all Candida strains. Moreover, the ergosterol or sorbitol experiment explicated that the antifungal activity of 3BP does not stem from targeting the cell wall or the membrane component ergosterol. Instead, 3BP was observed to instigate a sequence of pre-apoptotic cascade events, such as phosphatidylserine (PS) externalization, nuclear condensation and ROS accumulations, as evidenced by PI, DAPI and DCFH-DA staining methods. Furthermore, 3BP demonstrated a remarkable efficacy in eradicating mature biofilms of Candida spp., achieving a maximum eradication level of 90%. Toxicity/safety profiling in both in vitro erythrocyte lysis and in vivo Galleria mellonella survival assay authenticated the non-toxic nature of 3BP up to 512 μg/mL. Finally, a vaginal cream formulated with 3BP was found to be effective in VVC-induced female mice model, as it significantly decreasing fungal load and protecting vaginal mucosa. Concomitantly, the present study serves as a clear demonstration of antifungal mechanistic action of anticancer drug -3BP, against Candida species. This finding holds significant potential for mitigating candidal infections, particularly VVC, within healthcare environments.
+
+## p0002 — Introduction
+
+Vulvovaginal candidiasis (VVC) is a universal distressing disease that primarily affects women of reproductive age [1]. Candida albicans is the primary cause of VVC, while non-albicans species such as Candida krusei, Candida tropicalis and Candida glabrata can occasionally contribute [2, 3]. Despite the fact that RVVC is not associated with mortality, the financial burden and morbidity related to medical care have been rapidly rising each year [4]. Nevertheless, till to date, the risk factors associated with increased susceptibility to RVVC have not been clearly elucidated. The involvement of drug resistant strains in the pathogenesis is the major challenge faced during the RVVC treatment [5]. This startling clinical situation is being attributed to the risk factors associated with modern medical practices, including the usage of broad-spectrum antibiotics, immunosuppressive drugs and medical implants. These practices pose a serious threat to the health of women, especially in those who have HIV or immune systems that are compromised.
+
+## p0003 — Introduction
+
+Despite the high prevalence of candidal infections, current treatment options are limited to three antifungal drug classes: azoles, polyenes, and echinocandins [6, 7]. Triazoles have been widely used in the treatment of clinical Candida infections because of their superior safety profile, oral absorption and broad-spectrum antifungal activity [8]. Concomitant with prolonged usage of drug and the pathogen’s ability to proliferate into biofilm on various biotic and abiotic surfaces, there has been increasing emergence of drug resistance to these conventional antifungals [9, 10]. Since growing biofilm cells are 1000 times more resistant than planktonic cells, biofilm formation by C. albicans acts as a defender to protect it from the action of host immunity and antimicrobial agents [11].
+
+## p0004 — Introduction
+
+The increased prevalence of drug resistance to available antifungal agents in VVC is undoubtedly caused for concern over the development of new antifungal candidates [12]. However, drug development through de novo drug discovery requires many clinical trials to ensure its usage in medical settings; this is likely to be time- and money-consuming, and it limits novel drugs from being employed fast in clinical settings [13, 14]. A multitude of proof-of-concept studies have been conducted in support of alternative drug repurposing strategies to envisage antibacterial properties of drugs approved for use in a variety of therapies, including anticancer, antifungal and cardiovascular therapy [15, 16].
+
+## p0005 — Introduction
+
+3-bromopyruvate (3BP) -a halogenated derivative of pyruvic acid known for its strong alkylating properties, has long been one of the most well researched compounds in the category of halogenated carboxylic acids. In the past decade, 3BP has been well documented/established for its exceptional cytotoxic effect on cancer cells, including hepatocarcinomas, colon, breast and lung malignancies [17, 18]. The selective and cancer cell specific toxicity of 3BP has been attributed as an imperative anticancer candidate, and is still used as a last-resort treatment in a few cancer clinics throughout the world [19]. Because 3BP has no negative effects on healthy cells [20], it is tempting to consider as a potent alternative antimicrobial agent for the treatment of invasive infections caused by antibiotic resistant pathogens. Given the significance of 3BP’s non-toxicity and lack of detrimental effects on healthy human cells, it is intriguing to examine 3BP as a potent alternative antimicrobial agent for the treatment of VVC caused pathogens that are resistant to common antimicrobials.
+
+## p0006 — Introduction
+
+More importantly, a patent application (WO2011127200A8) has been filed for the use of 3BP’s anti-glycolytic action in the treatment of bacterial infections [21]. Considering the 3BP’s established pharmacological and toxicological characteristics, the current research study thoroughly examines the antifungal mechanistic action of a well-known anticancer drug, 3BP, against three clinically significant VVC causing Candida species, namely C. albicans, C. tropicalis, and C. glabrata. Besides, attempts were also undertaken to evaluate the in vitro and in vivo anti-infective efficacies of 3BP-formulated vaginal cream for the treatment of VVC using female mice model.
+
+## p0007 — Strains and culture conditions
+
+Three strains of Candida—C. albicans (ATCC 10231), C. glabrata (MTCC 184), and C. tropicalis (MTCC 3019)—that were purchased from HiMedia in India were utilized in the investigation. Before being employed in experiments, the strains were routinely grown at 37°C in yeast extract peptone dextrose (YEPD) broth and kept in sabouraud dextrose agar (SDA) plates. The 3 h culture with 0.1 optical density (OD) (1 × 106 CFU/mL) was used as inoculum to perform all in vitro assays [11].
+
+## p0008 — Compound preparation
+
+The compound 3BP was obtained from Sigma-Aldrich. The stock solution was prepared at a final concentration of 100 mg/mL using ethanol as a solvent. Finally, the stock was stored at 4°C until further use.
+
+## p0009 — Determination of minimal inhibitory concentrations
+
+The MIC of 3BP against C. albicans, C. glabrata and C. tropicalis was determined using a broth microdilution assay as demonstrated by Gowrishankar et al., [22]. In brief, 1 mL of YEPD medium (HiMedia, India) was dispensed into a 24-well Microtitre Plate (MTP). The 3BP solution (2048 μg/mL) was then added to the first well, which contained 2 mL of YEPD broth. One mL of medium was serially diluted in the subsequent wells to achieve a 3BP concentration ranging from 0 to 1024 μg/mL. Finally, 1% of exponential cultures corresponding to each fungal strain were added in different wells, and the plate was stored at 37°C for 24 h. The wells containing YEPD medium with and without culture (devoid of the test compound) were served as control and blank, respectively. Subsequent to incubation, MIC was determined by measuring the OD at 600 nm using a spectrophotometer (Spectra Max 3, Molecular Devices, The United States). The MIC was defined as the minimal concentration of 3BP that showed visible growth inhibition in YEPD broth compared to untreated control. All the experiments were carried out in triplicate.
+
+## p0010 — Determination of minimal fungicidal concentrations
+
+To determine the MFC, spread plate method was performed as stated by Hafidi et al., [23]. A 100 μL of aliquots from the wells that displayed observable growth inhibition from broth microdilution assay was used to spread on the YEPD agar plates, and incubated at 37°C for 48 h. After incubation, CFU was calculated. MFC was defined as the lowest concentration of 3BP that showed either no growth or less than 30 fungal colonies to obtain approximately 99–99.5% killing activity.
+
+## p0011 — Time killing kinetics
+
+The time killing rate of 3BP against test fungal strains was evaluated as described previously by Öz et al., [24]. Initially, 1 × 106 CFU/mL of Candida cultures were added separately in a boiling tube containing 5 mL of YEPD medium and treated with 3BP at MIC and 2XMIC. The YEPD medium containing fungal culture without 3BP served as control. The tubes were then incubated at 37°C. 200 μL and 100 μL of cell suspension were removed at the predetermined time intervals (at 30, 60, 120, 180, 210, 240, 270, 300, 330 and 360 min) and used for measuring optical density and CFU, respectively. In addition, 2 μL aliquots were used to spot on YEPD agar plates. Subsequently, the agar plates were incubated at 37°C for 48 h for CFU counting.
+
+## p0012 — Sorbitol assay
+
+Since sorbitol has been considered as one of the fungal cell wall osmotic protection agents, the action of 3BP on candidal cell wall was assessed using sorbitol assay. The MIC assay was carried out using medium with and without sorbitol (control) to assess the possible underlying mechanism of 3BP on Candida cell wall [25]. Briefly, 1% of the test fungal strains were used to inculcate 1 mL of YEPD medium in wells of MTPs supplemented with various concentrations of 3BP (0–1024 μg/mL) along with 0.8 M sorbitol. The YEPD with fungal culture devoid of sorbitol was considered as a negative control. The plates were incubated at 37°C, and the difference in the MIC was assessed by measuring growth OD after 48 h.
+
+## p0013 — Ergosterol assay
+
+To assess the potential mode of action of 3BP on fungal cell membrane -sterol (ergosterol), ergosterol assay was employed [26]. The MIC assay was performed in the presence and absence of exogenous ergosterol. In Brief, the test compounds 3BP (0–1024 μg/mL) were added into 1mL of YEPD medium containing exogenous ergosterol at a final concentration of 400 μg/mL. Then, 1% of fungal inoculum was added into each well and incubated at 37°C for 24 h. After incubation, the change in the MIC value of 3BP was evaluated by measuring the growth OD at 600nm.
+
+## p0014 — ROS estimation
+
+The endogenous level of ROS accumulation in Candida species during 3BP manifestation was assessed through 2′, 7′-dichlorofluorescein diacetate (DCFH-DA) staining method [27]. The fungal cell suspension was initially adjusted to 1 × 106 CFU/mL before treatment with ½ MIC and MIC of 3BP for 30 min. Subsequent to treatment, the cell suspension was stained with DCFH-DA (2 μg/mL) for 30 min at dark. Further, the cells were collected through centrifugation and dissolved in PBS. The fluorescence intensities were visualized under fluorescence microscope (Nikon Eclipse Ts2R, Tokyo, Japan) at the excitation and emission wavelengths of 488 and 540 nm, respectively.
+
+## p0015 — Cell membrane permeability assay
+
+To investigate 3BP’s exposure mediated cell membrane damage, if any; a microscopic examination using PI stain was employed to comprehend cell membrane integrity in Candida species [28]. Candida cells were treated with 3BP at ½ MIC and MIC. After incubation for 30 min at 37°C, cells were harvested by centrifugation and suspended in PBS. Then, stained with PI (1 μg/mL) for 30 min and visualized under fluorescence microscopy (Nikon Eclipse Ts2R, Tokyo, Japan).
+
+## p0016 — DAPI staining
+
+A DNA-specific fluorescent dye 4′-6-diamidino-2-phenylindole (DAPI) was employed to examine the nuclear fragmentation upon 3BP treatment [29]. After 30 min of treatment with 3BP at ½ MIC and MIC, the Candida cells were stained with DAPI (1 g/mL) for 30 min in the dark. Subsequent to incubation, the cell pellet was collected through centrifugation, and washed with PBS. The alteration of fluorescence intensity was observed under fluorescence microscopy (Nikon Eclipse Ts2R, Tokyo, Japan).
+
+## p0017 — Effect of 3BP on preformed biofilm
+
+The eradication efficacy of 3BP on mature biofilm of Candida spp. was evaluated by crystal violet (CV; HiMedia, India) staining method [30]. In brief, biofilm formation was induced by culturing overnight Candida stains in 1 mL of spider medium supplemented with 10% of hyphal inducing medium (FBS) in 24-well MTP. After incubation, 37°C for 48 h, formed biofilm cells were treated with 3BP at various concentrations (½MIC, MIC & 2XMIC) and the plates were again incubated at 37°C for 24 h. Subsequent to incubation; the formed sessile cells on the bottom of MTP were stained with 0.4% CV for 15 min. After destaining with 15% glacial acetic acid for 15 min, the amount of CV bound biofilm cells was quantified spectrophotometrically at 570 nm. The percentage of biofilm inhibition was determined using the following formula.
+
+## p0018 — Effect of 3BP on preformed biofilm
+
+The relative biofilm inhibition: % of biofilm inhibition = [(Control OD570 nm −Treated OD570 nm)/ Control OD570 nm] × 100.
+
+## p0019 — Erythrocyte lysis assay
+
+The cytotoxicity of 3BP on human erythrocyte cells was analyzed using the protocol described previously by Turecka et al., [31]. Briefly, 5 mL of human blood was collected from healthy volunteers and transferred to a fresh 15 mL falcon tube containing an anticoagulant agent (sodium citrate). The total erythrocyte cells were harvested by centrifugation at 3000 rpm for 5 min and dissolved in PBS at the final concentration of 2%. Further, the blood suspension was exposed to different concentrations (0–1024μg/mL) of 3BP at 37°C for 1 h. Subsequent to incubation, the supernatant was collected to spectroscopically measure the erythrolytic activity at 415 nm.
+
+## p0020 — In vivo toxicity assessment using Galleria mellonella larvae
+
+The in vivo toxic effect of 3BP was analyzed using the invertebrate animal model Galleria mellonella [32]. Larvae weighing around 0.2–0.4 g were taken for experiments. Larvae were separated randomly as following five experimental groups (5 larvae/group) Group I: Naive control, Group II: Positive control (2% methanol), Group III: vehicle control (PBS), Group IV: 3BP (MIC) and, Group V: 3BP (2XMIC). Injection was performed with a U-100 insulin syringe (Dispovan, HMD, India) in the last proleg. The larva in the vehicle control group was injected with maximum volume of solvent used to dissolve 2XMIC of 3BP. Uninjected larvae serve as the naive control group. Larva groups were incubated at 37°C for 5 days. Survival was monitored every 24 h.
+
+## p0021 — Formulation of vaginal cream containing 3BP
+
+To prepare the vaginal cream, oil/water emulsion method was carried out. The oil phase comprising cetyl alcohol, stearyl alcohol, isopropyl myristate and polysorbate 80 was heated at 75°C until complete melting of the constituents [33]. Then, the aqueous phase consisting propylene glycol in water was mixed with oil phase at the ratio of 3:1, and stirred constantly until the temperature reaches <40°C. Then, 3BP was incorporated into the above mentioned suspension at various concentrations i.e., 0.25, 0.5 and 1% w/w. Finally, the pH of the vaginal cream was adjusted to skin pH i.e., 4.0–4.5 using lactic acid. In order to have comparative analysis with a positive/reference antifungal drug, miconazole (at 2% concentration) (HiMedia, India) based vaginal cream formulation was also developed.
+
+## p0022 — Physicochemical evaluation of vaginal cream
+
+Temperature stability test
+
+## p0023 — Physicochemical evaluation of vaginal cream
+
+The optimized cream formulation was stored at both 4°C (Refrigerator) and 37°C (room temperature) to evaluate its stability under different temperatures.
+
+## p0024 — Physicochemical evaluation of vaginal cream
+
+pH test
+
+## p0025 — Physicochemical evaluation of vaginal cream
+
+The change in the pH of formulated vaginal cream was analyzed over a one month period. A total of 1 g of vaginal cream was dissolved in 10 mL of distilled water and pH was measured using a pH meter.
+
+## p0026 — Physicochemical evaluation of vaginal cream
+
+Spreadability test
+
+## p0027 — Physicochemical evaluation of vaginal cream
+
+Spreadability test was carried out by using two upper glass lids of petri dishes. One g of cream formulation was placed at the corner between two upper glass lids and 30 g weight was placed on the upper glass lid for 5 min to compress and obtain a uniform thickness of cream. The length of cream after spreading was taken as a measure of spreadability [34].
+
+## p0028 — In vitro antifungal efficacy evaluation
+
+In order to assess the in vitro antifungal efficacy of formulated vaginal cream, agar well diffusion assay was performed [35]. Briefly, Candida cell suspension (1× 106 CFU/mL) was swabbed uniformLy on the YEPD agar plate. Then, 0.1 g of formulated vaginal cream was aseptically placed inside the well using sterile spatula. After incubation at 37°C for 24 h, antifungal activity of cream was confirmed through a zone of inhibition around the loaded wells. This assay was carried out at the predetermined time intervals (0, 1, 7, 14, 21 and 28 days.
+
+## p0029 — Animal selection and maintenance
+
+Female mice (n = 25) at twelve weeks of age with a body weighing approximately 20–25 g were obtained from breeding colonies and acclimatized for 3 weeks before being used in the experiments. Mice were housed at 8 animals per cage, with free access to food (6% fat, 18% protein; Rodent RQ 18–6; Zeigler Bros., Inc.) and filtered water. They were maintained under a 12 h light/12 h dark cycle at a temperature of 24° C and humidity of 55±5%.
+
+## p0030 — Ethical statements and humane endpoints
+
+The animal protocols were reviewed and approved by the Ethics Committee of the Institution’s Laboratory Animal Center in compliance with the guidelines of the Ethics Committee of Jeonbuk National University Laboratory Animal Center Guidelines (Permit Number: CBU 2012–0040). A protocol for early/humane endpoints for animals was implemented according to the regulations for animal facilities regarding the identification and evaluation of pain, distress, and suffering as well as the requirement that animals that are close to death should be put to death right away. No animals died or showed signs of discomfort, distress, or suffering before the experiment was over. At the end of the experiment, the animals were killed using cervical dislocation while being sedated with ketamine and xylazine (120 mg + 10 mg per kg of body mass given intraperitoneally).
+
+## p0031 — Animal model of VVC
+
+To establish the infections in mice, C. albicans ATCC1231 was used [36]. The animals (n = 25; 5 per group) was divided randomly into five groups viz., Group I: Naive control (without any treatment); Group II: VVC (Infected group); Group III: Negative control (3BP formulation alone); Group IV: Positive control 1 (VVC+ formulation containing miconazole) and; Group V: Treatment group (VVC+ formulation containing 1% 3BP). Briefly, 0.1 mL of C. albicans culture suspension of 1 x 107 CFU/mL was injected intra-vaginally into the mice using a micropipette with disposable tips. After two days of infection, the vaginal lavage was collected and diluted in a 0.85% saline, and plated on YEPD for CFU counting. The infection was considered sufficient if the mean count for the vaginal lavage cultures from each mouse was at least 104 CFU/mL. The infected mice were administered intra-vaginally with in-house formulated creams (0.25 g) once in a day for 6 successive days. On 24, 48 and 72 h after treatment establishment, vaginal fungal load, especially C. albicans was evaluated by determining the CFU/mL.
+
+## p0032 — Histopathology study
+
+Histopathological investigations were carried out to assess the effectiveness of 3BP cream formulations in protecting against vaginal damage caused by VVC. At the end of experiment, animals were slaughtered for their vagina and processed for histopathology. The sliced vaginal sections were further stained with hematoxylin. Vaginal damage if any was examined via light microscopy.
+
+## p0033 — Statistical analysis
+
+All the experiments were carried out in biological triplicates with at least two experimental replicates and the data were presented as mean ± standard deviation. To evaluate statistical differences between control and treated samples one-way analysis of variance (ANOVA) and Dunnett’s post hoc test was performed using SPSS statistical software 17.0. The significance was represented as p ≤0.05 and < 0.01, respectively.
+
+## p0034 — Results & discussion
+
+Vaginal infections are one such long-lasting health annoyance that affects millions of women around the world [37]. Globally, the improper usage of antifungals and the drastic increase in the immunocompromised population have resulted in an unfortunate increase in the incidence of VVC [38]. Alarmingly, the emergence of antifungal resistance among Candida species imposes threatening challenges in the control of VVC, necessitating an urgent need for the development of new antifungal candidates with a broad-spectrum pharmacological profile. In this context, researchers working in the field of antimicrobial resistance have identified drug repurposing as a promising strategy for effectively treating infections caused by MDR pathogens [39].
+
+## p0035 — Results & discussion
+
+On this background, the present study was focused on investigating the antifungal mechanistic action of a well-proven anticancer drug, 3BP against three clinically important Candida species associated with VVC. To ensure 3BP’s therapeutic applicability, a vaginal cream containing 3BP was formulated, and efforts were made to investigate its physicochemical properties as well as in vivo efficacy in the treatment of VVC using a female mice model.
+
+## p0036 — 3BP displays fungicidal action against planktonic cells of Candida species
+
+The inhibitory efficacy of 3BP on the planktonic growth of three tested Candida species was initially evaluated by determining the MIC and MFC using broth microdilution and spread plate methods, respectively. The observed Candida species growth inhibition during 3BP manifestation is represented in Fig 1. The obtained MIC of 3BP was 256 μg/mL for all tested Candida species, indicating that 3BP’s antifungal efficacy was not species-dependent. As shown by the current results, 3BP has the potency to combat three different Candida species, confirming its broad-spectrum anti-Candida efficacy.
+
+## p0037 — 3BP displays fungicidal action against planktonic cells of Candida species
+
+To identify the anti-candidal nature of 3BP, either fungicidal (MFC = MIC) or fungistatic (MFC>MIC), the ratio r = MFC/MIC was utilized [24], in accordance with the limits set by the most recent National Committee on Clinical Laboratory Standards (NCCLS). As shown in Fig 2, cells exposed to the MIC of 3BP displayed less than 30 colonies on agar plates, demonstrating that there was no difference in the concentration of 3BP used to achieve the MIC and MFC. This substantiated that 3BP killed Candida species, rather than simply arresting their proliferation, thus demonstrating the fungicidal nature of 3BP. Thus, it is envisaged that 3BP could be an efficient antifungal drug as it invariably exhibits phenomenal broad-spectrum fungicidal effects against three clinically significant species of Candida.
+
+## p0038 — 3BP displays fungicidal action against planktonic cells of Candida species
+
+Based on 3BP’s antifungal data, the rate of killing of 3BP at different time intervals was examined by subjecting the fungal strains to a time-killing kinetics experiment. By comparing the viable cell count, growth OD at the given time interval, the graph showcasing the dynamic relationship between the concentration of 3BP and its efficacy over time was plotted (Fig 3). The obtained log10 CFU/mL and growth OD of Candida spp., exposed to 3BP (MIC & 2XMIC) at various time points are depicted in Fig 3. The initial inoculum of cells treated with the MIC of 3BP did not change significantly (less than 3 log10 CFU/mL) up to 1h exposure, and complete reduction was observed with increasing the time of exposure, as shown in Fig 3, indicating that 3BP had fungistatic effects at short time exposure. However, cells treated with 3BP at 2XMIC showed a total decrease in proliferation after 30 min of exposure. The time killing kinetics made it abundantly evident that the concentration and duration of drug exposure are the two key factors that control the transition between fungistatic and fungicidal actions. The results of this experiment are congruent with the findings of a study by Leite et al., [25], which showed that the transition between fungistatic and fungicidal effects of citral depends on its concentration. With a 3BP exposure of 2 h for MIC and 30 min with 2XMIC, complete growth suppression in all Candida strains was recorded (Fig 3).
+
+## p0039 — Neither the cell wall nor the cell membrane are targets for 3BP’s fungicidal efficacy
+
+Understanding the mechanism of action of antimicrobial agents is critical for developing optimal therapeutic options for treating infections caused by resistant microbes when the first-line antibiotic fails [38]. Most of the conventional antifungal agents, including polyenes as well as the recently approved echinocandin classes, exhibit toxicity towards fungal cells by targeting the cell wall or composition [6]. On this perspective, the mechanistic action of 3BP on the Candida cell wall was examined by performing an MIC assay in the presence of sorbitol. Sorbitol is an osmotic protectant that stabilises the fungal cell wall under environmental stress, and its presence in the growth medium is expected to raise the compound’s MIC if it targets the fungal cell wall [26]. This result showed that the MIC value of 3BP in both the presence and absence of sorbitol was identical, clearly signifying that 3BP does not target the fungal cell membrane but rather works on another cell target.
+
+## p0040 — Neither the cell wall nor the cell membrane are targets for 3BP’s fungicidal efficacy
+
+Further, it was hypothesized that conventional antifungal compounds exert killing by targeting ergosterol, a key component of fungal cell membranes that is essential for fluidity and permeability [40]. The clinically approved polyenes including amphotericin-B, nystatin, natamycin, rimocidin, filipin and candicin, all demonstrated cytotoxicity against fungal cells with a strong affinity for fungal ergosterol [41]. Hence, to prove this speculation, the capability of 3BP to bind to ergosterol was investigated by introducing exogenous ergosterol into the medium containing 3BP and thereafter monitoring changes in MIC. Exogenous ergosterol increases the MIC of an antifungal agent that binds to ergosterol by inhibiting molecules from binding to it in cell membranes [42]. The MIC of 3BP did not vary significantly in the presence or absence of ergosterol, signifying that the mode of action of 3BP does not involve binding with ergosterol. The results of the sorbitol and ergosterol assays revealed that neither the fungal cell membrane nor the components of the cell wall are involved in the antifungal mechanism of action of 3BP.
+
+## p0041 — 3BP (at MIC) accumulates ROS in Candida cells
+
+Many antimicrobial drugs have been well demonstrated to destroy harmful microorganisms by boosting endogenous ROS generation. Along with their unique method of action, every antifungal drug is known to eventually cause the formation of ROS in fungal cells. For instance, miconazole, the azole class antifungal drug known to cause killing by interfering with fungal ergosterol, also causes the production of ROS accumulation in fungal cells [43]. A previous study on 3BP found that it made human colon cancer cells more vulnerable to apoptosis by boosting ROS production [44].
+
+## p0042 — 3BP (at MIC) accumulates ROS in Candida cells
+
+To ascertain the potential of 3BP exposure to induce ROS-dependent apoptosis, the accumulation of ROS in the Candida strain was quantified utilizing a fluorescent probe (DCFH-DA). The fluorescence intensity of cells expressed with 3BP increased significantly as compared to control cells (Fig 4). Additionally, it was noted that the fluorescence intensity increased along with the increasing concentration of 3BP, signifying the concentration dependent ROS accumulation in all tested Candida species. Previous report has demonstrated that subjecting C. neoformans to 3BP increased the production of ROS and consequently caused cell death, which is in consistency with the data of current study [45]. In agreement with the results of the present study, investigations by Seyedjavadi et al (2020) [46], Kobayashi et al (2002) [47] documented ROS accumulation as the key cellular event in the antagonistic activity of antifungal compound. Thus, it is envisaged that 3BP-mediated ROS accumulation could plausibly induce apoptosis in Candida species.
+
+## p0043 — 3BP achieves fungicidal action by mediating the cell membrane integrity loss of Candida
+
+To further verify the speculation on the mode of killing activity of 3BP, cell membrane integrity was assessed by employing propidium iodide (PI) staining. PI specifically penetrates and stains DNA in only dead cells or those with damaged cell membranes, and therefore it is used as an indicator of cell membrane integrity. If the drug compromises the cell membrane to cause death, PI can quickly enter the cell and boost fluorescence intensity, which can be seen under a microscope [29]. As shown in Fig 5, cells treated with 3BP at varied doses showed increased fluorescence intensity, indicating that 3BP significantly damaged cell membrane integrity in all tested Candida strains.
+
+## p0044 — 3BP achieves fungicidal action by mediating the cell membrane integrity loss of Candida
+
+With the increased PI intensity, it could also be inferred that 3BP treatment renders the externalization of phosphatidylserine (PS), which is an early marker of apoptosis in fungi. The PS of normal/healthy cells is internalized in the inner leaflet; however, cells undergoing apoptosis and necrosis readily expose the PS on the outside leaflet for PI binding [28]. As a result, the data of the current study indicate the possible apoptotic mode of action of 3BP on Candida cell death. The findings of the present study are in corroboration with a study on 3BP by Sun et al., [18], wherein they demonstrated a similar mode of action of 3BP against colon cancer cells (SW480 and HT29 cells) through Annexin/PI staining.
+
+## p0045 — DAPI staining unveiled nuclear condensation upon 3BP treatment
+
+The morphological hallmarks of apoptosis include cell shrinkage, nuclear fragmentation and condensation [29]. Hence, to further gain insights into the apoptotic mode of action of 3BP on Candida cells, DAPI staining was performed. A fluorescent interaction dye, DAPI, closely adheres to adenine-thymine-rich regions of DNA, allowing its fluorescence to be detected. The intensity of DAPI increases as a result of drug exposure, compacting the chromatin in nuclei and highlighting abnormally shaped nuclei with a deep blue fluorescence. A fluorescence microscopic study showed that cells that had been treated with 3BP had enhanced deep blue colour intensity, but controls showed a lack of fluorescence intensity, indicating the possibility of nuclear condensation after 3BP treatment (Fig 6).
+
+## p0046 — DAPI staining unveiled nuclear condensation upon 3BP treatment
+
+Overall, the experimental results of microscopic analysis clearly demonstrated the occurrence of PS externalization, nuclear condensation, and ROS accumulation in Candida cells upon treatment with 3BP, suggesting that the mechanism underlying the fungicidal action of 3BP could plausibly be ROS-dependent cell death. Numerous investigations on 3BP cytotoxicity demonstrate its apoptotic mode of cell death in different cancer cells, which is consistent with the data currently available. A study by Chen et al., [44] demonstrated tumor necrosis factor-related apoptosis-inducing ligand (TRAIL) linked apoptosis in human breast cancer cells. In addition, yet another study by Nikravesh et al., [48] reported that the 3BP treatment significantly induced apoptosis, activation of caspase 3 activity, depolarization of mitochondrial membrane potential and ROS production in colorectal cancer cell line.
+
+## p0047 — 3BP (at MIC) significantly eradicates Candida’s mature biofilm
+
+Candida species serve as imperative pathogens with the inherent potency to form recalcitrant biofilms those are resistant to conventionally available antifungal drugs [49]. Unlike planktonic cells, sessile biofilm cells vary greatly within the genus Candida, providing advantages for their survival through a diversified mechanism of pathogenesis. For instance, the biofilms of C. albicans and C. tropicalis are comprised of yeast, pseudohyphae and hyphae, while only yeast cells in multilayer attributes are found in the C. glabrata biofilm [50]. Due to such variances in biofilm composition, Candida species pose a significant challenge in developing new methods for the eradication of their respective biofilm.
+
+## p0048 — 3BP (at MIC) significantly eradicates Candida’s mature biofilm
+
+Besides the immature biofilm, the mature biofilm of Candida species are heterogeneous in terms of extracellular components dispersion, making them incredibly robust to the action of conventional antimicrobial agents [51]. For this purpose, the eradication efficacy of 3BP against Candida species mature biofilm was assessed using the crystal violet staining method. The spectrometric data showed that 3BP’s at MIC and 2XMIC have enough potency to effectively destroy the pre-formed biofilm to varying degrees—more than 85 and 90%, respectively (Fig 7). However, sub-MICs of 3BP (1/2 MIC) have failed to eradicate mature biofilms of Candida species. As discussed before, biofilm production by antimicrobial-resistant pathogens poses significant challenges in disease management. In this regard, the current investigation validated the potential use of 3BP in hospital settings to stop persistent colonisation of fungal infections by revealing a promising fungicidal effect as well as biofilm eradication efficacy. Even though the anticancer and antimicrobial effectiveness of 3BP have been documented through several studies worldwide, the current study is the first of its kind to unveil the biofilm eradication ability of 3BP against an important invasive fungal pathogens, Candida species.
+
+## p0049 — Non-toxic nature of 3BP in both in vitro and in vivo conditions
+
+An ideal bioactive compound with clinical application must not be harmful in nature. Therefore, the cytotoxicity of 3BP was investigated using both in vitro (human red blood cells) and in vivo (G. mellonella) models.
+
+## p0050 — Non-toxic nature of 3BP in both in vitro and in vivo conditions
+
+In the erythrocyte lysis assay, the wide range of 3BP’s concentrations was subjected to toxicity analysis. The cytotoxicity exhibited at different concentrations of 3BP is shown in Fig 8. The results showed that 3BP did not impose erythrolysis up to a concentration of 512 μg/mL, as clear PBS was seen due to the settling of an intact erythrocyte. Even though 3BP at 1024 μg/mL showed hemolysis, it only represented a very small fraction (8%) compared to the positive control. The presence of a red colour in the positive control (SDS 10%) tube indicated that all red blood cells had been thoroughly lysed. According to a research by Sadowska-Bartosz et al. [52], 3BP has an impact on human erythrocyte cells; however at doses up to 0.75 mM, there are no negative effects on the integrity of the erythrocyte membrane.
+
+## p0051 — Non-toxic nature of 3BP in both in vitro and in vivo conditions
+
+In addition, the in vivo toxicity of 3BP at MIC and 2XMIC was examined by employing a simple eukaryotic model organism, G. mellonella. Despite its other advantages, the non-ethical implications of G. mellonella make it an ideal model for toxicological investigation. The toxicity of 3BP against G. mellonella was studied using a survival assay. The survivability of larvae at different concentrations of 3BP over 5 days is illustrated in Fig 8. Larvae injected with 3BP at both MIC and 2XMIC did not show any toxicity, as there was no change in the survivability of incubated larvae, demonstrating the non-toxic nature of 3BP (Fig 8). The larvae administered with vehicle control (ethanol) showed no reduction in survival. Interestingly, the larvae exposed to positive control completely hampered survival (100% mortality). Taken together, these findings demonstrated that 3BP is safe for human use, as it had no negative effects on human erythrocytes and in vivo model G. mellonella. Notably, the previous study by Geschwind et al., (2002) [17] revealed the non-toxic nature of 3BP (5mM) on rabbits; they also found that there is no apparent harm to the organs of 3BP implanted rabbits. However, a study by Chang et al., (2007) [53] demonstrated that treatment with 3BP at 25 mM causes hepatotoxicity (including hemorrhagic pyloric or duodenal necrosis) in a rat model. These finding evidently signifies that the cytotoxicity of 3BP is in turn associated with its concentration (dose dependent toxicity).
+
+## p0052 — 3BP based vaginal formulation retained its physiological characteristics even after 30 days
+
+The journey of a novel drug from the laboratory to the clinic is rarely simple. Even though multiple studies have documented the phenomenal inhibiting activity of new drugs against drug resistant microorganisms, the clinical application of these identified drugs remains unknown. This is due to the fact that the majority of research has solely concentrated on testing new drugs in vitro, rather than on their clinical application. Thus, to ensure the therapeutic usefulness of the discovered 3BP molecules against VVC, the current study was expanded to design a formulation for 3BP-loaded vaginal cream.
+
+## p0053 — 3BP based vaginal formulation retained its physiological characteristics even after 30 days
+
+Although VVC is more readily with oral agents than topical antifungals, issues pertaining to the oral route, viz., systemic toxicity and drug interactions, restrict its usage, which leads to RVVC [53, 54]. The vaginal route of drug administration is conventionally believed to be an effective delivery approach. Therefore, the current study focused on developing an antifungal vaginal cream incorporated with the identified anti-candidal agent 3BP and testing its efficacy in an in vitro as well as in vivo mice model against C. albicans.
+
+## p0054 — 3BP based vaginal formulation retained its physiological characteristics even after 30 days
+
+The oil/water emulsion method was employed to develop the vaginal cream formulation. In this study, the formulation containing 2% miconazole was used as a positive control. Initially the formulated vaginal cream was checked for its stability. The macroscopic observation of the current study revealed that the formulated cream retained its colour, odour and texture throughout the 30 days of analysis. Moreover, the pH of the formulated cream did not alter much; it remained within the acceptable range of vaginal pH (3–4.5). Since the innate immune system is significantly influenced by the vaginal pH, the unchanged pH of the formulated cream ensures its favourable behavior for vaginal application. The cream formulations’ spreadability was measured to be between 1.5 and 1.8 cm in diameter and did not change over time, indicating that the cream’s consistency and moisture content also remained unaltered.
+
+## p0055 — 3BP based vaginal formulation retained its physiological characteristics even after 30 days
+
+The efficacy of a formulated vaginal cream containing 3BP in inhibiting Candida growth was assessed by a well-diffusion assay. In this experiment, the only organism employed to evaluate the efficacy of 3BP cream was C. albicans. As the determined MIC of drugs may fluctuate depending on the conditions, the various concentrations of 3BP in the vaginal cream (0.25, 0.5 and 1%) were checked for their antifungal efficacy against C. albicans. The results showed that 1% 3BP cream had significantly greater fungicidal efficiency than 0.25 and 0.5% of cream, respectively. Through a broth microdilution test, the MIC of 3BP was found to be 256 μg/mL (0.025%). The 3BP active concentration in vaginal cream was found to be 1%, proving that the drug’s estimated MIC changed depending on the nature of the medium used. Therefore, it is highly recommended to ascertain a drug’s MIC in its therapeutic form.
+
+## p0056 — 3BP based vaginal formulation retained its physiological characteristics even after 30 days
+
+The stability of the formulated cream in displaying fungicidal efficacy was determined over a 30-day of period with a 7-day time interval at two different temperatures. The obtained result showed that 3BP retained its efficacy in inhibiting C. albicans for upto 30 days (Fig 9). In terms of temperature, the 3BP cream held at 37°C appears to have greater antifungal efficacy than those stored at 4°C. However, there was no discernible variation in the fungicidal activity of the vaginal cream positive control that included miconazole, indicating that the 3BP has a preferred temperature of 37°C for its promising antifungal effectiveness. Overall, the proven physiochemical and fungicidal stability of the formulated vaginal cream under different ambient conditions signifies that the optimized vaginal cream formulation could be suitable for the vaginal drug delivery system.
+
+## p0057 — Treatment with 3BP vaginal cream reduces fungal burden and protects the membrane integrity of epithelial cells
+
+The in vivo antifungal efficacy of a vaginal cream containing 1% of 3BP was assessed in an immunosuppressed and estrogen-dependent mice model. This model demonstrated the pseudo-estrus state, which is required for the establishment of C. albicans infection by suppressing the innate immune response.
+
+## p0058 — Treatment with 3BP vaginal cream reduces fungal burden and protects the membrane integrity of epithelial cells
+
+The determined fungal burden in both treated and untreated mice was shown as CFU/mL in Fig 10. The data showed that 3BP vaginal cream effectively reduces the fungal burden in a similar fashion to miconazole cream. As seen in Fig 10, the vaginal load in the infected control group appears to be rising after 2 days of C. albicans culture establishment. However, the established C. albicans fungal load was gradually reduced to a level of two log10 in the 3BP and miconazole cream treated groups. Also, there was no complete reduction in the load of fungal cells observed after 6 days of treatment with 3BP and miconazole containing cream.
+
+## p0059 — Treatment with 3BP vaginal cream reduces fungal burden and protects the membrane integrity of epithelial cells
+
+In order to investigate the activity of 3BP cream in protecting fungal vaginal epithelium cells from the infection induced by C. albicans, histopathological analysis was done. The micrograph taken from a histopathological sample of 3BP treated and uninfected animals showed intact/undamaged cells with a thick layer of vaginal epithelial membrane. However, the C. albicans infected samples exposed a loss of epithelium membrane integrity with highly collapsed epithelial membranes (Fig 10). In addition, there was no damage/inflammation detected in the vaginal epithelium of the vehicle control group (animals exposed to 3BP cream alone), signifying the non- toxic nature of 3BP containing cream over fungal vaginal cells. Overall, the 3BP cream was found to be efficient at reducing fungal load and protecting vaginal membrane integrity from C. albicans infection. Even though the treatment did not completely eliminate the fungal burden, extending the treatment period beyond 6 days will resolve this condition.
+
+## p0060 — Conclusion
+
+Data of the present study delineates the promising anticandidal potential of 3BP, a well-established anticancer medication, against three clinically significant Candida species. Together, our findings provide mechanistic insights into the underlying anticandidal action of 3BP. In Candida cells, 3BP induced membrane integrity loss, nuclear condensation and ROS amplification. Additionally, this study displays the in vivo anti-infective efficacy of 3BP as a vaginal cream in a mice model of VVC. Overall, the present research clearly demonstrates the feasibility of repurposing anticancer drugs into effective antifungal agents, offering a convincing therapeutic alternative against Candida infections, particularly VVC.

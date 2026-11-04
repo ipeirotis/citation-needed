@@ -1,0 +1,5174 @@
+{
+  "passed": true,
+  "check_count": 1292,
+  "checks": [
+    {
+      "check": "30 distinct manuscripts",
+      "passed": true
+    },
+    {
+      "check": "30 distinct real paper DOIs",
+      "passed": true
+    },
+    {
+      "check": "M01: source hash",
+      "passed": true
+    },
+    {
+      "check": "M01: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M01: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M01: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M01: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M01/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M01/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M01/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M01/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M01/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M01/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M01/Q1: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M01/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M01/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M01/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M01/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M01/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M01/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M01/Q2: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M01/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M01/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M01/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M01/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M01/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M01/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M01/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M01/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M01/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M01/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M01/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M01/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M01/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M01/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M01/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M01/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M01/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M01/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M01/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M01/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M01/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M01/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M01/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M01/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M02: source hash",
+      "passed": true
+    },
+    {
+      "check": "M02: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M02: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M02: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M02: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M02/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M02/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M02/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M02/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M02/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M02/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M02/Q1: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M02/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M02/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M02/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M02/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M02/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M02/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M02/Q2: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M02/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M02/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M02/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M02/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M02/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M02/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M02/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M02/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M02/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M02/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M02/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M02/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M02/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M02/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M02/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M02/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M02/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M02/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M02/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M02/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M02/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M02/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M02/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M02/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M03: source hash",
+      "passed": true
+    },
+    {
+      "check": "M03: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M03: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M03: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M03: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M03/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M03/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M03/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M03/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M03/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M03/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M03/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M03/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M03/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M03/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M03/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M03/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M03/Q2: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M03/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M03/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M03/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M03/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M03/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M03/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M03/Q3: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M03/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M03/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M03/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M03/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M03/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M03/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M03/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M03/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M03/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M03/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M03/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M03/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M03/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M03/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M03/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M03/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M03/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M03/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M04: source hash",
+      "passed": true
+    },
+    {
+      "check": "M04: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M04: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M04: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M04: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M04/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M04/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M04/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M04/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M04/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M04/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M04/Q1: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M04/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M04/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M04/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M04/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M04/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M04/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M04/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M04/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M04/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M04/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M04/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M04/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M04/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M04/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M04/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M04/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M04/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M04/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M04/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M04/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M04/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M04/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M04/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M04/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M04/Q5: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M04/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M04/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M04/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M04/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M04/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M04/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M05: source hash",
+      "passed": true
+    },
+    {
+      "check": "M05: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M05: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M05: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M05: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M05/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M05/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M05/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M05/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M05/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M05/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M05/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M05/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M05/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M05/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M05/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M05/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M05/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M05/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M05/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M05/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M05/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M05/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M05/Q3: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M05/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M05/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M05/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M05/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M05/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M05/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M05/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M05/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M05/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M05/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M05/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M05/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M05/Q5: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M05/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M05/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M05/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M05/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M05/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M05/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M06: source hash",
+      "passed": true
+    },
+    {
+      "check": "M06: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M06: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M06: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M06: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M06/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M06/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M06/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M06/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M06/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M06/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M06/Q1: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M06/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M06/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M06/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M06/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M06/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M06/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M06/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M06/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M06/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M06/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M06/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M06/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M06/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M06/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M06/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M06/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M06/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M06/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M06/Q4: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M06/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M06/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M06/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M06/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M06/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M06/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M06/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M06/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M06/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M06/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M06/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M06/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M07: source hash",
+      "passed": true
+    },
+    {
+      "check": "M07: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M07: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M07: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M07: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M07/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M07/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M07/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M07/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M07/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M07/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M07/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M07/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M07/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M07/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M07/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M07/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M07/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M07/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M07/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M07/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M07/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M07/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M07/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M07/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M07/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M07/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M07/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M07/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M07/Q4: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M07/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M07/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M07/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M07/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M07/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M07/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M07/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M07/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M07/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M07/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M07/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M07/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M07/Q6: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M08: source hash",
+      "passed": true
+    },
+    {
+      "check": "M08: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M08: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M08: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M08: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M08/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M08/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M08/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M08/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M08/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M08/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M08/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M08/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M08/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M08/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M08/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M08/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M08/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M08/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M08/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M08/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M08/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M08/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M08/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M08/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M08/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M08/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M08/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M08/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M08/Q4: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M08/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M08/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M08/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M08/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M08/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M08/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M08/Q5: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M08/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M08/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M08/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M08/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M08/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M08/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M09: source hash",
+      "passed": true
+    },
+    {
+      "check": "M09: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M09: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M09: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M09: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M09/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M09/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M09/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M09/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M09/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M09/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M09/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M09/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M09/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M09/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M09/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M09/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M09/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M09/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M09/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M09/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M09/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M09/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M09/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M09/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M09/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M09/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M09/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M09/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M09/Q4: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M09/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M09/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M09/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M09/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M09/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M09/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M09/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M09/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M09/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M09/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M09/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M09/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M09/Q6: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M10: source hash",
+      "passed": true
+    },
+    {
+      "check": "M10: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M10: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M10: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M10: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M10/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M10/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M10/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M10/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M10/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M10/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M10/Q1: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M10/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M10/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M10/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M10/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M10/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M10/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M10/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M10/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M10/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M10/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M10/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M10/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M10/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M10/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M10/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M10/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M10/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M10/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M10/Q4: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M10/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M10/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M10/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M10/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M10/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M10/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M10/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M10/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M10/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M10/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M10/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M10/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M11: source hash",
+      "passed": true
+    },
+    {
+      "check": "M11: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M11: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M11: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M11: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M11/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M11/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M11/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M11/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M11/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M11/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M11/Q1: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M11/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M11/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M11/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M11/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M11/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M11/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M11/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M11/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M11/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M11/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M11/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M11/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M11/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M11/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M11/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M11/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M11/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M11/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M11/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M11/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M11/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M11/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M11/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M11/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M11/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M11/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M11/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M11/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M11/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M11/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M11/Q6: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M12: source hash",
+      "passed": true
+    },
+    {
+      "check": "M12: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M12: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M12: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M12: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M12/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M12/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M12/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M12/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M12/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M12/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M12/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M12/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M12/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M12/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M12/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M12/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M12/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M12/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M12/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M12/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M12/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M12/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M12/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M12/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M12/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M12/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M12/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M12/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M12/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M12/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M12/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M12/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M12/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M12/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M12/Q5: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M12/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M12/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M12/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M12/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M12/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M12/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M12/Q6: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M13: source hash",
+      "passed": true
+    },
+    {
+      "check": "M13: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M13: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M13: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M13: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M13/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M13/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M13/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M13/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M13/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M13/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M13/Q1: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M13/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M13/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M13/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M13/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M13/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M13/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M13/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M13/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M13/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M13/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M13/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M13/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M13/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M13/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M13/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M13/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M13/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M13/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M13/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M13/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M13/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M13/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M13/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M13/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M13/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M13/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M13/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M13/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M13/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M13/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M13/Q6: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M14: source hash",
+      "passed": true
+    },
+    {
+      "check": "M14: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M14: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M14: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M14: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M14/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M14/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M14/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M14/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M14/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M14/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M14/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M14/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M14/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M14/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M14/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M14/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M14/Q2: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M14/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M14/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M14/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M14/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M14/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M14/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M14/Q3: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M14/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M14/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M14/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M14/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M14/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M14/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M14/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M14/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M14/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M14/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M14/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M14/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M14/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M14/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M14/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M14/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M14/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M14/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M15: source hash",
+      "passed": true
+    },
+    {
+      "check": "M15: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M15: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M15: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M15: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M15/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M15/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M15/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M15/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M15/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M15/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M15/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M15/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M15/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M15/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M15/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M15/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M15/Q2: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M15/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M15/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M15/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M15/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M15/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M15/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M15/Q3: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M15/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M15/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M15/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M15/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M15/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M15/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M15/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M15/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M15/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M15/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M15/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M15/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M15/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M15/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M15/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M15/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M15/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M15/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M16: source hash",
+      "passed": true
+    },
+    {
+      "check": "M16: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M16: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M16: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M16: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M16/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M16/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M16/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M16/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M16/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M16/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M16/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M16/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M16/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M16/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M16/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M16/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M16/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M16/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M16/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M16/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M16/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M16/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M16/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M16/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M16/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M16/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M16/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M16/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M16/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M16/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M16/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M16/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M16/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M16/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M16/Q5: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M16/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M16/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M16/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M16/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M16/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M16/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M16/Q6: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M17: source hash",
+      "passed": true
+    },
+    {
+      "check": "M17: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M17: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M17: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M17: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M17/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M17/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M17/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M17/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M17/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M17/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M17/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M17/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M17/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M17/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M17/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M17/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M17/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M17/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M17/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M17/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M17/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M17/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M17/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M17/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M17/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M17/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M17/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M17/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M17/Q4: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M17/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M17/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M17/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M17/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M17/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M17/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M17/Q5: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M17/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M17/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M17/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M17/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M17/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M17/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M18: source hash",
+      "passed": true
+    },
+    {
+      "check": "M18: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M18: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M18: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M18: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M18/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M18/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M18/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M18/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M18/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M18/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M18/Q1: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M18/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M18/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M18/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M18/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M18/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M18/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M18/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M18/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M18/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M18/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M18/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M18/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M18/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M18/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M18/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M18/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M18/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M18/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M18/Q4: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M18/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M18/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M18/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M18/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M18/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M18/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M18/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M18/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M18/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M18/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M18/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M18/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M19: source hash",
+      "passed": true
+    },
+    {
+      "check": "M19: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M19: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M19: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M19: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M19/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M19/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M19/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M19/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M19/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M19/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M19/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M19/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M19/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M19/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M19/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M19/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M19/Q2: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M19/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M19/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M19/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M19/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M19/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M19/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M19/Q3: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M19/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M19/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M19/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M19/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M19/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M19/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M19/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M19/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M19/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M19/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M19/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M19/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M19/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M19/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M19/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M19/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M19/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M19/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M20: source hash",
+      "passed": true
+    },
+    {
+      "check": "M20: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M20: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M20: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M20: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M20/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M20/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M20/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M20/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M20/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M20/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M20/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M20/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M20/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M20/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M20/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M20/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M20/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M20/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M20/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M20/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M20/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M20/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M20/Q3: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M20/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M20/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M20/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M20/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M20/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M20/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M20/Q4: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M20/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M20/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M20/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M20/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M20/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M20/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M20/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M20/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M20/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M20/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M20/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M20/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M21: source hash",
+      "passed": true
+    },
+    {
+      "check": "M21: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M21: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M21: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M21: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M21/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M21/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M21/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M21/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M21/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M21/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M21/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M21/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M21/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M21/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M21/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M21/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M21/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M21/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M21/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M21/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M21/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M21/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M21/Q3: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M21/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M21/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M21/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M21/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M21/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M21/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M21/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M21/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M21/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M21/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M21/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M21/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M21/Q5: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M21/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M21/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M21/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M21/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M21/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M21/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M22: source hash",
+      "passed": true
+    },
+    {
+      "check": "M22: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M22: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M22: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M22: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M22/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M22/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M22/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M22/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M22/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M22/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M22/Q1: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M22/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M22/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M22/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M22/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M22/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M22/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M22/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M22/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M22/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M22/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M22/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M22/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M22/Q3: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M22/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M22/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M22/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M22/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M22/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M22/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M22/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M22/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M22/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M22/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M22/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M22/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M22/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M22/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M22/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M22/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M22/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M22/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M23: source hash",
+      "passed": true
+    },
+    {
+      "check": "M23: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M23: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M23: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M23: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M23/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M23/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M23/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M23/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M23/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M23/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M23/Q1: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M23/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M23/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M23/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M23/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M23/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M23/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M23/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M23/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M23/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M23/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M23/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M23/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M23/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M23/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M23/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M23/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M23/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M23/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M23/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M23/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M23/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M23/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M23/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M23/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M23/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M23/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M23/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M23/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M23/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M23/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M23/Q6: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M24: source hash",
+      "passed": true
+    },
+    {
+      "check": "M24: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M24: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M24: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M24: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M24/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M24/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M24/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M24/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M24/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M24/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M24/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M24/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M24/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M24/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M24/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M24/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M24/Q2: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M24/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M24/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M24/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M24/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M24/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M24/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M24/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M24/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M24/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M24/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M24/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M24/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M24/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M24/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M24/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M24/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M24/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M24/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M24/Q5: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M24/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M24/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M24/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M24/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M24/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M24/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M25: source hash",
+      "passed": true
+    },
+    {
+      "check": "M25: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M25: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M25: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M25: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M25/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M25/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M25/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M25/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M25/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M25/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M25/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M25/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M25/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M25/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M25/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M25/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M25/Q2: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M25/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M25/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M25/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M25/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M25/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M25/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M25/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M25/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M25/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M25/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M25/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M25/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M25/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M25/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M25/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M25/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M25/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M25/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M25/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M25/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M25/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M25/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M25/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M25/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M25/Q6: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M26: source hash",
+      "passed": true
+    },
+    {
+      "check": "M26: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M26: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M26: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M26: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M26/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M26/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M26/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M26/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M26/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M26/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M26/Q1: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M26/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M26/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M26/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M26/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M26/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M26/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M26/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M26/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M26/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M26/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M26/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M26/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M26/Q3: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M26/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M26/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M26/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M26/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M26/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M26/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M26/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M26/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M26/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M26/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M26/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M26/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M26/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M26/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M26/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M26/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M26/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M26/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M27: source hash",
+      "passed": true
+    },
+    {
+      "check": "M27: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M27: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M27: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M27: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M27/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M27/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M27/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M27/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M27/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M27/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M27/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M27/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M27/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M27/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M27/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M27/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M27/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M27/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M27/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M27/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M27/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M27/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M27/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M27/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M27/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M27/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M27/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M27/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M27/Q4: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M27/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M27/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M27/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M27/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M27/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M27/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M27/Q5: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M27/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M27/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M27/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M27/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M27/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M27/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M28: source hash",
+      "passed": true
+    },
+    {
+      "check": "M28: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M28: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M28: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M28: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M28/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M28/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M28/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M28/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M28/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M28/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M28/Q1: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M28/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M28/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M28/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M28/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M28/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M28/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M28/Q2: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M28/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M28/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M28/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M28/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M28/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M28/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M28/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M28/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M28/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M28/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M28/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M28/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M28/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M28/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M28/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M28/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M28/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M28/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M28/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M28/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M28/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M28/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M28/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M28/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M29: source hash",
+      "passed": true
+    },
+    {
+      "check": "M29: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M29: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M29: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M29: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M29/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M29/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M29/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M29/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M29/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M29/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M29/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M29/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M29/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M29/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M29/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M29/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M29/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M29/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M29/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M29/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M29/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M29/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M29/Q3: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M29/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M29/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M29/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M29/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M29/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M29/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M29/Q4: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M29/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M29/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M29/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M29/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M29/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M29/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M29/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M29/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M29/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M29/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M29/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M29/Q6: line locator",
+      "passed": true
+    },
+    {
+      "check": "M30: source hash",
+      "passed": true
+    },
+    {
+      "check": "M30: manuscript hash",
+      "passed": true
+    },
+    {
+      "check": "M30: explicit redistribution license",
+      "passed": true
+    },
+    {
+      "check": "M30: six independent paragraph targets",
+      "passed": true
+    },
+    {
+      "check": "M30: 3 valid controls / 3 planted defects",
+      "passed": true
+    },
+    {
+      "check": "M30/Q1: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M30/Q1: original in source",
+      "passed": true
+    },
+    {
+      "check": "M30/Q1: context in source",
+      "passed": true
+    },
+    {
+      "check": "M30/Q1: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M30/Q1: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M30/Q1: line locator",
+      "passed": true
+    },
+    {
+      "check": "M30/Q2: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M30/Q2: original in source",
+      "passed": true
+    },
+    {
+      "check": "M30/Q2: context in source",
+      "passed": true
+    },
+    {
+      "check": "M30/Q2: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M30/Q2: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M30/Q2: line locator",
+      "passed": true
+    },
+    {
+      "check": "M30/Q2: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M30/Q3: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M30/Q3: original in source",
+      "passed": true
+    },
+    {
+      "check": "M30/Q3: context in source",
+      "passed": true
+    },
+    {
+      "check": "M30/Q3: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M30/Q3: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M30/Q3: line locator",
+      "passed": true
+    },
+    {
+      "check": "M30/Q4: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M30/Q4: original in source",
+      "passed": true
+    },
+    {
+      "check": "M30/Q4: context in source",
+      "passed": true
+    },
+    {
+      "check": "M30/Q4: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M30/Q4: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M30/Q4: line locator",
+      "passed": true
+    },
+    {
+      "check": "M30/Q5: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M30/Q5: original in source",
+      "passed": true
+    },
+    {
+      "check": "M30/Q5: context in source",
+      "passed": true
+    },
+    {
+      "check": "M30/Q5: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M30/Q5: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M30/Q5: line locator",
+      "passed": true
+    },
+    {
+      "check": "M30/Q5: altered quote absent",
+      "passed": true
+    },
+    {
+      "check": "M30/Q6: source-grounded review recorded",
+      "passed": true
+    },
+    {
+      "check": "M30/Q6: original in source",
+      "passed": true
+    },
+    {
+      "check": "M30/Q6: context in source",
+      "passed": true
+    },
+    {
+      "check": "M30/Q6: mutation in manuscript",
+      "passed": true
+    },
+    {
+      "check": "M30/Q6: claim hash",
+      "passed": true
+    },
+    {
+      "check": "M30/Q6: line locator",
+      "passed": true
+    }
+  ]
+}

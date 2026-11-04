@@ -109,4 +109,18 @@ Run the offline checker tests with:
 python3 -B -m unittest discover -s evals -p 'test_check_quotes.py' -v
 ```
 
+### Thirty-manuscript quotation evaluation
+
+[`evals/quotation-dataset/`](evals/quotation-dataset/) contains 30 explicitly
+altered manuscripts derived from 30 CC BY 4.0 research papers, with 180
+source-grounded quotation targets and external answer keys.
+[`evals/quotation_benchmark/`](evals/quotation_benchmark/) provides the
+enabled/disabled-checker Anthropic API runner, quotation grader and reusable
+local archive/ledger/preservation gates. It uses restricted file tools, not
+Claude Code. The original checker and runtime skill are unchanged.
+
+See the [recorded offline results](evals/results/quotation-30-2026-11-04/summary.md).
+These are script results, not evidence that Claude improves with the checker;
+the paired agent comparison requires credentials on the machine running it.
+
 See `AGENTS.md` for repo conventions and `tasks.md` for the feature tracker.

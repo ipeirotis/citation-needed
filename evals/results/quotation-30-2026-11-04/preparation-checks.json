@@ -1,0 +1,157 @@
+{
+  "workspaces_prepared": 60,
+  "agent_runs": 0,
+  "passed": true,
+  "cases": [
+    {
+      "case": "M01",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M02",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M03",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M04",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M05",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M06",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M07",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M08",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M09",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M10",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M11",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M12",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M13",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M14",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M15",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M16",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M17",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M18",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M19",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M20",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M21",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M22",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M23",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M24",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M25",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M26",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M27",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M28",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M29",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    },
+    {
+      "case": "M30",
+      "both_conditions_prepared": true,
+      "same_inputs_and_no_answer_key": true
+    }
+  ]
+}

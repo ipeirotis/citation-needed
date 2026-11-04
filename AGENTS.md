@@ -33,7 +33,9 @@ citation-needed — old references to those names denote this repo.
 - `evals/` — the eval suite: fixture manuscripts and bibliographies with
   verified ground truth (`evals/README.md` records the provenance),
   `evals.json` prompts and assertions for the skill-creator eval loop.
-  Run results and workspaces stay outside this repo.
+  Raw run results and workspaces stay outside this repo. Reviewed aggregate
+  result summaries may be published under `evals/results/` when explicitly
+  requested; those summaries must distinguish script tests from real agent runs.
 - `tasks.md` — the feature tracker (see below).
 
 ## Two repos to keep straight

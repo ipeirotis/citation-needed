@@ -60,6 +60,17 @@ skill adds.
 
 ## Maintenance
 
+### Thirty-paper quotation benchmark
+
+The separate [quotation dataset](quotation-dataset/) and
+[benchmark runner](quotation_benchmark/) add 30 modified paper-derived
+manuscripts, 180 targets, a with/without-checker comparison and local shared
+gates. This does not replace the three original capability evals or add
+novelty/version coverage. The initial [published summary](results/quotation-30-2026-11-04/summary.md)
+contains offline script results only; agent runs remain pending credentials.
+Raw agent workspaces stay outside this repo; only reviewed aggregate results
+are published here at the user's explicit request.
+
 ### Offline quotation-checker tests
 
 Run `python3 -B -m unittest discover -s evals -p 'test_check_quotes.py' -v`.

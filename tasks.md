@@ -10,6 +10,19 @@ reopen them without a new request.
 
 ## Done
 
+- **2026-11-04 — Thirty-paper quotation dataset and local eval infrastructure.**
+  User requested 30 real-paper manuscripts with planted quotation errors,
+  an enabled/disabled-checker experiment, all three applicable shared gates,
+  token/time capture and publication on a branch. Added 30 CC BY 4.0
+  paper-derived adaptations, 180 targets and source-grounded keys; independent
+  archive/ledger/preservation checks; restricted Anthropic API tool harness;
+  adversarial grader tests and offline CI. The original prototype/runtime
+  remain unchanged. Published results cover deterministic tests only: actual
+  paired agent runs are pending credentials in the execution environment.
+  (`evals/quotation-dataset/`, `evals/quotation_benchmark/`,
+  `evals/test_quotation_benchmark.py`, `.github/workflows/quotation-eval.yml`,
+  `evals/results/quotation-30-2026-11-04/`)
+
 - **2026-10-24 — Prototype mechanical quotation checker.** Requested for
   the SPUR first milestone: add a read-only Python checker for quotations
   against retrieved UTF-8 source text, with exact/narrow-normalized matches,
@@ -258,6 +271,14 @@ reopen them without a new request.
 (empty — ideas awaiting the author's approval go here)
 
 ## Backlog
+
+- **2026-11-04 — Execute the 30-case paired quotation agent comparison.**
+  Use the published runner on an authenticated machine with the Anthropic
+  key loaded from Secret Manager. Start with a provider smoke call and one
+  paired case, then run all 60 case/condition combinations. Independently
+  review omission explanations before final grades; publish reviewed metrics
+  and concrete observed failures. No real agent score is implied by the
+  offline checker or harness self-tests.
 
 - **2026-08-16 — Trigger-description optimization.** The deferred second
   half of the eval-suite item: optimize the `SKILL.md` trigger description
