@@ -1,0 +1,23 @@
+{
+  "checked_on": "2026-11-04",
+  "offline_unit_tests": {
+    "passed": 72,
+    "failed": 0,
+    "skipped": 0,
+    "command": "python3 -B -m unittest discover -s evals -p 'test_*.py' -v"
+  },
+  "dataset_checks": {
+    "passed": 1292,
+    "dataset_unchanged": true,
+    "checker_status_contract_passed": true
+  },
+  "paid_model_calls_during_review": 0,
+  "publication_scan": "No high-confidence credentials, private Mac/workspace paths, or model thinking blocks in curated results.",
+  "current_code_sha256": {
+    "evals/quotation_benchmark/analyze_run.py": "9fc1b26942fd23ecd45006dd33dcac50c83f5c9d849a8ec80285b1371bf101c4",
+    "evals/quotation_benchmark/shared.py": "0777a52557cfb4a6603c79ea73b1e4e941bae1a5527697ec4bc007d0845b788f",
+    "evals/quotation_benchmark/runner.py": "d5702155b24f6665857543110e138c43ccc8edbdbae952fe4babd771e6df97e7",
+    "evals/test_quotation_analysis.py": "2a0971e35d1b9790c370329d74203e28e99b79dbdb755da7874e36e32283e8c8",
+    "evals/test_quotation_benchmark.py": "db195420a277e47b6a97f81cbeeac6d318dd29ae9d4ec87915ae27afb341e0ed"
+  }
+}

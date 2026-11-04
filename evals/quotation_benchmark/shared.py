@@ -18,6 +18,24 @@ def claim_hash(value):
     return sha(' '.join(value.split()).encode())[:12]
 
 
+def source_matches(value, expected):
+    """Recognize one unambiguous DOI with optional human-readable annotation.
+
+    Identity is not field-string equality. A different/second DOI, a prefix
+    collision or a bare mention in prose is not accepted as the cited identity.
+    Non-DOI locators retain exact matching in this local profile.
+    """
+    value=value.strip()
+    if not expected.lower().startswith('doi:'):
+        return value==expected
+    doi=expected[4:]
+    pattern=r'^(?:doi:\s*|https?://(?:dx\.)?doi\.org/)'+re.escape(doi)+r'(?=\s|$)'
+    if not re.match(pattern,value,re.I):
+        return False
+    identifiers=re.findall(r'\b10\.\d{4,9}/[^\s<>`]+',value,re.I)
+    return all(x.rstrip('.,;').lower()==doi.lower() for x in identifiers)
+
+
 def snapshot(root):
     root = Path(root)
     out = {}
@@ -164,7 +182,7 @@ def grade_shared(root, contract, before, events=()):
         'fresh entry count equals scoped claim–source pairs')
     for item in contract.get('items', []):
         matches = [e for e in relevant if ' '.join(unquote(e.get('claim','')).split()) == ' '.join(item['claim'].split())
-                   and e.get('source') == item['source']]
+                   and source_matches(e.get('source',''),item['source'])]
         add('ledger', 'coverage:'+item['id'], len(matches) == 1, 'one fresh entry per expected claim–source pair')
         for entry in matches:
             fields = ['claim','claim-hash','source','version-read','archived','license','verdict','evidence']
@@ -188,7 +206,7 @@ def grade_shared(root, contract, before, events=()):
     if archive_required:
         records = relevant
         for source in contract.get('sources', []):
-            matching = [e for e in records if e.get('source') == source['identity']]
+            matching = [e for e in records if source_matches(e.get('source',''),source['identity'])]
             observed = any(e.get('operation') == 'read_file' and e.get('path') == source['input']
                            and e.get('sha256') == source['sha256'] and not e.get('denied') for e in events)
             add('archive','independently-observed-read:'+source['identity'],observed,
@@ -232,7 +250,7 @@ def grade_shared(root, contract, before, events=()):
             add('ledger','jsonl-mirrors-markdown',False,str(error))
     groups = {name: {'passed': bool(rows) and all(r['passed'] for r in rows), 'checks': rows}
               for name, rows in checks.items()}
-    return {'schema':'citation-needed.shared-checks/1', 'groups':groups,
+    return {'schema':'citation-needed.shared-checks/2', 'groups':groups,
             'passed': all(g['passed'] for g in groups.values()),
             'limitations': ['Local pinned-source contract, not a cloud archive verifier.',
                             'Does not determine claim support, source licensing truth, or live registrar/reuse freshness.',

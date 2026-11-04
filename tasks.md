@@ -10,6 +10,20 @@ reopen them without a new request.
 
 ## Done
 
+- **2026-11-04 — Review and publish the uploaded quotation experiment.**
+  Verified the original run bundle against commit `919f9ec`, reproduced all
+  43 saved grades, checked source/manuscript bytes and API usage receipts,
+  and source-grounded all 78 completed-run omission explanations (AI review,
+  not human sign-off). Published aggregate results for all 60 planned runs,
+  separating 39 completions, four token-limited runs, one interrupted run and
+  16 never started. Added read-only reanalysis, transparent v1/v2 grading
+  differences, DOI-annotation and whitespace-compliance fixes, safe partial
+  error recording, and line metadata for future runs. No new paid calls;
+  the quotation checker, skill and dataset are unchanged.
+  (`evals/quotation_benchmark/analyze_run.py`, `shared.py`, `runner.py`,
+  `evals/test_quotation_analysis.py`, `evals/test_quotation_benchmark.py`,
+  `evals/results/quotation-30-2026-11-04/paired-run-141405/`)
+
 - **2026-11-04 — Thirty-paper quotation dataset and local eval infrastructure.**
   User requested 30 real-paper manuscripts with planted quotation errors,
   an enabled/disabled-checker experiment, all three applicable shared gates,
@@ -17,8 +31,8 @@ reopen them without a new request.
   paper-derived adaptations, 180 targets and source-grounded keys; independent
   archive/ledger/preservation checks; restricted Anthropic API tool harness;
   adversarial grader tests and offline CI. The original prototype/runtime
-  remain unchanged. Published results cover deterministic tests only: actual
-  paired agent runs are pending credentials in the execution environment.
+  remain unchanged. Initial results covered deterministic tests only; the
+  subsequent partial API experiment is recorded in the separate item above.
   (`evals/quotation-dataset/`, `evals/quotation_benchmark/`,
   `evals/test_quotation_benchmark.py`, `.github/workflows/quotation-eval.yml`,
   `evals/results/quotation-30-2026-11-04/`)
@@ -272,13 +286,13 @@ reopen them without a new request.
 
 ## Backlog
 
-- **2026-11-04 — Execute the 30-case paired quotation agent comparison.**
-  Use the published runner on an authenticated machine with the Anthropic
-  key loaded from Secret Manager. Start with a provider smoke call and one
-  paired case, then run all 60 case/condition combinations. Independently
-  review omission explanations before final grades; publish reviewed metrics
-  and concrete observed failures. No real agent score is implied by the
-  offline checker or harness self-tests.
+- **2026-11-04 — Complete or replace the interrupted paired experiment.**
+  The uploaded v1 run has 39 completed of 60 planned runs. Preserve its
+  evidence; do not automatically repeat paid calls. Decide whether to finish
+  original settings or preregister a new experiment with the improved tools,
+  adequate output budget and harder, reviewed quotations. Keep harness versions
+  and pilot/main results separate. The present 11 complete pairs establish no
+  observed accuracy gain on this dataset, not general ineffectiveness.
 
 - **2026-08-16 — Trigger-description optimization.** The deferred second
   half of the eval-suite item: optimize the `SKILL.md` trigger description

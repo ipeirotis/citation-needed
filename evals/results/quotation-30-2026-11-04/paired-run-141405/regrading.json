@@ -1,0 +1,1662 @@
+[
+  {
+    "case": "M28",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "claim-hash:Q2",
+        "location:Q2",
+        "claim-hash:Q3",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "claim-hash:Q2",
+        "location:Q2",
+        "claim-hash:Q3",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M23",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M30",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 1,
+      "attempts": 1
+    }
+  },
+  {
+    "case": "M10",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M12",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6",
+        "jsonl-mirrors-markdown"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6",
+        "jsonl-mirrors-markdown"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 2,
+      "attempts": 3
+    }
+  },
+  {
+    "case": "M06",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6",
+        "jsonl-mirrors-markdown"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6",
+        "jsonl-mirrors-markdown"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M22",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "claim-hash:Q3",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "claim-hash:Q3",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M30",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6",
+        "jsonl-mirrors-markdown"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6",
+        "jsonl-mirrors-markdown"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M29",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 1,
+      "attempts": 1
+    }
+  },
+  {
+    "case": "M05",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [
+        "source-covered:doi:10.1371/journal.pone.0296265"
+      ],
+      "ledger": [
+        "coverage:Q1",
+        "coverage:Q2",
+        "coverage:Q3",
+        "coverage:Q4",
+        "coverage:Q5",
+        "coverage:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": false,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 1,
+      "attempts": 1
+    }
+  },
+  {
+    "case": "M25",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M17",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [
+        "source-covered:doi:10.1371/journal.pone.0296177"
+      ],
+      "ledger": [
+        "coverage:Q1",
+        "coverage:Q2",
+        "coverage:Q3",
+        "coverage:Q4",
+        "coverage:Q5",
+        "coverage:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 1,
+      "attempts": 1
+    }
+  },
+  {
+    "case": "M19",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [
+        "source-covered:doi:10.1371/journal.pone.0296510"
+      ],
+      "ledger": [
+        "coverage:Q1",
+        "coverage:Q2",
+        "coverage:Q3",
+        "coverage:Q4",
+        "coverage:Q5",
+        "coverage:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": false,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 2,
+      "attempts": 2
+    }
+  },
+  {
+    "case": "M05",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "incomplete_max_tokens",
+    "original_failures": {
+      "archive": [
+        "source-covered:doi:10.1371/journal.pone.0296265"
+      ],
+      "ledger": [
+        "entry-count",
+        "coverage:Q1",
+        "coverage:Q2",
+        "coverage:Q3",
+        "coverage:Q4",
+        "coverage:Q5",
+        "coverage:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [
+        "source-covered:doi:10.1371/journal.pone.0296265"
+      ],
+      "ledger": [
+        "entry-count",
+        "coverage:Q1",
+        "coverage:Q2",
+        "coverage:Q3",
+        "coverage:Q4",
+        "coverage:Q5",
+        "coverage:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M02",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "incomplete_max_tokens",
+    "original_failures": {
+      "archive": [
+        "source-covered:doi:10.1371/journal.pone.0290739"
+      ],
+      "ledger": [
+        "entry-count",
+        "coverage:Q1",
+        "coverage:Q2",
+        "coverage:Q3",
+        "coverage:Q4",
+        "coverage:Q5",
+        "coverage:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [
+        "source-covered:doi:10.1371/journal.pone.0290739"
+      ],
+      "ledger": [
+        "entry-count",
+        "coverage:Q1",
+        "coverage:Q2",
+        "coverage:Q3",
+        "coverage:Q4",
+        "coverage:Q5",
+        "coverage:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": false,
+      "regraded": false,
+      "missing_whole_quotations": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6"
+      ],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M04",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "coverage:Q1",
+        "coverage:Q2",
+        "coverage:Q3",
+        "coverage:Q4",
+        "coverage:Q5",
+        "coverage:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "coverage:Q1",
+        "coverage:Q2",
+        "coverage:Q3",
+        "coverage:Q4",
+        "coverage:Q5",
+        "coverage:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": false,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 1,
+      "attempts": 1
+    }
+  },
+  {
+    "case": "M28",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": false,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 2,
+      "attempts": 2
+    }
+  },
+  {
+    "case": "M03",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6",
+        "jsonl-mirrors-markdown"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6",
+        "jsonl-mirrors-markdown"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M14",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M26",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M14",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [
+        "source-covered:doi:10.1371/journal.pone.0295628"
+      ],
+      "ledger": [
+        "coverage:Q1",
+        "coverage:Q2",
+        "coverage:Q3",
+        "coverage:Q4",
+        "coverage:Q5",
+        "coverage:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 1,
+      "attempts": 1
+    }
+  },
+  {
+    "case": "M07",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": false,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 1,
+      "attempts": 1
+    }
+  },
+  {
+    "case": "M22",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": false,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 2,
+      "attempts": 2
+    }
+  },
+  {
+    "case": "M13",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M24",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6",
+        "jsonl-mirrors-markdown"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6",
+        "jsonl-mirrors-markdown"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 2,
+      "attempts": 2
+    }
+  },
+  {
+    "case": "M09",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "incomplete_max_tokens",
+    "original_failures": {
+      "archive": [
+        "source-covered:doi:10.1371/journal.pone.0295851"
+      ],
+      "ledger": [
+        "entry-count",
+        "coverage:Q1",
+        "coverage:Q2",
+        "coverage:Q3",
+        "coverage:Q4",
+        "coverage:Q5",
+        "coverage:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [
+        "source-covered:doi:10.1371/journal.pone.0295851"
+      ],
+      "ledger": [
+        "entry-count",
+        "coverage:Q1",
+        "coverage:Q2",
+        "coverage:Q3",
+        "coverage:Q4",
+        "coverage:Q5",
+        "coverage:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 2,
+      "attempts": 2
+    }
+  },
+  {
+    "case": "M09",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M20",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 1,
+      "attempts": 1
+    }
+  },
+  {
+    "case": "M11",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M25",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [
+        "archive:cite:source — manuscript.md (paragraph p0025, Results and discussion) [Q1]",
+        "archive:cite:source — manuscript.md (paragraph p0003, Introduction) [Q2]",
+        "archive:cite:source — manuscript.md (paragraph p0006, Introduction) [Q3]",
+        "archive:cite:source — manuscript.md (paragraph p0002, Introduction) [Q4]",
+        "archive:cite:source — manuscript.md (paragraph p0001, Abstract) [Q5]",
+        "archive:cite:source — manuscript.md (paragraph p0010, miRNA target prediction) [Q6]"
+      ],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [
+        "archive:cite:source — manuscript.md (paragraph p0025, Results and discussion) [Q1]",
+        "archive:cite:source — manuscript.md (paragraph p0003, Introduction) [Q2]",
+        "archive:cite:source — manuscript.md (paragraph p0006, Introduction) [Q3]",
+        "archive:cite:source — manuscript.md (paragraph p0002, Introduction) [Q4]",
+        "archive:cite:source — manuscript.md (paragraph p0001, Abstract) [Q5]",
+        "archive:cite:source — manuscript.md (paragraph p0010, miRNA target prediction) [Q6]"
+      ],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": false,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 2,
+      "attempts": 2
+    }
+  },
+  {
+    "case": "M02",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M29",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [
+        "source-covered:doi:10.1371/journal.pone.0296059"
+      ],
+      "ledger": [
+        "coverage:Q1",
+        "coverage:Q2",
+        "coverage:Q3",
+        "coverage:Q4",
+        "coverage:Q5",
+        "coverage:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M17",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M10",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": false,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 2,
+      "attempts": 2
+    }
+  },
+  {
+    "case": "M04",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M08",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M16",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": false,
+      "regraded": false,
+      "missing_whole_quotations": [
+        "Q2"
+      ],
+      "calls": 1,
+      "attempts": 2
+    }
+  },
+  {
+    "case": "M18",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "coverage:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "coverage:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  },
+  {
+    "case": "M06",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "incomplete_max_tokens",
+    "original_failures": {
+      "archive": [
+        "source-covered:doi:10.1371/journal.pone.0296349"
+      ],
+      "ledger": [
+        "entry-count",
+        "coverage:Q1",
+        "coverage:Q2",
+        "coverage:Q3",
+        "coverage:Q4",
+        "coverage:Q5",
+        "coverage:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [
+        "source-covered:doi:10.1371/journal.pone.0296349"
+      ],
+      "ledger": [
+        "entry-count",
+        "coverage:Q1",
+        "coverage:Q2",
+        "coverage:Q3",
+        "coverage:Q4",
+        "coverage:Q5",
+        "coverage:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 1,
+      "attempts": 1
+    }
+  },
+  {
+    "case": "M15",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6",
+        "jsonl-mirrors-markdown"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6",
+        "jsonl-mirrors-markdown"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 2,
+      "attempts": 2
+    }
+  },
+  {
+    "case": "M27",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "claim-hash:Q1",
+        "location:Q1",
+        "claim-hash:Q2",
+        "location:Q2",
+        "claim-hash:Q3",
+        "location:Q3",
+        "claim-hash:Q4",
+        "location:Q4",
+        "claim-hash:Q5",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "claim-hash:Q1",
+        "location:Q1",
+        "claim-hash:Q2",
+        "location:Q2",
+        "claim-hash:Q3",
+        "location:Q3",
+        "claim-hash:Q4",
+        "location:Q4",
+        "claim-hash:Q5",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 2,
+      "attempts": 2
+    }
+  },
+  {
+    "case": "M26",
+    "condition": "checker-enabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 2,
+      "attempts": 2
+    }
+  },
+  {
+    "case": "M15",
+    "condition": "checker-disabled",
+    "rep": 1,
+    "status": "completed",
+    "original_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6",
+        "jsonl-mirrors-markdown"
+      ],
+      "preservation": []
+    },
+    "regraded_failures": {
+      "archive": [],
+      "ledger": [
+        "location:Q1",
+        "location:Q2",
+        "location:Q3",
+        "location:Q4",
+        "location:Q5",
+        "location:Q6",
+        "jsonl-mirrors-markdown"
+      ],
+      "preservation": []
+    },
+    "compliance": {
+      "original": true,
+      "regraded": true,
+      "missing_whole_quotations": [],
+      "calls": 0,
+      "attempts": 0
+    }
+  }
+]

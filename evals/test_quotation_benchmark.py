@@ -140,6 +140,21 @@ class SharedTests(unittest.TestCase):
         self.assertTrue(r['groups']['archive']['passed'])
         self.assertIn('not-applicable',[x['check'] for x in r['groups']['archive']['checks']])
 
+    def test_correct_doi_with_annotation_preserves_identity(self):
+        p=self.root/self.contract['ledger']
+        identity='doi:'+self.case['doi']
+        p.write_text(p.read_text().replace('source: '+identity+'\n','source: '+identity+' (supplied source; registrar offline)\n'))
+        self.assertTrue(self.grade()['passed'])
+
+    def test_doi_matching_rejects_prefix_collision_and_ambiguity(self):
+        from evals.quotation_benchmark.shared import source_matches
+        expected='doi:10.1371/journal.pone.0291713'
+        self.assertTrue(source_matches(expected+' (version of record)',expected))
+        self.assertTrue(source_matches('https://doi.org/10.1371/journal.pone.0291713',expected))
+        self.assertFalse(source_matches(expected+'99',expected))
+        self.assertFalse(source_matches(expected+' or doi:10.1371/journal.pone.9999999',expected))
+        self.assertFalse(source_matches('possibly '+expected,expected))
+
 
 class QuotationGraderTests(unittest.TestCase):
     def setUp(self):
@@ -232,9 +247,68 @@ class HarnessTests(unittest.TestCase):
         root,_,_=prepare(case,'checker-enabled',Path(self.tmp.name)/'binding',keys)
         tool=FileTools(root,'checker-enabled')
         tool.call('check_quotes',{'source_path':'manuscript.md','items':[{'id':keys[0]['id'],'quote':keys[0]['quote']}]})
-        self.assertNotIn((case['source_sha256'],keys[0]['quote']),tool.checked_quotes)
+        from evals.quotation_benchmark.grade import equivalent
+        self.assertNotIn((case['source_sha256'],equivalent(keys[0]['quote'])),tool.checked_quotes)
         tool.call('check_quotes',{'source_path':'source-input/source.txt','items':[{'id':keys[0]['id'],'quote':keys[0]['quote']}]})
-        self.assertIn((case['source_sha256'],keys[0]['quote']),tool.checked_quotes)
+        self.assertIn((case['source_sha256'],equivalent(keys[0]['quote'])),tool.checked_quotes)
+
+    def test_checker_compliance_allows_only_prototype_formatting_equivalents(self):
+        from evals.quotation_benchmark.grade import equivalent
+        case=json.loads((DATA/'manifest.json').read_text())['cases'][0]
+        keys=json.loads((DATA/'answer-key.json').read_text())['M01']
+        root,_,_=prepare(case,'checker-enabled',Path(self.tmp.name)/'spaces',keys)
+        tool=FileTools(root,'checker-enabled')
+        item=next(x for x in keys if x['kind']=='formatting')
+        self.assertIn('\u00a0',item['quote'])
+        ordinary=item['quote'].replace('\u00a0',' ')
+        tool.call('check_quotes',{'source_path':'source-input/source.txt','items':[{'id':item['id'],'quote':ordinary}]})
+        self.assertIn((case['source_sha256'],equivalent(item['quote'])),tool.checked_quotes)
+        self.assertNotEqual(equivalent('did not improve'),equivalent('did improve'))
+        self.assertNotEqual(equivalent('32.5'),equivalent('32.6'))
+
+    def test_file_tools_expose_real_line_numbers_without_altering_text(self):
+        root=Path(self.tmp.name)
+        (root/'manuscript.md').write_text('alpha\nbeta\ngamma\n')
+        tools=FileTools(root,'checker-disabled')
+        value=tools.call('read_file',{'path':'manuscript.md','start':6,'length':10})
+        self.assertEqual(value['text'],'beta\ngamma')
+        self.assertEqual(value['line_map'],[{'line':2,'start':6},{'line':3,'start':11}])
+        hit=tools.call('search_file',{'path':'manuscript.md','query':'gamma'})
+        self.assertEqual(hit['hits'][0]['match_line'],3)
+        legacy=FileTools(root,'checker-disabled',line_numbers=False).call('read_file',{'path':'manuscript.md'})
+        self.assertEqual(set(legacy),{'text','start','total_chars'})
+
+    def test_remote_disconnect_saves_partial_evidence_without_retry(self):
+        import http.client
+        case=json.loads((DATA/'manifest.json').read_text())['cases'][0]
+        keys=json.loads((DATA/'answer-key.json').read_text())['M01']
+        attempts=[]
+        def fake(key,body):
+            attempts.append(1)
+            if len(attempts)>1:raise http.client.RemoteDisconnected('provider closed connection')
+            return {'model':'stub-not-a-real-model','usage':{'input_tokens':7,'output_tokens':3},
+                'stop_reason':'tool_use','content':[{'type':'tool_use','id':'stub-call',
+                'name':'read_file','input':{'path':'source-input/source.txt','length':50}}]}
+        target=Path(self.tmp.name)/'disconnect'
+        result=execute(case,'checker-enabled',target,keys,'not-a-key','stub-not-a-real-model',transport=fake)
+        self.assertEqual(len(attempts),2)
+        self.assertEqual(result['status'],'execution_error')
+        self.assertEqual(result['api_requests'],1)
+        self.assertEqual(result['api_requests_attempted'],2)
+        self.assertEqual(result['unaccounted_requests'],1)
+        self.assertFalse(result['usage_complete'])
+        self.assertEqual(result['usage']['input_tokens'],7)
+        self.assertTrue((target/'responses.json').exists())
+        self.assertTrue((target/'tool-events.json').exists())
+        self.assertTrue((target/'grading.json').exists())
+
+    def test_provider_disconnect_is_converted_to_safe_diagnostic(self):
+        import http.client
+        from unittest.mock import patch
+        from evals.quotation_benchmark.runner import api_request, ProviderRequestError
+        with patch('urllib.request.urlopen',side_effect=http.client.RemoteDisconnected('sensitive provider detail')):
+            with self.assertRaises(ProviderRequestError) as caught:api_request('not-a-key',{})
+        self.assertNotIn('sensitive provider detail',str(caught.exception))
 
 
 class DatasetTests(unittest.TestCase):

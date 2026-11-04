@@ -1,0 +1,122 @@
+[
+  {
+    "case": "M22",
+    "condition": "checker-enabled",
+    "id": "Q2",
+    "kind": "misleading_omission",
+    "source_sentence": "The non-violent and other suicide rate was higher in males (6.39 per 100,000) than in females (4.44 per 100,000), but this change in trend was not significantly different for the two sexes.",
+    "manuscript_quote": "The non-violent and other suicide rate was higher in males (6.39 per 100,000) than in females (4.44 per 100,000), but this change in trend was … significantly different for the two sexes.",
+    "expected_verdict": "invalid",
+    "observed": {
+      "id": "Q2",
+      "verdict": "invalid",
+      "evidence": "The non-violent and other suicide rate was higher in males (6.39 per 100,000) than in females (4.44 per 100,000), but this change in trend was not significantly different for the two sexes.",
+      "source_location": "p0022",
+      "reason": "The manuscript quotation replaces the words 'not significantly different' with '… significantly different' (ellipsis in place of 'not'). The ellipsis removes a meaning-reversing qualifier: the source says the change in trend was NOT significantly different between the sexes, while the quotation as written says it was significantly different. The fragments before and after the ellipsis are found verbatim, but the joined quotation does not reproduce the source's meaning, so the quotation is not faithful."
+    },
+    "scope": "Quotation fidelity, not scientific truth."
+  },
+  {
+    "case": "M30",
+    "condition": "checker-enabled",
+    "id": "Q2",
+    "kind": "altered_number",
+    "source_sentence": "All data were obtained from the SEER database [incidence-SEER research data, 17 registries, November 2022 Sub (2000–2020)] on June 6, 2023.",
+    "manuscript_quote": "All data were obtained from the SEER database [incidence-SEER research data, 17 registries, November 2022 Sub (2000–2020)] on June 7, 2023.",
+    "expected_verdict": "invalid",
+    "observed": {
+      "id": "Q2",
+      "verdict": "invalid",
+      "evidence": "All data were obtained from the SEER database [incidence-SEER research data, 17 registries, November 2022 Sub (2000–2020)] on June 6, 2023.",
+      "source_location": "p0005",
+      "reason": "The manuscript quotation reads 'on June 7, 2023', but the source reads 'on June 6, 2023'. The date of data retrieval is altered inside quotation marks. check_quotes returned manual_review (full quotation not found; the source contains no 'June 7' form). The rest of the quoted sentence matches, but the altered date makes the quotation unfaithful."
+    },
+    "scope": "Quotation fidelity, not scientific truth."
+  },
+  {
+    "case": "M28",
+    "condition": "checker-disabled",
+    "id": "Q1",
+    "kind": "altered_number",
+    "source_sentence": "Enrollment began June 8, 2020, and the final patient was recruited March 16, 2021.",
+    "manuscript_quote": "Enrollment began June 9, 2020, and the final patient was recruited March 16, 2021.",
+    "expected_verdict": "invalid",
+    "observed": {
+      "id": "Q1",
+      "verdict": "invalid",
+      "evidence": "ImmCoVA was a randomized, multicenter, open-label, controlled clinical trial. Enrollment began June 8, 2020, and the final patient was recruited March 16, 2021.",
+      "source_location": "p0008",
+      "reason": "The quoted sentence reads 'June 9, 2020' but the source reads 'June 8, 2020'. The enrollment start date is misquoted; the end date and the rest of the sentence match verbatim."
+    },
+    "scope": "Quotation fidelity, not scientific truth."
+  },
+  {
+    "case": "M28",
+    "condition": "checker-disabled",
+    "id": "Q4",
+    "kind": "misleading_omission",
+    "source_sentence": "Anakinra or tocilizumab did not significantly shorten time to clinical recovery compared to usual care.",
+    "manuscript_quote": "Anakinra or tocilizumab did … significantly shorten time to clinical recovery compared to usual care.",
+    "expected_verdict": "invalid",
+    "observed": {
+      "id": "Q4",
+      "verdict": "invalid",
+      "evidence": "Premature closure of trial precludes firm conclusions. Anakinra or tocilizumab did not significantly shorten time to clinical recovery compared to usual care.",
+      "source_location": "p0004",
+      "reason": "The quotation omits the word 'not' with an ellipsis ('did … significantly shorten'). The source states the treatments did NOT significantly shorten recovery time; the quotation as written asserts the opposite. The ellipsis removes a meaning-reversing qualifier, so the quotation is unfaithful."
+    },
+    "scope": "Quotation fidelity, not scientific truth."
+  },
+  {
+    "case": "M07",
+    "condition": "checker-enabled",
+    "type": "ledger excerpt",
+    "first_entry": {
+      "heading": "cite:source — manuscript.md:26",
+      "source": "doi:10.1371/journal.pone.0293913",
+      "claim-hash": "daf14b4bb6c3",
+      "archived": "literature/sources/source--10.1371_journal.pone.0293913-917db362.txt sha256:a5af72ba29b93bb1daa76834c1d2e965e772bfcf9f9c6e3459f3198932326dfb"
+    },
+    "first_target_expected_manuscript_line": 27,
+    "note": "Source checker line numbers were used for manuscript locations; the files have different layouts."
+  },
+  {
+    "case": "M25",
+    "condition": "checker-enabled",
+    "type": "ledger excerpt",
+    "first_entry": {
+      "heading": "cite:source — manuscript.md (paragraph p0025, Results and discussion) [Q1]",
+      "source": "doi:10.1371/journal.pone.0296060",
+      "claim-hash": "cc524112bdf9",
+      "archived": "literature/sources/source--10.1371_journal.pone.0296060-9bb171db.txt sha256:7116d9f4…"
+    },
+    "first_target_expected_manuscript_line": 107,
+    "note": "The recorded archive hash is truncated even though an archive file exists."
+  },
+  {
+    "case": "M14",
+    "condition": "checker-enabled",
+    "type": "ledger excerpt",
+    "first_entry": {
+      "heading": "cite:source — manuscript.md:p0009 (Q1; tool line number unresolved, paragraph anchor used)",
+      "source": "doi:10.1371/journal.pone.0295628 (bib key source; refs.bib title/DOI match the supplied source)",
+      "claim-hash": "b97bfa2034b7",
+      "archived": "literature/sources/source--10.1371_journal.pone.0295628-d780562f.txt sha256:a9a6c01357f5606805191dea46fd7b1ca91294b19871b9962717634edd39dced"
+    },
+    "first_target_expected_manuscript_line": 43,
+    "note": "DOI annotation is accepted in v2; paragraph IDs still fail the manuscript line requirement."
+  },
+  {
+    "case": "M04",
+    "condition": "checker-disabled",
+    "type": "ledger excerpt",
+    "first_entry": {
+      "heading": "cite:source — manuscript.md:11",
+      "source": "doi:10.1371/journal.pone.0291713",
+      "claim-hash": "044ce8c2c803",
+      "archived": "literature/sources/source--10.1371_journal.pone.0291713-96ca560f.txt sha256:68c38f19dc183299e4d00064fdb2e4ea5a010243be0654c47f15a2c5dba3dea6"
+    },
+    "first_target_expected_manuscript_line": 27,
+    "note": "Checker-disabled M04 is the only all-requirements pass under both grading versions."
+  }
+]

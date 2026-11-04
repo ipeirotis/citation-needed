@@ -1,5 +1,9 @@
 # Quotation benchmark: initial results, 2026-11-04
 
+Historical offline snapshot, before the local API run. Subsequent actual agent
+results are in the [reviewed paired-run report](paired-run-141405/report.md).
+The original offline measurements below are retained as recorded.
+
 **30 real-paper manuscript adaptations; 180 quotation targets. Offline tests complete. Actual Claude enabled/disabled comparison NOT RUN.**
 
 ## What was executed

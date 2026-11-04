@@ -1,0 +1,1157 @@
+{
+  "baseline_commit": "919f9ec91deed4780f2fde0f46e585206e8757b0",
+  "run_plan": {
+    "created": "2026-11-04T19:18:10Z",
+    "skill_parent_commit": "919f9ec91deed4780f2fde0f46e585206e8757b0",
+    "model": "claude-haiku-5-5",
+    "api_version": "2026-10-21",
+    "api_endpoint": "https://api.anthropic.com/v1/messages",
+    "max_turns": 16,
+    "max_tokens_per_request": 4096,
+    "source_manifest_sha256": "b9564342acc6b38f6ad02f3f9214df69048b319db79e746aa74568a20177c43c",
+    "answer_key_sha256": "2aee88fa206a25da4747f6cf36ba244654f50a0d5a83dfa817d680f8db0eef3c",
+    "benchmark_code_sha256": {
+      "__init__.py": "d022aa6bf4040d97aedf590c14631bc2ef43a7dcee8301a0db419dfb914985c8",
+      "build_dataset.py": "0f13cfda7fa3170abeff0b14a8b0ca37ad1576648f1b8a6ea071e567ac71485a",
+      "fetch_sources.py": "8ae75b9f7b56b16ef360eb61061e6ec8a0ab5fffbc7dc393ae28759a356f02e7",
+      "grade.py": "3578993af8232830710d3fb3fcaf5f90a16cf0dc2d888be830f1ad8a4748dff2",
+      "runner.py": "8dfb1e316ccdf810c848f51cfe2bf13c256a915c1289d109f6809e630af25cce",
+      "shared.py": "730c6ae46e6d6694b2053c99963f052cfc4d4d4987c57f5ab665ac9a3238d76c",
+      "validate.py": "ef31cf8a55a3307b51c7734e4cfaef6da79b99da955eedf9e136db65c10ff3a8"
+    },
+    "skill_sha256": "36660f6c2e51dc61f514958c2e30f64c6d7ee5a9054ab2c3164c6b41ee4c183a",
+    "checker_sha256": "fb3324dbff8414f6e883db3e1d651f574f6b59362eb6871ed8e1012617bd27db",
+    "agent_runs_planned": 60,
+    "repetitions": 1,
+    "counterbalance_seed": 20261104,
+    "prepared_only": false,
+    "runs": [
+      {
+        "case": "M28",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M23",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M30",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M10",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M12",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M06",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M22",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M30",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M29",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M05",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M25",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M17",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M19",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M05",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M02",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M04",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M28",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M03",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M14",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M26",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M14",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M07",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M22",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M13",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M24",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M09",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M09",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M20",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M11",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M25",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M02",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M29",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M17",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M10",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M04",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M08",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M16",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M18",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M06",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M15",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M27",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M26",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M15",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M03",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M23",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M20",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M27",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M18",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M21",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M01",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M13",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M08",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M01",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M19",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M16",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M12",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M11",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M07",
+        "condition": "checker-disabled",
+        "rep": 1
+      },
+      {
+        "case": "M21",
+        "condition": "checker-enabled",
+        "rep": 1
+      },
+      {
+        "case": "M24",
+        "condition": "checker-disabled",
+        "rep": 1
+      }
+    ]
+  },
+  "records": [
+    {
+      "case": "M28",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "e910bccaed9bbddfa987aa4a275a66e4a8d5bbcd9ebf9aa266e3ac3dd9436880",
+        "contract.json": "fe72efd6f043277b3569da16d29645b41cc85eb45478be019cfb016f8b232449",
+        "before.json": "c81dd4fb8749f4f68d66d5d09212c0f3f1612508424196fbfb994af5b444c5b0",
+        "after.json": "75af8f0b3c68fe6d7365bf3c98f787984b994df925931aae474b0353b9a6e974",
+        "responses.json": "31fbab4967c8f4c04c8626ebaf0259ecd587d83877fef65a5ada3d92fe80fe7a",
+        "messages.json": "8faa7554212b4a3c8906214eca83c027bad67874972c35cd6f300a3a4a314cc4",
+        "tool-events.json": "76dca93639b81655d88f26110097fb94bb4fabdd9c56f36bcef2bc531a603e2b"
+      }
+    },
+    {
+      "case": "M23",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "11ce21fafae1c799c95a114bf3c6b5cd7c14fc84a7680cd1123098f4dcd311df",
+        "contract.json": "e378b14f9fe3cfaef21fe1d8a6ce478e6931818ecd9239e5a821fe3175d296da",
+        "before.json": "8c730686841c778d76a42f39ffc4b4748738b7cde3f5152b139fc0c36fdf301c",
+        "after.json": "dd13dbe785c9c7e544cb6541f5961d739c1cc908fc0f7bbeaa311b25c500576e",
+        "responses.json": "e00c61990f859335eb97f62c496d12493724851576946a8f35663dbae885df7a",
+        "messages.json": "0f216f4ac05ffa857371fb0ee4d0b4f9e2b5ed8f13d6ee757ba65898b79866f4",
+        "tool-events.json": "77928271f0a014cfa43304e517e7c49cbae4ca052210733e9593b5a9dd300510"
+      }
+    },
+    {
+      "case": "M30",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "e4b6f1eb492674bca3e82e873bace705ec74d0b8ba2271004de0189f18d842af",
+        "contract.json": "0719ff614e03ce187de8322ff8d6115e5cc5cd8c03170784d9825730dc1195e1",
+        "before.json": "ba4eddd95f9fa609ffa27cb4307b3c15637adadabc421be5a193a23bfeeea045",
+        "after.json": "7d56d4998162d42f1c4ffe3def291f6f4fbe1945c021ab10ac4ed7c1cd8e1a3c",
+        "responses.json": "2d14df5cd8ac7024680851f5a819f3bb4c526182208453e705e52635afebd1d4",
+        "messages.json": "2128c7d48eaf231838471fa789bd0b1d94f39d69e17b11ade7df9a7d39c7e29e",
+        "tool-events.json": "3846afc0343d622f117a619cbcec57fdf11776259dc8b1d5988eec18f2f912e8"
+      }
+    },
+    {
+      "case": "M10",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "8800d7a7163a2ad8b935cfaba175ef09191fb2df16870a1903f6e20660fdcff0",
+        "contract.json": "4fbe507edef1a1a7b6c9d2a6996c9fcc3f48cf17571abbec5384446524384454",
+        "before.json": "1f2a9dc3471e7955e5d57ea81c2347987f8d4c7360394e45805a9f701c6f777d",
+        "after.json": "478079f327f23c028177f64b92f3c73c64c2f5c63dcca368b517afe114b49fcd",
+        "responses.json": "e26b001a50be9b25e4acbef4bd9f9d0793b7b3e31e13f1f3f6a24c661e9ddbae",
+        "messages.json": "2dfe5977ad772cb75d9705d77eb4acb0e5c283d653612aef8696a21f630ff6f1",
+        "tool-events.json": "3edbf7d7d663edb37793c73c9de32140fe212a8aa91994403d17555cdb819576"
+      }
+    },
+    {
+      "case": "M12",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "ca193d3415b55b733c249ac69efbebe452d6e6545846b5f23f16b37551d20e3b",
+        "contract.json": "c3874370cf0c02aa51e0938c23bac8ad47bd29cb33ee38f1ebb6323370eb690a",
+        "before.json": "0bb7f992d5441e1d728f65600b13f77edb09fce12fa96a75c9964bf889675353",
+        "after.json": "6b4394c5bda7a746adb4579760810f90dcda80759ef3ec2ebce87612199ea1b9",
+        "responses.json": "355aea7d8548df095f4ac5e0fd58e445e291c06af55461517b8dce79bc0695b1",
+        "messages.json": "a5b8044ffa8934c9cfc9ad3f40448f358aa17b177581cd51ebc4ae6366469b17",
+        "tool-events.json": "14391b72360f1a143e91ee244b1431555c3bde3cf48c4ca7211cecd8cb65352d"
+      }
+    },
+    {
+      "case": "M06",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "025c5ec3696ba8a107fc19601e64169976d690da5c6097b4fc467db1bba582d9",
+        "contract.json": "5415dc8db18193b29aece29f822c06a28acfe49490c27b5c68d2626f11ce2cda",
+        "before.json": "81d92726f743aaf8b8dd179c332fa43cc4fe9251f9eed2e6b6e87adf4f4ff4a5",
+        "after.json": "f0a390fab8d53efbfe1f27c90959a657a5d37e02112ea94b86aa6da25a3961ec",
+        "responses.json": "d46f183c9e64adbac381683c02f0ce95b36efc1074f39031352bd0fe3fcc34bf",
+        "messages.json": "c27bcc8d2e359b80d2f509f797d3ad3bf2808ee7d21bf56af5882cc78f7d1370",
+        "tool-events.json": "602021411d37ea3d3c366e27d8736ca0d9a83ae3c68f16b7e13a16c405009836"
+      }
+    },
+    {
+      "case": "M22",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "a5ef6b0e127847b500b9c9097c9041c8e5ae5854a7d226dc3541c72abd142809",
+        "contract.json": "f444b0c3260096e16636b234e4fe3ed7cb00ac493558d3c573fc6be04dde0b1c",
+        "before.json": "e1833c10498f4d1498fd951cf19592cf80cbfc193c526c1564e1ed28ccd614ab",
+        "after.json": "fc13f44b2eac1e9dbc86cce5835781b60b5301075b551aae82cdbbb44e4d4114",
+        "responses.json": "53e214234a840c6df82a9d7c14359fa381975668da693e4d25114f7a1ef96ff2",
+        "messages.json": "59b1c4703cbb6c7e1b30f516a9f619c6cec205f7f57a1fbc2737e4d518e3308a",
+        "tool-events.json": "519326351778247ad1b0e9cbef126f69c520dbbccd4182063fc0c7689cdc1b92"
+      }
+    },
+    {
+      "case": "M30",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "f91e05f8ed5b194ae85f44b9ee540418a6deb71737ae35184b23afcbded9b0cc",
+        "contract.json": "4623628c15c6c49d539f0c25b7a611fef8678984fadee39b1f70f86af416df74",
+        "before.json": "dbdfae695954d4448c8edb15f9d504e5a5ba3e1957107dba5c24075174f59932",
+        "after.json": "bc19987f6260cd05ec5754216809e3213f8a40a915c3eea2adbbfb1b6ad7d6cf",
+        "responses.json": "dfdfe9684ffadda07ca0c112fb87c25ce5d8884076cc74f27333ae962e75ef87",
+        "messages.json": "ecd64382cb09125c726f4baa447afd3513feadac173ab09d728775ce7529e70f",
+        "tool-events.json": "ad8ee0ef83dfdf5a35cf59130fe9d34a0a3b26ca32f3841452297c2eecaa6a2f"
+      }
+    },
+    {
+      "case": "M29",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "e5ff451c6f59a4047942ef5f09ff63cc0bf1460246f57bf29abf15bc4ce7c482",
+        "contract.json": "48912aefcaf6d2c498720a1741a6009ccab5c5dcbae09504a4e735fcce0f02ed",
+        "before.json": "7c18e7e824d610dc8da754a315a77597ff9800dab4cbdbd707730c7a0202833e",
+        "after.json": "98b0bc9326b5bc4e73fb6d47dfe09af426dcc20042f688cf02cafc5e91cb5f8c",
+        "responses.json": "e841e1ff14ac9fa1e909b70ee6932ab20eb9bb4987a49412bfb5c06fe6ecbcec",
+        "messages.json": "10508bbd35205361f02083ed644f53a433cb6c15c1b6221a9f25e0479f694d41",
+        "tool-events.json": "9def09047ab537770e33a17fb33e58e1b4699b2b5f8fdf34ba310b1dba1a5922"
+      }
+    },
+    {
+      "case": "M05",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "a348cbdcfb1fe9cc65e9de1e5ce89b60dc6eec8f63b70bc7d76bb100c33b2ab0",
+        "contract.json": "fd6e89715b6d4d600da5981078b2741de69175fac32ece3fb95d3e951b73d01d",
+        "before.json": "33ac2fcf7a3e4600affce387150efbfb9a4c749ce5fef173508a8ec3d4bf6f66",
+        "after.json": "1da2439f81964b650a01bb2f453313eacc4b10a2be31e6e170828742693fd776",
+        "responses.json": "e574b8bf27f0a45c4adb4f3f980beadfbf07a9de8b5006024c722c62035a5884",
+        "messages.json": "3cbc155545febcde6dfb50c0861371ad54901790963803cb5c182193fbd5986a",
+        "tool-events.json": "d17ca5106ac4f4b975955ac69f672a437ee1f904dd422a04f72c0494bc67343f"
+      }
+    },
+    {
+      "case": "M25",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "67f6a5d171e68219f00a2525e31d2833ca73aac21996585191bc021ed54fda71",
+        "contract.json": "67225d76e4bb1cd66914f040ccbde138ba80457cef7f0f3d810becb392f9978f",
+        "before.json": "f5be75f84a22159091ea07086584cafe0a377da287f8bbd43b57e466ea25b96a",
+        "after.json": "6d7b09373b0ac18514becc1f36c0c5027889e531df622f4a2f1cdbe60d62513f",
+        "responses.json": "05d423c0b9daee3f441ee9da963d767904c21552c37777b5bd409a6f7f8ee957",
+        "messages.json": "d08a9ff72e08f7a632194702384aa80b0a5165ce505bc7a7f08b79d2bbdbd9ff",
+        "tool-events.json": "1cc0f659fec01c70458f49d4f5db3af08f40501cb3e1357d4a91c6440b5cb4e1"
+      }
+    },
+    {
+      "case": "M17",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "c59230b2df1cdf4391325b4275f02427a754485d558be3c426974ab61573b9bb",
+        "contract.json": "98136d47bb506adfdaed4c7ce5400305b8aa8224a9c643da71bb36bb3ef42f64",
+        "before.json": "b2458a48411cf411333b09fe8a6314fbe759508eea39b92026738ef6a0d454e4",
+        "after.json": "8a4e451cf183490b5afadc06199fdce406b328903ab5e3247a4d3961fdd59109",
+        "responses.json": "7c7d5284399c3de95541e9f43720d085262dc25afefc53e5b9c9d1ba76f7434c",
+        "messages.json": "990858011fff1c02210a84e33973ad5a21bac350a5a48b278e37965c0766f72b",
+        "tool-events.json": "a032f5aaa9b3bb4ba0cff1107211d9620b049176c83ad87811f901db596b1c8c"
+      }
+    },
+    {
+      "case": "M19",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "89f52dddb83570baec2ee5691508bf702e91b82650e70a69acef7589adc00a6b",
+        "contract.json": "cfaad7a674d277beb75f48991ad23d298cf78071e743e187b8772cf1460bd6d8",
+        "before.json": "f8ba57718553c89388fa6d02e7b29cb964652f5f69372837c308c3852fc4c45f",
+        "after.json": "a9f0015f6128af45eb1540a0063b67849b36342c13ddf3da0e63bbf86a6666bc",
+        "responses.json": "3d30e94990efc38127b11faa322295ed2ea6931aaca75870d98055fe03f0a720",
+        "messages.json": "0eb14759ded83c63f052626517bf4aa088ad3e2328ded189cf1345e9a925d095",
+        "tool-events.json": "c2591b54d5df399999ffded3ad721c07e213a7dc41eb1ef0538eb55bf5435c3d"
+      }
+    },
+    {
+      "case": "M05",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "af3e5eeda90a325befd0e7e5e2c89b0a46be8c8dfa95b200c00ec682bf7f9092",
+        "contract.json": "288f6d7d7a8b8e09bb6f5292b648b5c9cf3ca201a1243b130846900535e1f378",
+        "before.json": "949cfd55ffd5b3005b15944328e4046c99444eb98b7884c754521751a00e2d1a",
+        "after.json": "949cfd55ffd5b3005b15944328e4046c99444eb98b7884c754521751a00e2d1a",
+        "responses.json": "9a53a9f71fa4f2d275b50445d4343ae85cb5f646bd7d3d0879cc530ad49ce104",
+        "messages.json": "086e7e65ee2f131a21b776c1479982aa99e16581cc6b6ca21d4a2052e02d839b",
+        "tool-events.json": "f2e272ad49b0ee034b7ce5b0ebbadc98d0fcbfd12b4261b637f5339500123c34"
+      }
+    },
+    {
+      "case": "M02",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "ae6d3d7be4ce31057835bef767eba84341fa0481a81cf9314066acd31a33f8ac",
+        "contract.json": "c265afb7160dba18d085627aa2164fd57af07e0ccc200ee3393b04870c835103",
+        "before.json": "cc6dbb54710d5fc12cab256436b62bc984738677f5c8fddaef3c1215eaf2ae67",
+        "after.json": "cc6dbb54710d5fc12cab256436b62bc984738677f5c8fddaef3c1215eaf2ae67",
+        "responses.json": "20fe6bf02885977f21e75badea1797b8dcb7766ce6bd152d4e7c7b648701ee6d",
+        "messages.json": "0e125b81982f4f4f21c6d92dca8303310792aff667875109358f85ec35eeae5e",
+        "tool-events.json": "fc846aaed2fcdd45fafe02ea537672a1154c3b3cba33e7580b0d4512a8b623bf"
+      }
+    },
+    {
+      "case": "M04",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "1c447d6fbb1e167d6c3710b4780482921bfd275bfafd4efc0903067c2e056d2e",
+        "contract.json": "823cd5a196b9160f182f46d6e0b10c1a8d97eab4a77dc9ea380d918763092886",
+        "before.json": "67dab9dfca6456ffd4f5a17eac42dbd3b6029f3255c4aed34c45d305ac5934c7",
+        "after.json": "ee2516a24911c0bf5653a10e035312f241d3bb7425e30d15957e15c345d60fce",
+        "responses.json": "d34a37d218c5861a44d0d70c4c8e51f36016b9b1823294ab1cd1fd34c3b21168",
+        "messages.json": "80db819ca4312cc71bdd195a2d25f49ec496ed0555bf756be73fcea92a7124b4",
+        "tool-events.json": "0886cd359f95c84ea14e84bc7950429496caee664d35484228ef6282c3e3f821"
+      }
+    },
+    {
+      "case": "M28",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "4094ce409ef4f4b668f2b4e0ee2cd1d04d50f8b6f117c70b8f2ea47763073b42",
+        "contract.json": "b30f72bee6b0f987d6f2ceeb8ef90228361b1665893ba896385c9f9fda2628ef",
+        "before.json": "72b613a54a9004d608deacffba0d1ea08a5e487dd79020532c4ab925bf8ffdbe",
+        "after.json": "d521f7e44ff36e0b5c52afc6ca6463d8a8ca03300647737e507967765e1be2e1",
+        "responses.json": "0c17d32dcf12fead014d257e261b1049cdf6018f909497ea76147c97419bc952",
+        "messages.json": "ba5e5b988c1e1015263841f43e7ca44c9335bed14696496c4c8b5cd0ef115237",
+        "tool-events.json": "cb2b66f380702be0116645de741213d56020b9ccb0f979500d3a881e23c84455"
+      }
+    },
+    {
+      "case": "M03",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "ab909fcc30ea6d25a29e96f48b1892106341b089691cea2654f042c0054ca51a",
+        "contract.json": "a0922f80b2341992d17bf82a5cf45cd594bf1291cfbf798cba8defda98ffbfa5",
+        "before.json": "1ac74701a118d59ca1c739dd15e484eb0809614857e4838673a86d19784d46ab",
+        "after.json": "1289967ce6d19af6f76058f7fdb32ad48b9314c9f6d33d72bef6279cf5062e4a",
+        "responses.json": "cbe6d922e2f300288d4a9dba734906c7affd938d8e58411408a0e863ea95a629",
+        "messages.json": "dbb6fd8d976754043edd24d8e86f8ec25156212dd42a6bda2a981d785f3b8e24",
+        "tool-events.json": "9a2ecc7f0874605f9c3757397bf9fddcdc0a925b861094e23b900543642f62c9"
+      }
+    },
+    {
+      "case": "M14",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "dbab5b0ab38dbbde4cd0bb950d16009fcf204d35016f13c26801de2130c16b55",
+        "contract.json": "d7a8237c364ace97b1afe84d96b6d8e77c0f77fa12b2cd176104e8a16cd21478",
+        "before.json": "acd9858a08cc57073162f795d7333310cb2f7df762c8719784a7ad1bbcf70dec",
+        "after.json": "bfe6db0f6d2db52b629d328051eff8dbd6fb37acf740f0dde8f1da46d167526c",
+        "responses.json": "e1687c099a5fd84fff7c65c5072a4ad6212a7c324fa4647b5f2c4f1b63ac3390",
+        "messages.json": "f01b17b1e0c777405fc29c726b666a39ca427878606232b177bcf9ab10f81750",
+        "tool-events.json": "41341095dd70220dacee97339dbe469ce54eb9162accfdd457945c57a55d5fd2"
+      }
+    },
+    {
+      "case": "M26",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "ee5e3e21f86a2ff978aaf7f8ff16ff6d16f7de620dd149da7094ab10883cb5b6",
+        "contract.json": "a6a956639ba740e6d5f4b51328248be98a39a9be3fc7b6e1ccf622785db62a00",
+        "before.json": "15262d7620622462f3b0c0a5f1503ba78eb2479aadee35c560c17f2c62f5b363",
+        "after.json": "96e4c2ccd1de28236f60e11a119118ab9e445570f9b4f4c0a01b175bae927416",
+        "responses.json": "343cc6851cf75c7c4df26fd4486500ed0562cd4aef796034fb1b02aeec315c46",
+        "messages.json": "a87ca55a34612bb1ca7020d8d5f055159667706c785eea0a3136103dae797a2c",
+        "tool-events.json": "011c7be533c435eb4afac03ec6df3a5e5471a32596da0b4cc3a9271df09f1891"
+      }
+    },
+    {
+      "case": "M14",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "f4a9890ab6c4dcf8ab4ecc9b3145f310b446cbc0c9b801cfd422b0f2b055c4a5",
+        "contract.json": "e395bbcfbc89d24255965178bb3c212cb464cbfb3edcfdfd36f5e23a5ab00489",
+        "before.json": "46c33044fba175e5632392024f80d3efbf0eb2e8319c98f64fe3a38627e4fc5e",
+        "after.json": "54125a11550a1a90f4e1f813081b9b5724229965b770e12af58bf962e67f9712",
+        "responses.json": "750c7b62e858d35d2eba05e1720d11afbbd98b32c2844d079b638831a34bccf1",
+        "messages.json": "109252e118e0d1a031d4895588942c9336e510e47d7cc26e62c84834dd648ca5",
+        "tool-events.json": "90d85faa9b1d2a5398db873666986faa3ad185b2e6d2a0fb37463259f5d6c8d4"
+      }
+    },
+    {
+      "case": "M07",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "27e443085a9620d6bbd8650151b6adf7c1f34c2a8d1dee6ceeda81b81d904f74",
+        "contract.json": "db035d21f12fb0b24e8e4dfa386fecc3f0945d7807d9e45386d3ff844b537b4f",
+        "before.json": "d63675d95944e0509da23f81105d02925e7b5265efe567fa982428751ea7cffa",
+        "after.json": "79f70c155010b2449cbdd19c06afbe3c6587106181c6fb5d67b79b292b6f5334",
+        "responses.json": "d8c9ea8eef0fb1c2d8ad50c0e2dd78c1ac20b19bb943bc869c3c75c4d9ba26b5",
+        "messages.json": "2d6640a12d3f481233b9b6575d437d12100fac115805a13dd65138032cfef023",
+        "tool-events.json": "2dd7f4706e0f55fecaeabcbcb3ff1c8688f2ca57acbecd0872d70cab677f4e27"
+      }
+    },
+    {
+      "case": "M22",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "5d7354c2f80a92ec604c45c68a5edb9704d1c260df4a396c41045e623d891443",
+        "contract.json": "8eedaaa42b69e09da36f8b9401d7bcaf47001937e0467e155643a6a616ef80f7",
+        "before.json": "f43b41c5b0cf4be285b7a8115e7cc339c212c49a5799048022e89e7df75105fc",
+        "after.json": "4707b71565cde28d62a09917298e24f480b16f2407e9b96d6549c76c03800349",
+        "responses.json": "e52a9f09fa5e3359895e5d33e81690ff2a3df0a98e7e55549aa517bae884959c",
+        "messages.json": "680cef1f9c12b2c601fcd1f0149851f664d0b61ace5f8a13bcf336860f6900d1",
+        "tool-events.json": "2df72a1f030f29073474014e8236a6fe846c9ea87a4eaa38c6328d3f451a0362"
+      }
+    },
+    {
+      "case": "M13",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "40d4c05fdba908031185ab65522ffd4f4df6c89b63834830cad7b1de3756938e",
+        "contract.json": "f8b657152d98667c0baa064c4d293a55759b147897b61f9fb45fa3d38793f630",
+        "before.json": "731ea5dea93ca20527bbe559d6e3e19104ebdbc671e07522858dd57d62bfbccf",
+        "after.json": "651269f56f6b103086797929ae4c9a2a67117d7c6fefcdf9a8810e1d43dffa3e",
+        "responses.json": "47bf5ea0e534063408dffead4e1873ff963175f7e0fad8ccd63954b09327dd50",
+        "messages.json": "c18fabdb07233bfbdf99a74562797bd300055267c5c1734a22396d427388613d",
+        "tool-events.json": "8c0908980513db25cc264a3e3039ac364ed576cfe0b57f11d4a7d3b202da0ff8"
+      }
+    },
+    {
+      "case": "M24",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "98c053529f0864a41abf3044b601808d9b82a603113f6f9f7e7da65d05d69661",
+        "contract.json": "80dcaa4fbf8b50a7da0e4f185f57c52d7c4cfd89fa26630e3b2e97a432e98c43",
+        "before.json": "bf427352cfaeba6e21c2c29db275e2257a199c661bb75f8ead18b25754946af8",
+        "after.json": "61f3257e3c2cd92007a614ee9b71ac51b16109380f4bd6f5e5b04566a890f258",
+        "responses.json": "c1f6f55fb6664b46d15a9d66865845837ab3a0b64b06cfd110f0d4d069197378",
+        "messages.json": "3daaa25f418ab7d3de0895402bb80070fab34290d800e1376820f523672d6755",
+        "tool-events.json": "31d27a2752c5f04385835c426ed1b516fbbd5106374354a5d4d7238a9d9938e0"
+      }
+    },
+    {
+      "case": "M09",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "ac32597dafa9ae32503486d41475d34e2d549607d698ae16d463cd774b5be9c1",
+        "contract.json": "34290c4fd58a77dc1edf2aa0a1609dec9999c643bc5e41882b39cfebc1cdddba",
+        "before.json": "5394ad51aa4de0d3b2b750d1bc65d91794937b8ad679c308af7b3cc9af4b352b",
+        "after.json": "8b2a23d1f4581c831009d41cab5919ab4e59694714d04322802b1e035e83d511",
+        "responses.json": "a1cbf0fa08add11b69cbda119a69e4d0bc1e60598dc2d0783f3bc36deae46976",
+        "messages.json": "9d5f30951550bfabc5fdf54c92031c169421b4fac944da38baeb17e1211db82c",
+        "tool-events.json": "dd2b894ea04eb42aa3935db0d4e5b2871183cac6647c45529266c303f14dd357"
+      }
+    },
+    {
+      "case": "M09",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "fd0eed9713a74d7fbd358a611e289be4d3adc65c274e69a7ef5d28cf139f10f4",
+        "contract.json": "b826bd1d03c150ce6562c31a72ec000098330c949d5469473323887490764093",
+        "before.json": "bad07837e661052cfff740e57791a3a2886cf724dcd452d253ce214e2b282fd3",
+        "after.json": "c5632655b4e61d59b344004406bed48da9059cb9c5d6bf84764a8a1194cdcd4b",
+        "responses.json": "21c9765c6bac88284f853988839f16589f37793137fe41d4866fa2949dfd5d79",
+        "messages.json": "52c3b6ac48980ab7df883ba0b8603ccef878a538963babb5e457c9d7ca96c4bd",
+        "tool-events.json": "87db97058555a9bff79dbfaf0100678af684d4127ef79a614c35ca5d0aaa9be3"
+      }
+    },
+    {
+      "case": "M20",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "8e95e1f92fa1b651bf0cb478566d4b89343a1bfa655251363e1e459edf846275",
+        "contract.json": "e9fdde993255bbc1193c29795cafb84e314034089c470bdbe7b1c53603ad504c",
+        "before.json": "e1e79e5783c8eea30c54753d4ec0cc0c839424dedf11727a4dafef296fbb73ae",
+        "after.json": "9be952e0f6f05c466f4c4110e9f715f810c6ed2bf36f414e8c427e2fa4f1bfe5",
+        "responses.json": "031df0a95b7edffa2a3d43cbda08b02dbf8cd0467badc6648d4b9f0c54c59f81",
+        "messages.json": "1e67b52646678c286e9e021cac8d4f18a76fd9909979539cb933030e2d49a790",
+        "tool-events.json": "add49ab2ab4fdb7de5609afb2ad549caf035ffeb799c890dd58a3a257e1e6289"
+      }
+    },
+    {
+      "case": "M11",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "f2e9e28e28c889345455fb087bc3bc4e6028094482bde637ea0fc758d9755cd5",
+        "contract.json": "fca59c773e047000d24459bbf3e95d010727950dfa3418904c37ee3751fc8ef6",
+        "before.json": "cb9a18cd433322179ad9ee5a79594f4cb09948c6765d6f954d8b70795b117eb8",
+        "after.json": "38e9dd480c4bb2bf06567c9f4182a579d1625d7f8c8f8defa9853a9957f9ab37",
+        "responses.json": "070ea5aadb99a44bc43cdbcdaa842389a503d8d149cedb940c0be75db1120545",
+        "messages.json": "3d3a4144b8b041f092135f3bd5408aff2202f289220fa5ebca0bcde7feffe9cd",
+        "tool-events.json": "b46fb6a2cb383aac1d33264e3cefd6c489e9e86b830eed421453ebf75b11dbdc"
+      }
+    },
+    {
+      "case": "M25",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "c03af9c94786d45437dbc7b96f5ea6a294405dc7f8bca201e20f3d4aa56666aa",
+        "contract.json": "74c3d5e4b9caf798539b63efda4046dc604c680074cbe8907cab9a36b655579d",
+        "before.json": "e3d23544f39d6838d9e59a298fdc543992f9190a73afcd2b8ed75054e9ea7a51",
+        "after.json": "e22a12ce54975bdd6178c05e5f9edea3777ce5b461d2f3c8a82a0021ded1a924",
+        "responses.json": "8dd99d2b490b075eb2eebc6d90e2aac5787b402cedcc6815678e62053e09b066",
+        "messages.json": "c69c0f76d7b88de7ad67b54e4e0dddb4b86a20da5c42c92b115bf05aa9b3ba63",
+        "tool-events.json": "8cf4021ba96c962cbbabd2dffcf0028ab9e4be5b06294ecf80b42da779c1a518"
+      }
+    },
+    {
+      "case": "M02",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "43abd12c77a94e42f8b0f6559c7d968d6b7efafab9d747e9b313e99dca0d3b18",
+        "contract.json": "2967ccb00e279fc839a1b393c333aef9cf9f2dc4b27f43542845b7d502836751",
+        "before.json": "e9060cdf38856a84954c67d40433b2501f401b63d55a7401814be4a471cdf27c",
+        "after.json": "1e8f1a403bcefde927e479e0a0aae4d6e89abf3a030440e0d218b27017356a2d",
+        "responses.json": "aaadbb4fba40c6b3cc050316ce1154da03dfdd6ac58125966f215317f2774aac",
+        "messages.json": "4eba75d8ffcbf26f6398e928c36a4f0386192cb43032513e3392bcaba25127bf",
+        "tool-events.json": "34fc5798b1cafa6aeddc0e063f4b3b3fc6f0e3a5b08cb381dac9f53a35fff0cd"
+      }
+    },
+    {
+      "case": "M29",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "d65118bd88925716832b4a2db9f49022bdf48ab66d02d33feb44139a2af41b5d",
+        "contract.json": "77d61aa804db6f90d441a585b72afa9ef44daee49f3f5d27854112c6ce1e6b17",
+        "before.json": "3b3bd21b656031eb8b32ff7acdb5540d20c2758d4246c1e3fa9cc3fff1472e1e",
+        "after.json": "4921b2abeabff207b406e495ab6f1ccd651f9e07de94db9d5c89f79598ac6465",
+        "responses.json": "08ecb65cca17ed2689b1bd266bdc067c6389ba92690a42f298b8dfc864dd12b4",
+        "messages.json": "289d569d0e5875cf2f2d87d400e6bb63c2ee12a36469305f9d167e4ab828e987",
+        "tool-events.json": "3bfcc25de23e814fda08dfe8888e4379a8ddbea5a81a2e56ccdfbd940f633cd2"
+      }
+    },
+    {
+      "case": "M17",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "7e2a16e21da1981780b4f297de08359bb799bf6318b05c4836d8ca592b8025a0",
+        "contract.json": "29209b933a936f2688786dfa07126234a00592dbab47708f605a3ac2922e8d74",
+        "before.json": "31a6b7eb6dc8b0e64e7584f334cced654d0678c454a5069300e5a5fb201b840b",
+        "after.json": "bbd041c7ce9b80909b8d4d1d6b4ebc8e058c40369a7167ea4064a1e8cc877e06",
+        "responses.json": "60e084cd3b1674e646b864b12587a97f89c155058b2a86d4e1b7bcad33d570e2",
+        "messages.json": "444aca8110c63c57043d5f88b13114f7754914f4a7520ad9477c320d12d59ec9",
+        "tool-events.json": "fa53aab41bb114fb3c03872c2c9468e858c69d24a0e31b27fa5a4c1c7d270399"
+      }
+    },
+    {
+      "case": "M10",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "944cd28a3fe40863e4d3edeb7671963c3d683c572944156f36bdec0f3e071f97",
+        "contract.json": "f1a39a4e0b833d514d18d01afbb36aeb75519dd7fdec3333883d90572557cd17",
+        "before.json": "dee09efa560fb1b4e47298079360a8074b6c2a5a55c07ad459f3aff69d90eeb7",
+        "after.json": "61b6d6255723512ff3564938f0909349856c286d090db85d2f3ac9108f556afa",
+        "responses.json": "f87612280b83226caf638c47faf713e06cb70dd104a700424a360416e1be4006",
+        "messages.json": "21c8270fd11f7913fe2d122ca127b54117ba7b48088d578c50c52e2768722cf5",
+        "tool-events.json": "6149b2305784035cd9b59c7a04f584f902128ab3c865f02df60bbd368e4a49d4"
+      }
+    },
+    {
+      "case": "M04",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "03eb8f02b8832cdd0829478f3164f7ae61132fe808b2437f551cd61e2de3f676",
+        "contract.json": "f2514ef65fdc893b5a4d48d418009056bf50c0afb1e4a9515878c12af275462b",
+        "before.json": "dec52f4a32d27243ece71384b56b2acf60d0cacf81798704eac7fa281510adac",
+        "after.json": "fa322acf0183c277ac52515f232a529f1242488d509d959f11e70e531bd800eb",
+        "responses.json": "b568e422acfec7e781d0be69f96c4a0f629676c05dbd387b33df6127215fe900",
+        "messages.json": "6583df59470e0f729ff9fe6d383d0893ebf4d4da3ee35d334defcc62d776f739",
+        "tool-events.json": "76b1eab32162a9d1b2c96bdd59ffeda5f779776bd07976e0353c252000138117"
+      }
+    },
+    {
+      "case": "M08",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "bfc7a0eb5d878419ecf49dd5b8e96480e7a19f6b7d025e7fd87e55d7cec6cc4d",
+        "contract.json": "9271b653c0c21d1c8f70ce6fec86707c15f6077cedee318cfd6c252e9b1d614f",
+        "before.json": "109742a691eebb1fce765f8c9f112b334d7f45aa6aecf2abb59df2a01af08c47",
+        "after.json": "1a443b1823fd3cc1cf31e84e6cf0f8b1228b353009789b2e987f771219ab0e40",
+        "responses.json": "143c1a8e224844a3ec2d8ead0dfc486bbdd3ebc373d1246db0544fef49e36f21",
+        "messages.json": "3bd10593b02e4d4f2ac644b8d0f2cd31b41be950064f63d290693a198ac652f2",
+        "tool-events.json": "6d1bd9760efb43c3006e0b24e984d14741e0ed02990b4cf56da1c71bced8dec0"
+      }
+    },
+    {
+      "case": "M16",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "24a542d2194fd111292701d88a07aea310cd62315fc86d4ca6c500f411815c6e",
+        "contract.json": "a8600f65e5a3645d7e9cc9ec4ed3ef98be52776784d1dd3de47241be1078503f",
+        "before.json": "fcc4351517f81897b7c1a5059f47371218749f8846269038ea7fa4150b1c5646",
+        "after.json": "67b6c4b7aef4a187dff796b9031370b60fc56e7bd5b972d7ee67b3891115e3e5",
+        "responses.json": "a9348e83aa2585a3265daeaf33eae521ff99402e77e33d9d8831690ec3b0dbc4",
+        "messages.json": "b4ef0f98cf8bdb269fbd1f3c3b3ec06d3fa8c4c5a7f22a0f08c16cfd0dade6be",
+        "tool-events.json": "851e94750011b914e3741fee2cbd422423132597d73455e0876979be1c41c18b"
+      }
+    },
+    {
+      "case": "M18",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "cde604c33b66f60a7edee6f7ab921a79f8794f3ee2d7c424bbb95e29f0b3872e",
+        "contract.json": "81422d1b0021754b97ae86dedf8a714e98c9a55119a52d620a31555389d40c77",
+        "before.json": "7de7299b5fc591b5d3430f0632ac3b5378a942b91b65fbf21027bb8a45507443",
+        "after.json": "6d227f3c4f0f47c6bc4835f1288900a2ae775834e8e44bd3e87e729d07141abc",
+        "responses.json": "3f219e2dffa05e468fb62875b6cb2964134e9cfe7db8d3c3e79a559e28df26c3",
+        "messages.json": "b5a6fdea3fb33276f1063f329e7178a55b7bb074f29e109d6de0e37bcccd7cde",
+        "tool-events.json": "b74e476f05fd5f6debd1ee51ea7e85b712e7a5ebf69418d7194f35b8a95212ee"
+      }
+    },
+    {
+      "case": "M06",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "40e353884c9bf05029c146e4c9ea5686d77a37d03839ab972c0fb5b4099dda8d",
+        "contract.json": "d65466b11035a9e423872110948487decb1d2c930c7f89c8d3052d24556669e5",
+        "before.json": "59656ba7c56342422b2024aedb2c573b0bf11f21c17d4010d11e0d3ac7c443dc",
+        "after.json": "06c9370921d0e5cb08af2f8501b22105749162897c742fcb6faf1c1abee67672",
+        "responses.json": "842f27d4556669f061f679f15ccf67977afd7f50361196336e12be0ae4239769",
+        "messages.json": "5d686d8593c7ebf6cbd8173651def42da966e27a494f445976019a162279efc0",
+        "tool-events.json": "98ea8c9dd80684ff683aad1a994795ea010cfbaa92380a85019391336f9fde42"
+      }
+    },
+    {
+      "case": "M15",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "cad36bcdcffa1bbf61036489cffef2d23f14c2c73bff642e8b88ed2f30eb4ab0",
+        "contract.json": "446af4b827810b7e2ed49ff7eacafb1de0ac8c2c63dccdc384a8a1fec51d02e7",
+        "before.json": "b3505e0a8c119c0c120bbc4fff028ae441da781617586afe96f291e68872b865",
+        "after.json": "12b1a95f7058ef4279d1ceefc8ff106156bd7f7148ee4b8d983cbcde9c6844db",
+        "responses.json": "cd4af9a017a68dd00fdbccd4a2c683eb8d188ec6b04595ee1bd1117e20bbf606",
+        "messages.json": "6786c34bb88e74c0fb37232c164d8ca86e08f20a97a3ef98d0a3622ad47917f1",
+        "tool-events.json": "901d0bdec818120cfa4e227d823ec4e69256b70d3c7e88e0f998ae8a748aab6a"
+      }
+    },
+    {
+      "case": "M27",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "c31e7a4ffd8fbbb721d50aa4b24fe20eb540ca6d55fcf57d70bc2d28dc33ae35",
+        "contract.json": "6dc264aef021ddf257e0ac393363f47d3e408b706822e76c9e32761923eed101",
+        "before.json": "5ff10813d580012571a9ec605b5c7ced427531ac3bdd69d479c6c144d603e980",
+        "after.json": "d9e481628a9a9fdb6f585b74f7268d1e179c259be4944631a34514141221e1bf",
+        "responses.json": "aed5bfdc2f02ea526de64276d4d5b12eaae8bf20128afc8abb6f5dd46961a647",
+        "messages.json": "275d1fa75e5d5a5472590bae2c6024b2bdd2835638bc9834807ce0ed0710a4d4",
+        "tool-events.json": "3abc7857152982fdd1e22c659c0ebc7504dc434ebabfe5873b4f34c051263d84"
+      }
+    },
+    {
+      "case": "M26",
+      "condition": "checker-enabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "d84866d75db80fc848ac16cb92c77647e465a3fd3b53507e0d189122347a1c34",
+        "contract.json": "02723bcfc69692ca3f6e383c3e2b6d75063fe4d1bd41ed6944e5bd0944733c52",
+        "before.json": "79c630364c53ba1c4c829860a2c7e41ac06e3bdcc7b97bd681eb6f512ada6338",
+        "after.json": "8f9aaa0cae6a8c6b40aeddb5afd002d1edbba2ae88f3b2d8f5098e01e4340a4c",
+        "responses.json": "fdf4266ac91746773d83a2ca6da7878429e8d8490166b0b52785473f1d7bbc67",
+        "messages.json": "3a053870e7f85eae24c82c0b63a048f63fe6c9fd61dc61976494c91fa5aeaf54",
+        "tool-events.json": "bfa3da985eb70b3da0173d884b306425ae71a5b1d119be21005b0d3e19dc0517"
+      }
+    },
+    {
+      "case": "M15",
+      "condition": "checker-disabled",
+      "rep": 1,
+      "original_quotation_grade_reproduced": true,
+      "original_shared_grade_reproduced": true,
+      "original_compliance_reproduced": true,
+      "workspace_snapshot_matches": true,
+      "usage_receipts_match": true,
+      "artifact_sha256": {
+        "grading.json": "da1bf6540f93d4bd97481440908b399872368cd307a8e581f95a7152a1094e4e",
+        "contract.json": "0fcf1b63318c0d6bfd607cff6ff476bd8c8a5d1811d2e33821ab150bb69ab055",
+        "before.json": "e4d973e2176b5151d0c0a7752740debb6e82f62cc1cc5a8a6be39bab6748d8f2",
+        "after.json": "d42d359f557cb81998006bbe4deb6f06717cf5db24ae23047a505987da3da26d",
+        "responses.json": "d4601aac6749fae157ee0396b9a1c4b5969257b5504565bf4ac9839175159aad",
+        "messages.json": "cde24ef5a93fd3bc6ac0b10644801e0666151f89749e9bc6b804d9e0650946fd",
+        "tool-events.json": "3f2b53dc7ff7514e8d2cd53b63cba29edb1ccd70a22babdc51c13de69a0eb128"
+      }
+    }
+  ],
+  "unreceipted_request_usage": "Unknown; no zero-token or zero-cost assumption.",
+  "new_grader_sha256": {
+    "analyze_run.py": "9fc1b26942fd23ecd45006dd33dcac50c83f5c9d849a8ec80285b1371bf101c4",
+    "shared.py": "0777a52557cfb4a6603c79ea73b1e4e941bae1a5527697ec4bc007d0845b788f",
+    "grade.py": "3578993af8232830710d3fb3fcaf5f90a16cf0dc2d888be830f1ad8a4748dff2"
+  },
+  "original_bundle_sha256": "2eb622014e3d81c4621c07d1c6185d835424b087cb57e04198506676d738f009"
+}

@@ -1,0 +1,111 @@
+{
+  "provider_smoke": {
+    "passed": true,
+    "note": "Provider access only, not an eval result. Response may hit the small token cap.",
+    "model": "claude-haiku-5-5",
+    "usage": {
+      "input_tokens": 16,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 4,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "service_tier": "standard",
+      "inference_geo": "global",
+      "speed": "standard"
+    },
+    "elapsed_seconds": 1.018,
+    "ran_at": "2026-11-04T19:14:50Z"
+  },
+  "pilot_excluded_from_main": [
+    {
+      "case": "M01",
+      "condition": "checker-disabled",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 353365,
+        "output_tokens": 16822,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "elapsed_seconds": 68.021,
+      "final_grade": "FAIL",
+      "verdict_correct": 6,
+      "targets": 6
+    },
+    {
+      "case": "M01",
+      "condition": "checker-enabled",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 477073,
+        "output_tokens": 19374,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "elapsed_seconds": 78.615,
+      "final_grade": "FAIL",
+      "verdict_correct": 6,
+      "targets": 6
+    }
+  ],
+  "token_limited_main_runs": [
+    {
+      "case": "M02",
+      "condition": "checker-enabled",
+      "last_stop_reason": "max_tokens",
+      "last_content_types": [
+        "thinking"
+      ],
+      "last_output_tokens": 4096,
+      "last_thinking_tokens": 4096,
+      "audit_written": false
+    },
+    {
+      "case": "M05",
+      "condition": "checker-disabled",
+      "last_stop_reason": "max_tokens",
+      "last_content_types": [
+        "thinking"
+      ],
+      "last_output_tokens": 4096,
+      "last_thinking_tokens": 4096,
+      "audit_written": false
+    },
+    {
+      "case": "M06",
+      "condition": "checker-enabled",
+      "last_stop_reason": "max_tokens",
+      "last_content_types": [
+        "thinking"
+      ],
+      "last_output_tokens": 4096,
+      "last_thinking_tokens": 4096,
+      "audit_written": false
+    },
+    {
+      "case": "M09",
+      "condition": "checker-enabled",
+      "last_stop_reason": "max_tokens",
+      "last_content_types": [
+        "thinking"
+      ],
+      "last_output_tokens": 4096,
+      "last_thinking_tokens": 4096,
+      "audit_written": false
+    }
+  ],
+  "interruption": {
+    "plan_order": 44,
+    "case": "M03",
+    "condition": "checker-enabled",
+    "exception": "http.client.RemoteDisconnected",
+    "saved_grade": false,
+    "usage": "Unknown; do not assume zero."
+  }
+}

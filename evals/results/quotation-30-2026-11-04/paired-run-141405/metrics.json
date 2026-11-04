@@ -1,0 +1,270 @@
+{
+  "conditions": {
+    "checker-enabled": {
+      "planned_runs": 30,
+      "statuses": {
+        "completed": 19,
+        "incomplete_max_tokens": 3,
+        "interrupted_no_record": 1,
+        "not_started": 7
+      },
+      "saved_records": 22,
+      "completed_runs": 19,
+      "planned_targets": 180,
+      "evaluated_targets": 114,
+      "unknown_targets": 66,
+      "correct_verdicts": 114,
+      "errors_evaluated": 57,
+      "errors_detected": 57,
+      "missed_errors_in_completed": 0,
+      "valid_controls_evaluated": 57,
+      "false_alarms": 0,
+      "evidence_or_locator_failures": 0,
+      "final_passes": 0,
+      "usage_receipted": {
+        "input_tokens": 10214572,
+        "output_tokens": 418037,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "requests_receipted": 231,
+      "recorded_elapsed_seconds": 1771.508,
+      "median_recorded_seconds": 78.607,
+      "gates": {
+        "original": {
+          "completed": {
+            "archive": 5,
+            "ledger": 19,
+            "preservation": 0,
+            "compliance": 9
+          },
+          "saved": {
+            "archive": 8,
+            "ledger": 22,
+            "preservation": 0,
+            "compliance": 10
+          }
+        },
+        "regraded": {
+          "completed": {
+            "archive": 1,
+            "ledger": 19,
+            "preservation": 0,
+            "compliance": 1
+          },
+          "saved": {
+            "archive": 4,
+            "ledger": 22,
+            "preservation": 0,
+            "compliance": 2
+          }
+        }
+      },
+      "types": {
+        "accurate": {
+          "evaluated": 19,
+          "correct": 19,
+          "planned": 30
+        },
+        "altered_number": {
+          "evaluated": 19,
+          "correct": 19,
+          "planned": 30
+        },
+        "altered_wording": {
+          "evaluated": 19,
+          "correct": 19,
+          "planned": 30
+        },
+        "benign_omission": {
+          "evaluated": 19,
+          "correct": 19,
+          "planned": 30
+        },
+        "formatting": {
+          "evaluated": 19,
+          "correct": 19,
+          "planned": 30
+        },
+        "misleading_omission": {
+          "evaluated": 19,
+          "correct": 19,
+          "planned": 30
+        }
+      }
+    },
+    "checker-disabled": {
+      "planned_runs": 30,
+      "statuses": {
+        "completed": 20,
+        "incomplete_max_tokens": 1,
+        "not_started": 9
+      },
+      "saved_records": 21,
+      "completed_runs": 20,
+      "planned_targets": 180,
+      "evaluated_targets": 120,
+      "unknown_targets": 60,
+      "correct_verdicts": 120,
+      "errors_evaluated": 60,
+      "errors_detected": 60,
+      "missed_errors_in_completed": 0,
+      "valid_controls_evaluated": 60,
+      "false_alarms": 0,
+      "evidence_or_locator_failures": 0,
+      "final_passes": 1,
+      "usage_receipted": {
+        "input_tokens": 8751255,
+        "output_tokens": 373919,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "requests_receipted": 208,
+      "recorded_elapsed_seconds": 1538.915,
+      "median_recorded_seconds": 67.069,
+      "gates": {
+        "original": {
+          "completed": {
+            "archive": 1,
+            "ledger": 19,
+            "preservation": 0,
+            "compliance": 0
+          },
+          "saved": {
+            "archive": 2,
+            "ledger": 20,
+            "preservation": 0,
+            "compliance": 0
+          }
+        },
+        "regraded": {
+          "completed": {
+            "archive": 0,
+            "ledger": 19,
+            "preservation": 0,
+            "compliance": 0
+          },
+          "saved": {
+            "archive": 1,
+            "ledger": 20,
+            "preservation": 0,
+            "compliance": 0
+          }
+        }
+      },
+      "types": {
+        "accurate": {
+          "evaluated": 20,
+          "correct": 20,
+          "planned": 30
+        },
+        "altered_number": {
+          "evaluated": 20,
+          "correct": 20,
+          "planned": 30
+        },
+        "altered_wording": {
+          "evaluated": 20,
+          "correct": 20,
+          "planned": 30
+        },
+        "benign_omission": {
+          "evaluated": 20,
+          "correct": 20,
+          "planned": 30
+        },
+        "formatting": {
+          "evaluated": 20,
+          "correct": 20,
+          "planned": 30
+        },
+        "misleading_omission": {
+          "evaluated": 20,
+          "correct": 20,
+          "planned": 30
+        }
+      }
+    }
+  },
+  "pairs": {
+    "count": 11,
+    "cases": [
+      {
+        "case": "M28",
+        "rep": 1
+      },
+      {
+        "case": "M30",
+        "rep": 1
+      },
+      {
+        "case": "M10",
+        "rep": 1
+      },
+      {
+        "case": "M22",
+        "rep": 1
+      },
+      {
+        "case": "M29",
+        "rep": 1
+      },
+      {
+        "case": "M25",
+        "rep": 1
+      },
+      {
+        "case": "M17",
+        "rep": 1
+      },
+      {
+        "case": "M04",
+        "rep": 1
+      },
+      {
+        "case": "M14",
+        "rep": 1
+      },
+      {
+        "case": "M26",
+        "rep": 1
+      },
+      {
+        "case": "M15",
+        "rep": 1
+      }
+    ],
+    "checker-enabled": {
+      "input_tokens": 5572497,
+      "output_tokens": 217117,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "requests_receipted": 125,
+      "elapsed_seconds": 908.424,
+      "median_seconds": 78.611
+    },
+    "checker-disabled": {
+      "input_tokens": 4105887,
+      "output_tokens": 176954,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "requests_receipted": 103,
+      "elapsed_seconds": 735.017,
+      "median_seconds": 61.986
+    },
+    "overhead_percent": {
+      "input_tokens": 35.71968736596989,
+      "output_tokens": 22.696859070718943,
+      "requests_receipted": 21.359223300970864,
+      "elapsed_seconds": 23.592243444709425
+    },
+    "difference_of_condition_medians_seconds": 16.625000000000007,
+    "median_within_pair_time_difference_seconds": 17.142999999999994
+  },
+  "denominators": {
+    "accuracy": "Correct verdicts / targets with an evaluable completed audit.",
+    "planned_coverage": "Correct resolved targets / all planned targets; uncompleted targets remain unknown.",
+    "gate_failures": "Report completed runs separately from all saved records.",
+    "usage": "Receipted API usage only; interrupted requests without receipts are unknown."
+  }
+}
